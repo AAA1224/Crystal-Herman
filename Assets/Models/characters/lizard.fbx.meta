@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 81cde3a5e01bf5842a32b928dee3fbd7
+timeCreated: 1517220149
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AmrUpperRight
+    100002: Armature
+    100004: ArmUnderLEft
+    100006: ArmUnderRight
+    100008: ArmUpperLeft
+    100010: FingerRight
+    100012: FingerRight_end
+    100014: FingersLeft
+    100016: FingersLeft_end
+    100018: FoodLeft
+    100020: FoodLeft_end
+    100022: FoodRight
+    100024: FoodRight_end
+    100026: HandLeft
+    100028: HandRight
+    100030: Head
+    100032: Head_end
+    100034: HipLeft
+    100036: HipRight
+    100038: LegUnderLeft
+    100040: LegUnderRight
+    100042: LegUpperLeft
+    100044: LegUpperRight
+    100046: //RootNode
+    100048: lizard
+    100050: Neck
+    100052: ShoulderLeft
+    100054: ShoulderRight
+    100056: Spine1
+    100058: Spine2
+    100060: Spine3
+    100062: Spine4
+    100064: ThumbLeft
+    100066: ThumbLeft2
+    100068: ThumbLeft2_end
+    100070: ThumbRight1
+    100072: ThumbRight2
+    100074: ThumbRight2_end
+    100076: Sun
+    400000: AmrUpperRight
+    400002: Armature
+    400004: ArmUnderLEft
+    400006: ArmUnderRight
+    400008: ArmUpperLeft
+    400010: FingerRight
+    400012: FingerRight_end
+    400014: FingersLeft
+    400016: FingersLeft_end
+    400018: FoodLeft
+    400020: FoodLeft_end
+    400022: FoodRight
+    400024: FoodRight_end
+    400026: HandLeft
+    400028: HandRight
+    400030: Head
+    400032: Head_end
+    400034: HipLeft
+    400036: HipRight
+    400038: LegUnderLeft
+    400040: LegUnderRight
+    400042: LegUpperLeft
+    400044: LegUpperRight
+    400046: lizard
+    400048: //RootNode
+    400050: Neck
+    400052: ShoulderLeft
+    400054: ShoulderRight
+    400056: Spine1
+    400058: Spine2
+    400060: Spine3
+    400062: Spine4
+    400064: ThumbLeft
+    400066: ThumbLeft2
+    400068: ThumbLeft2_end
+    400070: ThumbRight1
+    400072: ThumbRight2
+    400074: ThumbRight2_end
+    400076: Sun
+    2100000: Material.002
+    2100002: Material.001
+    2100004: Crystals
+    2100006: Body
+    2100008: Augen
+    4300000: lizard
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|Lizard_Idle
+    7400006: Armature|BlenderWhy
+    7400008: Armature|DELTEME
+    7400010: Armature|HowCanIDeleteThisShit
+    7400012: Armature|Lizard_Walkcycle
+    9500000: //RootNode
+    10800000: Sun
+    13700000: lizard
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Lizard_Idle
+      takeName: Armature|Lizard_Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Lizard_Walkcycle
+      takeName: Armature|Lizard_Walkcycle
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

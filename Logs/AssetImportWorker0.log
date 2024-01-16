@@ -1,0 +1,263 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/Unity/Mel/Crystal-Herman
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60455
+Successfully changed project path to: D:/Projects/Unity/Mel/Crystal-Herman
+D:/Projects/Unity/Mel/Crystal-Herman
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7972] Host "[IP] 192.168.8.153 [Port] 0 [Flags] 2 [Guid] 921861285 [EditorId] 921861285 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REC1PB8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7972] Host "[IP] 192.168.8.153 [Port] 0 [Flags] 2 [Guid] 921861285 [EditorId] 921861285 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-REC1PB8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 110.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Unity/Mel/Crystal-Herman/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8055 MB
+    Driver:   31.0.101.4575
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007298 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 217 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 114.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (886ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (718ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (287ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Unity\Mel\Crystal-Herman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Unity\Mel\Crystal-Herman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 133.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1522ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5339 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (2.1 MB). Loaded Objects now: 5786.
+Memory consumption went from 221.5 MB to 219.4 MB.
+Total: 4.239200 ms (FindLiveObjects: 0.488400 ms CreateObjectMapping: 0.230700 ms MarkObjects: 3.000100 ms  DeleteObjects: 0.518800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88651.614658 seconds.
+  path: Assets/Prefabs/characters/lizard_crystals.mat
+  artifactKey: Guid(b1037420b6c8212499fd1803a5203e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_crystals.mat using Guid(b1037420b6c8212499fd1803a5203e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491b1c14c04da1f306f8fe410f3396d') in 0.194631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/characters/lizard_body.mat
+  artifactKey: Guid(60eb60bb8afceca40896a41f23212dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_body.mat using Guid(60eb60bb8afceca40896a41f23212dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016272f8abf33341b27736e92ff4b7f5') in 0.013461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefabs/characters/lizard_body_4.mat
+  artifactKey: Guid(87ee967c5cd36154b9c044091b709864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_body_4.mat using Guid(87ee967c5cd36154b9c044091b709864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a263a8a6efeedc517d428c57491f85e5') in 0.011844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/characters/lizard_crystals_6.mat
+  artifactKey: Guid(44a09ee0fa37a8143aedd7fe5c013fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_crystals_6.mat using Guid(44a09ee0fa37a8143aedd7fe5c013fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40da09b8c871b8847687774ce938b2a') in 0.010981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/characters/lizard_eyes.mat
+  artifactKey: Guid(51cdc70d8391d1b49aa851eed0c3e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_eyes.mat using Guid(51cdc70d8391d1b49aa851eed0c3e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0acfc4784eaeb1bc278a80bfcc139a') in 0.012974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/characters/lizard_body_6.mat
+  artifactKey: Guid(5d5806a6d7ac081449d712434e3a650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_body_6.mat using Guid(5d5806a6d7ac081449d712434e3a650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068bfc975acd2b614fd3ce0b8686e621') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/characters/mayor_body.mat
+  artifactKey: Guid(ededf66d74236f14ebddc026da2f82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/mayor_body.mat using Guid(ededf66d74236f14ebddc026da2f82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062a5acebd7bb7ebba57ce279c73caa3') in 0.015179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/characters/lizard_texture.png
+  artifactKey: Guid(42cd34b77d1582c439271d1799c8e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_texture.png using Guid(42cd34b77d1582c439271d1799c8e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6196d49d339544d2a337ae72ffd58f73') in 0.020696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/characters/lizard_body_3.mat
+  artifactKey: Guid(bbf59656c51aacb4f88e1643d5ee1068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/lizard_body_3.mat using Guid(bbf59656c51aacb4f88e1643d5ee1068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a771e6e259bf102f3fbf222a42ef45') in 0.010391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.506379 seconds.
+  path: Assets/Prefabs/characters/Mayor Crystal Hat/crystalhat.fbx
+  artifactKey: Guid(b3e57d170bd997e4cb86bfe2d107c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/Mayor Crystal Hat/crystalhat.fbx using Guid(b3e57d170bd997e4cb86bfe2d107c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6147d37e51b8f34cbe85cc8cb76893a9') in 0.096881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.613811 seconds.
+  path: Assets/Prefabs/characters/Materials/lizard_eyes.mat
+  artifactKey: Guid(c94bd541d2ac41b48bf1bc1db33b0f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/Materials/lizard_eyes.mat using Guid(c94bd541d2ac41b48bf1bc1db33b0f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37b64ea17bd9260a3b0d8dffc08baca') in 0.008602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.587831 seconds.
+  path: Assets/Prefabs/characters/Mayor Zylinder/Zylinder Crystal Mat.mat
+  artifactKey: Guid(d392e1ec8796b6a4cbb94479bf156dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/characters/Mayor Zylinder/Zylinder Crystal Mat.mat using Guid(d392e1ec8796b6a4cbb94479bf156dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff526c29537d7a820acbf20e7094dbcd') in 0.010237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.529490 seconds.
+  path: Assets/Prefabs/UI/PlayerListPrefab.prefab
+  artifactKey: Guid(a75b7de61fda8f44eaf85cc68107da57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/PlayerListPrefab.prefab using Guid(a75b7de61fda8f44eaf85cc68107da57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b09c0c2f079e220c8f5e183863eacb8') in 0.031236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.427831 seconds.
+  path: Assets/Prefabs/Environment.prefab
+  artifactKey: Guid(0b91c7b86d516484e8f615958652c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment.prefab using Guid(0b91c7b86d516484e8f615958652c8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d802f7a2808ba84fd904844b379c42') in 0.088525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.029811 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(32d90915f8713b24cbd6d20c8224c4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(32d90915f8713b24cbd6d20c8224c4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b070a7a7c507caf21afeb4a035758e') in 0.001937 seconds 
