@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pm>
+    <meta>
+        <gameName>Polymoney</gameName>
+        <author>Koboldgames GmbH</author>
+        <language ISO6393="deu">German</language>
+    </meta>
+
+    <!-- Info -->
+    <!-- attribute uid: Must be an alphanumeric string that uniquely identifies a localisation item. -->
+    <!-- value: Tthe paragraph(s) of text substituted for the aforementioned uid. Curly braces (ex. {0}) are used for value substitution. -->
+    <textlines>
+        <textline uid="gameTitle">
+            <p>Kristall Insel Spiel</p>
+        </textline>
+
+        <!-- Feedback Tool -->
+        <textline uid="feedbackDropdownLabel">
+            <p>Welche Art von Feedback möchtest du geben?</p>
+        </textline>
+        <textline uid="feedbackFeatureLabel">
+            <p>Eine Funktion anfordern</p>
+        </textline>
+        <textline uid="feedbackBugLabel">
+            <p>Einen Fehlerbericht senden</p>
+        </textline>
+        <textline uid="feedbackFeatureIWantLabel">
+            <p>Welche Funktion fehlt dir?</p>
+        </textline>
+        <textline uid="feedbackFeatureCauseLabel">
+            <p>Welche Art von Konsequenz erwartest du?</p>
+        </textline>
+        <textline uid="feedbackBugDescriptionLabel">
+            <p>Schildere genau, was schief gelaufen ist.</p>
+        </textline>
+        <textline uid="feedbackBugReproLabel">
+            <p>Wie können wir es reproduzieren?</p>
+        </textline>
+        <textline uid="feedbackFeatureIWantPlaceholder">
+            <p>Als Spieler will ich.....</p>
+        </textline>
+        <textline uid="feedbackFeatureCausePlaceholder">
+            <p>, so dass ich.....</p>
+        </textline>
+        <textline uid="feedbackBugDescriptionPlaceholder">
+            <p>Das funktioniert nicht:</p>
+        </textline>
+        <textline uid="feedbackBugReproPlaceholder">
+            <p>Und so kann man es reproduzieren:</p>
+        </textline>
+        <textline uid="feedbackSubmit">
+            <p>Absenden</p>
+        </textline>
+        <textline uid="feedbackCancel">
+            <p>Abbrechen</p>
+        </textline>
+
+        <!-- Lobby -->
+        <textline uid="languageSelection">
+            <p>Wähle die Spielsprache:</p>
+        </textline>
+        <textline uid="startInfo">
+            <p>Du kannst entweder dein eigenes Mehrspieler-Spiel ausrichten oder an einem der unten aufgeführten Spiele teilnehmen. Beachte, dass du und Deine Freunde immer im selben lokalen Netzwerk sind.</p>
+        </textline>
+        <textline uid="availableGames">
+            <p>Available Games.</p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>Beachte bitte, dass Crystal Island ein technisch unterstütztes Lernspiel ist. Wir möchten dich jedoch ermutigen, von deinem Bildschirm aufzusehen und mit den anderen Spielern am Tisch in echten Kontakt zu treten. Ihr werdet alle durch das Spiel geführt.</p>
+            <p/>
+            <p>Wir erheben auch keine personenbezogenen Daten von dir. Du kannst deine Spieldaten später spenden.</p>
+        </textline>
+        <textline uid="hostGame">
+            <p>Ein Spiel ausrichten</p>
+        </textline>
+        <textline uid="createGame">
+            <p>Erstelle eine neue Insel, auf der deine Freunde teilnehmen können.</p>
+        </textline>
+        <textline uid="placeholderGameName">
+            <p>Spielname</p>
+        </textline>
+        <textline uid="reminderNetwork">
+            <p>- Vergewissere dich, dass du und deine Spieler im selben lokalen Netzwerk sind.</p>
+            <p>- Die von dir gewählte Sprache ist diejenige, die für alle angezeigt wird.</p>
+        </textline>
+        <textline uid="lobbyInfo">
+            <p>Bitte wähle deinen Spitznamen und ob du für den Bürgermeister im Spiel kandidieren möchtest.</p>
+            <p/>
+            <p>Die Aufgabe des Bürgermeisters ist es, die Inselfinanzen zu verwalten und die anderen Spieler durch das Spiel zu führen. Der Bürgermeister wird nach dem Zufallsprinzip aus denjenigen ausgewählt, die für das Amt kandidieren. Wenn niemand beschließt, für den Bürgermeister zu kandidieren, wird einer nach dem Zufallsprinzip aus allen Spielern ausgewählt.</p>
+        </textline>
+        <textline uid="waitingForPlayers">
+            <p>Auf Spieler warten.</p>
+        </textline>
+        <textline uid="maxPlayerInfo">
+            <p>Es dürfen höchstens {0} Spieler teilnehmen.</p>
+            <p>Du brauchst mindestens 4 Spieler, um zu spielen.</p>
+        </textline>
+        <textline uid="runMayorCheck">
+            <p>Als Bürgermeister bewerben</p>
+        </textline>
+        <textline uid="readyCheck">
+            <p>Bereit</p>
+        </textline>
+        <textline uid="placeholderPlayerName">
+            <p>Spitzname…</p>
+        </textline>
+        <textline uid="defaultPlayerName">
+            <p>Spieler</p>
+        </textline>
+
+        <!-- Character Sheet -->
+        <!-- This sheet displays information about the player. -->
+        <textline uid="aboutYou">
+            <p>über dich</p>
+        </textline>
+        <textline uid="youAre">
+            <p>Du bist…</p>
+        </textline>
+        <textline uid="youLive">
+            <p>Du lebst in…</p>
+        </textline>
+        <textline uid="homeCost">
+            <p>{0}/Monat inkl. Gebühren</p>
+        </textline>
+        <textline uid="youWork">
+            <p>Du arbeitest als…</p>
+        </textline>
+        <textline uid="jobTime">
+            <p>{0}%/Monat </p>
+        </textline>
+        <textline uid="salary">
+            <p>{0}/Monat </p>
+        </textline>
+        <textline uid="yourTalent">
+            <p>Deine Talente sind…</p>
+        </textline>
+        <textline uid="aboutMajor">
+            <p>Herzlichen Glückwunsch, du hast das Bürgermeisteramt gewonnen!</p>
+        </textline>
+        <textline uid="majorInfo">
+            <p>Wir sind sicher, dass du diese Verantwortung mit Stolz tragen wirst und dass du bewundernswerte Leistungen erbringen wirst.</p>
+            <p/>
+            <p>Deine Aufgabe ist es, die Insel zu verwalten und sicherzustellen, dass der Inselhaushalt ohne Schulden auskommt. Natürlich solltest du auch dafür sorgen, dass es deinen Bürgern gut geht und dass sie zusammenarbeiten, damit die Insel gedeiht.</p>
+            <p/>
+            <p>Vor kurzem sind ein paar neue Bürger deiner Gemeinde beigetreten, und wir dachten, es wäre das Beste, wenn du sie einander vorstellen und sie auf der Insel herumführen würdest. Schließlich sollten sie auf ihre Rolle als Bürger deiner Insel vorbereitet sein.</p>
+        </textline>
+
+        <!-- Balance Sheet -->
+        <!-- This sheet is not currently used in-game. -->
+        <textline uid="balanceTitle">
+            <p>Bilanz</p>
+        </textline>
+        <textline uid="incomeHead">
+            <p>Einkommen</p>
+        </textline>
+        <textline uid="expensesHead">
+            <p>Aufwendungen</p>
+        </textline>
+        <textline uid="balanceHead">
+            <p>Saldo</p>
+        </textline>
+        <textline uid="currentBalance">
+            <p>Dein aktuelles Guthaben</p>
+        </textline>
+        <textline uid="totalBalance">
+            <p>Summe der Erträge und Aufwendungen</p>
+        </textline>
+        <textline uid="projectedBalance">
+            <p>Voraussichtlicher Saldo</p>
+        </textline>
+
+        <!-- Incident Sheet -->
+        <!-- This sheet is shown when there are still incidents left to solve. -->
+        <textline uid="currentIncidentsTitle">
+            <p>Du musst noch folgende Punkte lösen</p>
+        </textline>
+
+        <!-- Offer Application Popup -->
+        <!-- This popup allows players to apply (eg. buy or accept) an offer. -->
+        <textline uid="offerPopUpTaxTitle">
+            <p>Steuern</p>
+        </textline>
+        <textline uid="offerPopUpTaxDescription">
+            <p>Möchtest du von dieser Person Steuern einziehen?</p>
+        </textline>
+        <textline uid="offerPopUpWelfareTitle">
+            <p>Sozialhilfe</p>
+        </textline>
+        <textline uid="offerPopUpWelfareDescription">
+            <p>Braucht diese Person finanzielle Hilfe? Möchtest du dieser Person Sozialhilfe geben und sie diesen Monat von der Steuerzahlung befreien?</p>
+        </textline>
+        <textline uid="offerPopUpCloseButton">
+            <p>Abbrechen</p>
+        </textline>
+        <textline uid="offerPopUpApplyButton">
+            <p>Ja</p>
+        </textline>
+
+        <!-- Incident Application Popup -->
+        <!-- This popup allows players to apply or resolve an incident. -->
+        <textline uid="incidentPopUpCloseButton">
+            <p>Beende</p>
+        </textline>
+        <textline uid="incidentPopUpReceiveButton">
+            <p>Erhalte</p>
+        </textline>
+        <textline uid="incidentPopUpPayButton">
+            <p>Zahle</p>
+        </textline>
+        <textline uid="incidentPopUpResolveButton">
+            <p>Nütze dein Talent</p>
+        </textline>
+
+        <!-- Offer Notification -->
+        <!-- This popup appears for the player that has just sold an offer. -->
+        <textline uid="offerNotificationCloseButton">
+            <p>Beende</p>
+        </textline>
+        <textline uid="offerNotificationMayorName">
+            <p>BürgermeisterIn</p>
+        </textline>
+        <textline uid="offerNotificationBuyTitle">
+            <p>{0} hat dein Angebot gekauft!</p>
+        </textline>
+        <textline uid="offerNotificationReceiveTitle">
+            <p>{0} hat dein Angebot angenommen!</p>
+        </textline>
+        <textline uid="offerNotificationWelfareTitle">
+            <p>{0} hat dir Sozialhilfe gegeben!</p>
+        </textline>
+
+        <!-- Marketplace -->
+        <!-- Marketplaces display available offers and allow owners (eg. sellers) to manage offers. -->
+        <textline uid="marketplaceTitle">
+            <p>Marktplatz</p>
+        </textline>
+        <textline uid="marketplaceDescription">
+            <p>Beschreibung</p>
+        </textline>
+        <textline uid="createOfferWith">
+            <p>Ein neues Angebot erstellen:</p>
+        </textline>
+        <textline uid="ownedOffers">
+            <p>Angebote, die andere bei dir kaufen können:</p>
+        </textline>
+        <textline uid="ownedOffersTitle">
+            <p>Angebote, die andere bei dir kaufen können:</p>
+        </textline>
+        <textline uid="createTradeOffer">
+            <p>Tausch / Geschenk</p>
+        </textline>
+        <textline uid="createTradeOfferSubtitle">
+            <p>Dies ist ein einfaches Verkaufsangebot.</p>
+        </textline>
+        <textline uid="createWelfareOffer">
+            <p>Sozialhilfe</p>
+        </textline>
+        <textline uid="createOfferTitle">
+            <p>Neues Angebot erstellen</p>
+        </textline>
+        <textline uid="createPrice">
+            <p>Du erhälst:</p>
+        </textline>
+        <textline uid="createBuyerGets">
+            <p>Der Käufer bekommt:</p>
+        </textline>
+        <textline uid="createOfferFailureMoney">
+            <p>Du hast nicht mehr genug Geld, um dieses Angebot zu machen.</p>
+        </textline>
+        <textline uid="createOfferFailureTime">
+            <p>Du hast diesen Monat nicht genug Freizeit, um dieses Angebot zu machen.</p>
+        </textline>
+        <textline uid="applyOfferFailureMoney">
+            <p>Du hast nicht genug Geld, um für dieses Angebot zu bezahlen.</p>
+        </textline>
+        <textline uid="marketplaceCityTitle">
+            <p>Inselspieler</p>
+        </textline>
+        <textline uid="marketplaceCitySubtitle">
+            <p>Marktplatz von {0}</p>
+        </textline>
+        <textline uid="marketplaceCitizenSubtitle">
+            <p>Persönlicher Marktplatz von {0}</p>
+        </textline>
+        <textline uid="benefitGet">
+            <p>Du bekommst: </p>
+        </textline>
+        <textline uid="currencyFairydust">
+            <p>Fairydust.</p>
+        </textline>
+        <textline uid="currencyMoney">
+            <p>.-</p>
+        </textline>
+        <textline uid="removeIncident">
+            <p>Hilfe bei:  </p>
+        </textline>
+        <textline uid="newOffer">
+            <p>'{0}' Angebot</p>
+        </textline>
+        <textline uid="talentHelps">
+            <p>Hilft mit bei  </p>
+        </textline>
+        <textline uid="marketPlaceEmptyText">
+            <p>Leer.</p>
+        </textline>
+
+        <!-- Fortune Wheel -->
+        <textline uid="toughLuck">
+            <p>Du hast dieses Talent bereits. Viel Glück beim nächsten Mal!</p>
+        </textline>
+
+        <!-- Currency Visualisation -->
+        <textline uid="fiatCurrencyLetter">
+            <p>$</p>
+        </textline>
+        <textline uid="qCurrencyLetter">
+            <p>W</p>
+        </textline>
+        <textline uid="FIATName">
+            <p>Gold</p>
+        </textline>
+        <textline uid="QName">
+            <p>Wasserkristalle</p>
+        </textline>
+        <textline uid="forFreeText">
+            <p>Kostenlos!</p>
+        </textline>
+
+        <!-- Incident Visualisation -->
+        <textline uid="incidentType">
+            <p>{0}!</p>
+        </textline>
+        <textline uid="incidentImmediate">
+            <p>Gilt ab sofort.</p>
+        </textline>
+        <textline uid="incidentLater">
+            <p>Gilt zum Ende des Monats.</p>
+        </textline>
+        <textline uid="incidentIncome">
+            <p>{0:D}</p>
+        </textline>
+        <textline uid="incidentExpenses">
+            <p>{0:D}</p>
+        </textline>
+        <textline uid="incidentBalance">
+            <p>{0:D}</p>
+        </textline>
+
+        <!-- Mayor Tutorial -->
+        <textline uid="tutoMWelcomeTitle">
+            <p>du wurdest als BürgermeisterIn gewählt!</p>
+        </textline>
+        <textline uid="tutoMWelcome">
+            <p>Herzlichen Glückwunsch, du wurdest als BürgermeisterIn von Crystal Island gewählt! Deine Aufgabe als BürgermeisterIn ist es, die Insel in gutem Zustand zu halten und für das Wohl deiner Bürger zu sorgen.</p>
+        </textline>
+        <textline uid="tutoMSurviveTitle">
+            <p>Wir müssen überleben!</p>
+        </textline>
+        <textline uid="tutoMSurvive">
+            <p> Leite sie durch schwierige dunkle Zeiten.</p>
+            <p> Je besser du deine Arbeit erledigst, desto heller leuchten die Kristalle.</p>
+        </textline>
+        <textline uid="tutoMSurvive2">
+        	<p></p>
+        </textline>
+
+ 		<!-- Player Tutorial -->
+        <textline uid="tutoPWelcomeTitle">
+            <p>Du bist BürgerIn der Insel!</p>
+        </textline>
+        <textline uid="tutoPIntro1">
+        	<p>Du bist BürgerIn von Crystal Island! Jeden Monat musst du für Dinge bezahlen, um zu überleben, aber wie im wirklichen Leben wirst du mit glücklichen oder unglücklichen Ereignissen konfrontiert!</p>
+        </textline>
+        <textline uid="tutoPIntro2">
+        	<p></p>
+        </textline>
+        <textline uid="tutoPIntro3">
+        	<p></p>
+        </textline>
+        <textline uid="tutoPIntro4">
+        	<p>Hier sind deine Spieleigenschaften, wieviel dein Einkommen ist und herausfinden kannst, wo du wohnst und was deine Talente sind.</p>
+        </textline>
+
+
+
+        <textline uid="tutoMStoryIslandTitle">
+            <p>Willkommen auf Crystal Island!</p>
+        </textline>
+
+        <textline uid="tutoIntroQuest">
+        	<p>Bevor wir das Spiel beginnen, versuch bitte deine Spielcharacters Rolle zu spielen und dich am Spiel zu beteiligne.  Notiere dir, wie du dich fühlst, während du das Spiel spielst.</p>
+        </textline>
+        <textline uid="tutoLetsPlay">
+        	<p>Nun, lasst uns spielen!</p>
+        </textline>
+        <textline uid="tutoCW">
+        	<p>Nun, lasst uns spielen!</p>
+        </textline>       
+
+        <textline uid="tutoMStoryIsland">
+            <p>"Vor Jahrtausenden erstrahlte die ganze Insel im Licht. Keine Wände wurften Schatten. Keine Sterne flackerten aus. Wir haben diese Zeiten vergessen. Diejenigen, die dachten, das Licht würde für sie allein leuchten, stapelten es für ihren eigenen Gebrauch. Als die Erinnerung die frühere Fülle vergaß, entstand die Welt des Kontrastes. Die Leute haben vergessen, dass Energie geteilt werden kann. Dieses Talent kann genutzt werden, um Güte zu verbreiten, nicht um sie zu horten. Die Insel liegt im Sterben. Jetzt liegt es an dir: Nimm deinen Schicksal in die Hand und bringe das gemeinsame Licht zurück auf unsere Insel. Mit deiner Hilfe können wir gemeinsam die Welt verändern."</p>
+        </textline>
+
+        <textline uid="tutoMIntroduceTitle">
+            <p>Einführungsrunde!</p>
+        </textline>
+        <textline uid="tutoMIntroduce">
+            <p>Deine Mitspieler haben nun ihre Spielrollen bekommen. Nachdem sie mit dem Lesen fertig sind, fordere sie auf, sich vorzustellen!</p>
+        </textline>
+        <textline uid="tutoMIntroduceConfirm">
+            <p>Haben sich alle vorgestellt?</p>
+        </textline>
+        <textline uid="tutoMMaintenanceTitle">
+            <p>Instandhaltung von Gebäuden</p>
+        </textline>
+        <textline uid="tutoMMaintenance">
+            <p>Als BürgermeisterIn musst du bezahlen, um Gebäude zu erhalten. Versuche dies zu tun, indem du auf ein Gebäude mit einem Symbol darüber klickst!</p>
+        </textline>
+        <textline uid="tutoMDumpTitle">
+            <p>Gut gemacht!</p>
+        </textline>
+        <textline uid="tutoMDump">
+            <p>Du hast gerade die Wartungskosten für dieses Gebäude bezahlt! Du musst für die Wartung bei jeder Runde bezahlen. Wenn du nicht bezahlen kannst, wird das Gebäude in Verfall geraten und du musst in der nächsten Runde mehr bezahlen, also versuche dein Bestes, um für alle zu bezahlen!</p>
+        </textline>
+        <textline uid="tutoMTaxesTitle">
+            <p>Ziehe Steuern ein!</p>
+        </textline>
+        <textline uid="tutoMTaxes">
+            <p>Deine Bürger helfen dir die Insel in Stand zu halten, indem sie Steuern zahlen. Wenn ein Bürger seine Steuern bezahlt, erscheint ein grünes Symbol über seinem Kopf. Drücke darauf, um Steuern einzuziehen!</p>
+        </textline>
+        <textline uid="tutoMWelfareTitle">
+            <p>Sozialhilfe geben</p>
+        </textline>
+        <textline uid="tutoMWelfare">
+            <p>Wenn ein Bürger Schwierigkeiten hat, seine Steuern zu zahlen, hast du die Möglichkeit, ihm Sozialhilfe zu gewähren. Wenn du das tust, schickst du diesem Spieler 500 Gold und gewährst ihm keine Steuern zu zahlen zu müssen. </p>
+        </textline>
+        <textline uid="tutoMStoryTaxesTitle">
+            <p>BürgermeisterIn Übersichtsanzeige</p>
+        </textline>
+        <textline uid="tutoMStoryTaxes">
+            <p>Du kannst das Wohlbefinden deiner Bürger im Auge behalten, indem du deine Übersichtsanzeige nutzt. Drücke auf den Pfeil auf der linken Seite! Die Übersichtsanzeige verrät dir, welche Talente jeder Spieler hat und mit welchen Problemen jeder von ihnen zu kämpfen hat. Verwende die Übersichtsanzeige, um deine Bürger Spieler zu ermutigen, sich gegenseitig zu helfen!</p>
+        </textline>
+        <textline uid="tutoMInterfaceTitle">
+            <p>Gut gemacht!</p>
+        </textline>
+        <textline uid="tutoMInterface">
+            <p>Du hast diesen Monat alle deine Aufgaben erledigt! Es liegt nun an dir, die Insel ins Licht zu lenken und die Bürger zu koordinieren.</p>
+            <p/>
+            <p>Du kannst sehen, wie es deiner Insel am Ende des Monats geht.</p>
+        </textline>
+        <textline uid="tutoMLooseConditionTitle">
+            <p>Wie man gewinnt</p>
+        </textline>
+        <textline uid="tutoMLooseCondition">
+            <p>Du und deine MitbürgerInnen müssen 12 Monate überleben. Das Spiel endet, wenn du nicht genug Geld hast, um für die Gebäudeunterhaltung zu bezahlen.</p>
+            <p/>
+            <p>Viel Glück!</p>
+        </textline>
+
+        <!-- Player Tutorial -->
+        <textline uid="tutoCloseAlertButton">
+            <p>OK</p>
+        </textline>
+        <textline uid="tutoMoveMajor">
+            <p>Tippe auf den Boden, um deine Spielfigur zu bewegen.</p>
+            <p>Bewege deinen Charakter auf das Glücksrad, um zu sehen, was das Glück auf deiner Insel zu bieten hat.</p>
+        </textline>
+        <textline uid="tutoMoveEndMajor">
+            <p>Perfekt. Wartet nun darauf, dass alle eure Bürger das Gleiche tun.</p>
+        </textline>
+        <textline uid="tutoMoveCitizen">
+            <p>Tippe auf den Boden, um deine Spielfigur zu bewegen.</p>
+            <p>Bewege deine Spielfigur auf das Glücksrad, um zu sehen, was das Glück in diesem Monat für dich bereithält!</p>
+        </textline>
+        <textline uid="tutoMoveEndCitizen">
+            <p>Perfekt. Jetzt lass uns auf deine Freunde warten.</p>
+        </textline>
+        <textline uid="tutoWheelGood">
+            <p>Das war Glück! Zu Beginn eines jeden Monats können Sie das Glücksrad 2 mal drehen!</p>
+        </textline>
+        <textline uid="tutoIncidentsBegin">
+            <p>Klicken Sie auf die Symbole oben auf den Gebäuden, um Ihre monatlichen Vorfälle zu beheben.</p>
+        </textline>
+        <textline uid="tutoIncidentsEnd">
+            <p>Gute Arbeit! Du hast alle deine Vorfälle in diesem Monat gelöst. Klick auf die Schaltfläche End Turn unten rechts, um deinen Zug zu beenden.</p>
+        </textline>
+        <textline uid="tutoEndTurn">
+            <p>Als BürgerIn von Crystal Island gibt es mehrere Dinge, die du jeden Monat bezahlen musst. Du brauchst Nahrung, um zu überleben, Steuern zahlen, um die Insel zu erhalten, und Wohnkosten für dein Haus zu bezahlen.</p>
+        </textline>
+        <textline uid="tutoWheelBad">
+            <p>Uh oh oh! Du hattest diesen Monat nicht so viel Glück.</p>
+        </textline>
+        <textline uid="tutoAskHelp">
+            <p>Etwas Schlimmes ist passiert und du musst diesen Monat etwas mehr als normal bezahlen. Du kannst entweder Gold bezahlen, um diesen Vorfall zu lösen, oder vielleicht kann dir einer deiner Mitbürger helfen?</p>
+        </textline>
+        <textline uid="tutoOpenTrade">
+            <p>Handel mit anderen Spielern</p>
+        </textline>
+        <textline uid="tutoCreateOffer">
+            <p>Du kannst jetzt mit anderen Spielern handeln! Um zu beginnen, tipp auf deine Spielfigur, um das Handelsmenü zu öffnen.</p>
+        </textline>
+        <textline uid="tutoOpenTrade2">
+            <p>Erstellung eines Angebots</p>
+        </textline>
+        <textline uid="tutoCreateOffer2">
+            <p>Willkommen im Handelsmenü, hier können Sie Angebote erstellen, die andere Bürger kaufen können. Um ein Angebot zu erstellen, tippt auf ein Talent, das du selbst besitzt und das du unten auf dem Bildschirm siehst.</p>
+        </textline>
+        <textline uid="tutoOpenTrade3">
+            <p>Gut gemacht!</p>
+        </textline>
+        <textline uid="tutoTradeFriend">
+            <p>Du hast soeben erfolgreich Angebote erstellt, die andere Spieler kaufen können! Andere Spieler können deine Angebote über deinem Kopf sehen. Bedenke, dass deine Freizeit gesunken ist. Jedes Angebot, das du machst, beansprucht 10% deiner Freizeit.</p>
+        </textline>
+        <textline uid="tutoOpenTrade4">
+            <p>Kauf von Angeboten anderer Spieler</p>
+        </textline>
+        <textline uid="tutoBuy">
+            <p>Gut gemacht! Du bietest jetzt deine Talente an, um deinen Mitbürgern zu helfen! Jetzt schauen wir mal, ob ein Spieler ein Talent anbietet, das dir mit deinem Pech helfen kann, wer weiß, vielleicht bekommst du sogar einen Rabatt! Klicke auf ein Angebot auf dem Kopf eines anderen Spielers, um zu beginnen!</p>
+        </textline>
+
+        <textline uid="tutoEndSecond">
+            <p>Du kannst jeden Monat so viel handeln, wie du willst. Dein Ziel als Bürger ist es, 12 Monate zu überleben. Wenn du fertig bist, klicke auf die Schaltfläche End Turn.</p>
+        </textline>
+
+        <!-- Faciliator Tutorial (Complementary Currency Introduction) -->
+        <textline uid = "tutoFTitle">
+        	<p>Stopp und hör zu!</p>
+        </textline>
+        <textline uid="tutoF1">
+            <p>Die Dunkelheit nimmt zu und Gemeindegebäude haben Schwierigkeiten, instand gehalten zu werden. Es sieht so aus, als ob eure Steuern allein nicht ausreichen, um sie zu erhalten. Wie können wir dieses Problem deiner Meinung nach lösen? Diskutiere mit deinen Mitbürgern!</p>
+        </textline>
+
+        <textline uid = "tutoF2">
+        	<p>"Besiege die Dunkelheit! Das Spiel endet, wenn die Insel in die Dunkelheit fällt. Ihr könnt das Licht zurückbringen, indem ihr zusammenarbeitet, euch gegenseitig hilft und eure Steuern bezahlt. Der BürgermeisterIn muss die Kristalle der Gebäude vollständig erhalten, sonst brechen sie und die Dunkelheit überkommt euch. Tue es jetzt, du hast nur 12 Monate Zeit, um das Licht zurückzuholen und zu überleben! Beende jeden Monat, indem du auf die Schaltfläche "End Turn" unten rechts klickst."</p>
+        </textline>
+
+        <textline uid = "tutoF3">
+        	<p>Bezahle deine Steuern und schaffe jetzt Licht. Der BürgermeisterIn wird in der Lage sein, die Steuern einzuziehen, indem er auf das Symbol über euren Köpfen klickt. Falls du Sozialhilfe brauchst, frag deinen BürgermeisterIn und bezahle keine Steuern! </p>
+        </textline>
+
+        <textline uid = "tutoF4">
+        	<p>Einige Bürger kämpfen bereits ums Überleben. Euer BürgermeisterIn kann sie unterstützen, indem er Ihnen Sozialhilfe gewährt. Aber denkt daran, je tiefer sie absinken, desto dunkler wird es für alle. </p>
+        </textline>
+
+        <!-- Mayor Tutorial (Complementary Currency Introduction) -->
+        <textline uid="tutoMQBeginTitle">
+            <p>Die Inselschatzkammer schwindet!</p>
+        </textline>
+        <textline uid="tutoMQBegin">
+            <p>Du hast vielleicht schon bemerkt, dass die Steuern nicht ausreichen werden, um die Insel zu erhalten. Deshalb führt ihr eine neue Währung ein: Wasserkristalle.</p>
+        </textline>
+        <textline uid="tutoMQWhatTitle">
+            <p>Wasserkristalle sind da!</p>
+        </textline>
+        <textline uid="tutoMQWhat">
+            <p>Um der wachsenden Dunkelheit und den finanziellen Schwierigkeiten zu begegnen, führt das Bürgermeister*amt eurer Insel eine neue Art von Währung ein, die Wasserkristalle. Wasserkristalle können wie Gold verwendet werden, wenn man Angebote von Spieler*n erstellt. Die Verwendung von Wasserkristallen ist eine weitere Möglichkeit, Energie und Talente zu teilen, um sich gegenseitig zu unterstützen!</p>
+        </textline>
+        <textline uid="tutoMQStoryTitle">
+            <p>Aber warte, es gibt noch mehr!</p>
+        </textline>
+        <textline uid="tutoMQStory">
+            <p>Zusätzlich zu den Wasserkristallen erlaubt der BürgermeisterIn dir auch, der Insel zu helfen, indem du ein Gebäude betreust! Bitte wähle Sie ein Gebäude aus, das du betreuen möchten. Um jederzeit zur Gebäudeauswahl zurückzukehren, tippe auf das Glücksrad.</p>
+        </textline>
+
+        <!-- Player Tutorial (Complementary Currency Introduction) -->
+        <textline uid="tutoQBeginHeader">
+            <p>Eine Komplementärwährung</p>
+        </textline>
+        <textline uid="tutoQBegin">
+            <p>Die Insel scheint immer schlimmer zu werden, also hat Euer BürgermeisterIn eine neue Währung eingeführt: Wasserkristalle.</p>
+            <p>Um Wasserkristalle zu erhalten, kannst du Gebäude betreuen und dort  deine Angebote für deine Mitbürger erstellen. </p>
+        </textline>
+        <textline uid="tutoQChooseHeader">
+            <p>Wähle ein Gebäude aus!</p>
+        </textline>
+        <textline uid="tutoQChoose">
+            <p>Hilf der Insel, indem du dich um Eure öffentlichen Gebäude und Einrichtungen kümmerst. Drücke die Pfeile links und rechts, um ein eines auszuwählen!</p>
+        </textline>
+        <textline uid="tutoQSearchBuilding">
+            <p>Klicke auf dein Gebäude, um es zu begutachten!</p>
+        </textline>
+        <textline uid="tutoQInvestHeader">
+            <p>Investiere Zeit, bekomme Wasserkristalle.</p>
+        </textline>
+        <textline uid="tutoQInvest">
+            <p>Willkommen in deinem Gebäude! Der BürgermeisterIn ist dankbar für deine Hilfe beim Unterhalt dieses Gebäudes! Klicke auf das Gebäude um Angebote für alle zu erstellen! Für jedes Angebot, das so erstellt wird, zahlt dir der BürgermeisterIn 100 Wasserkristalle!</p>
+        </textline>
+        <textline uid="tutoQCreateOffer">
+            <p>Die anderen Bürger sollten jetzt ihre eigenen Gebäude ausgewählt haben.  Stelle sicher, dass du alle zusätzlichen Angebote im Auge hast. </p>
+        </textline>
+        <textline uid="tutoQNoOfferHeader">
+            <p>Du hast kein Angebot erstellt!</p>
+        </textline>
+        <textline uid="tutoQNoOffer">
+            <p>Bist du sicher, dass du kein Angebot erstellen willst?</p>
+            <p>Du bekommst keine Wasserkristalle und der BürgermeisterIn muss für die Instandhaltung dieses Gebäudes bezahlen!</p>
+        </textline>
+        <textline uid="tutoQWhatHeader">
+            <p>Wofür sind Wasserkristalle da?</p>
+        </textline>
+        <textline uid="tutoQWhat">
+            <p>Wasserkristalle ist eine Komplementärwährung. Du kannst deine Steuern oder deine Wohnung nicht damit bezahlen, aber du kannst alles andere kaufen, was du zum Leben brauchst!</p>
+        </textline>
+
+        <!-- Special Buildings -->
+        <textline uid="buildingVillaTitle">
+            <p>Kulturzentrum</p>
+        </textline>
+        <textline uid="buildingIndustrialTitle">
+            <p>Produktionsgebiet</p>
+        </textline>
+        <textline uid="buildingParkTitle">
+            <p>Park</p>
+        </textline>
+        <textline uid="buildingGardenTitle">
+            <p>Garten</p>
+        </textline>
+        <textline uid="buildingLakeTitle">
+            <p>See</p>
+        </textline>
+        <textline uid="buildingTreeTitle">
+            <p>Besprechungsbaum</p>
+        </textline>
+        <textline uid="bGardenTitle">
+            <p>Garteneinrichtung</p>
+        </textline>
+        <textline uid="bGarden">
+            <p>Betreue diese Einrichtung, um deiner Gemeinde Angebote zu unterbreiten.</p>
+        </textline>
+        <textline uid="bIndustrialTitle">
+            <p>Produktionsanlage</p>
+        </textline>
+        <textline uid="bIndustrial">
+            <p>Betreue diese Einrichtung, um deiner Community in der Produktionszone Angebote zu machen.</p>
+        </textline>
+        <textline uid="bLakeTitle">
+            <p>Seepark</p>
+        </textline>
+        <textline uid="bLake">
+            <p>Betreue diese Einrichtung, um deiner Community im Seepark Angebote zu machen.</p>
+        </textline>
+        <textline uid="bParkTitle">
+            <p>Park</p>
+        </textline>
+        <textline uid="bPark">
+            <p>Betreue diese Einrichtung, um deiner Community im Park Angebote zu machen.</p>
+        </textline>
+        <textline uid="bTreeTitle">
+            <p>Besprechungsbaum</p>
+        </textline>
+        <textline uid="bTree">
+            <p>Betreue diese Einrichtung, um deiner Community am Besprechungsbaum  Angebote zu machen.</p>
+        </textline>
+        <textline uid="bVillaTitle">
+            <p>Kulturzentrum</p>
+        </textline>
+        <textline uid="bVilla">
+            <p>Betreue diese Einrichtung, um deiner Community am Kulturzentrum Angebote zu machen.</p>
+        </textline>
+
+        <!-- Buttons -->
+        <textline uid="btnBack">
+            <p>Zurück</p>
+        </textline>
+        <textline uid="btnLeave">
+            <p>Verlassen</p>
+        </textline>
+        <textline uid="btnCreateGame">
+            <p>Spiel erstellen</p>
+        </textline>
+        <textline uid="btnOk">
+            <p>OK, verstanden!</p>
+        </textline>
+        <textline uid="btnLetPlay">
+            <p>Let's Play!</p>
+        </textline>
+        <textline uid="btnStart">
+            <p>Start</p>
+        </textline>
+        <textline uid="btnClose">
+            <p>Beenden</p>
+        </textline>
+        <textline uid="btnRemove">
+            <p>Entfernen</p>
+        </textline>
+        <textline uid="btnBuy">
+            <p>Kaufen</p>
+        </textline>
+        <textline uid="btnQuit">
+            <p>Spiel beenden</p>
+        </textline>
+        <textline uid="btnCreate">
+            <p>Erstellen</p>
+        </textline>
+        <textline uid="btnCancel">
+            <p>Abbrechen</p>
+        </textline>
+
+        <!-- Player turns -->
+        <textline uid="turnWait">
+            <p>Warten.....</p>
+        </textline>
+        <textline uid="turnWaitOthers">
+            <p>Wir warten, bis alle Spieler ihre Ereignisse erledigt haben.....</p>
+        </textline>
+        <textline uid="turnWaitStory">
+            <p>Moment mal und hör auf deinen BürgermeisterIn!</p>
+        </textline>
+        <textline uid="turnOk">
+            <p>Ok</p>
+        </textline>
+        <textline uid="turnEnd">
+            <p>End turn.</p>
+        </textline>
+
+        <!-- Persons -->
+        <textline uid="person0Name">
+            <p>Kalani</p>
+        </textline>
+        <textline uid="person0Description">
+            <p>5000 Jahre alt, freies Radikal (kein Partner), keine Nachkommenschaft</p>
+        </textline>
+        <textline uid="person0Education">
+            <p>Bildung: Level 2 Berufsausbildung</p>
+        </textline>
+        <textline uid="person0Hobbies">
+            <p>Hobbys: Mit außerirdischen Haustieren spielen (Levix), Gesprächscluster leiten, Freunden helfen</p>
+        </textline>
+        <textline uid="person1Name">
+            <p>Nopala</p>
+        </textline>
+        <textline uid="person1Description">
+            <p>6230 Jahre alt, zweimal verpartnert, zwei erwachsene Nachkommen</p>
+        </textline>
+        <textline uid="person1Education">
+            <p>Bildung: Level 4 Berufsausbildung, Alchemieerfahrung</p>
+        </textline>
+        <textline uid="person1Hobbies">
+            <p>Hobbys: Elixiere testen, Naturheilmittel kultivieren</p>
+        </textline>
+        <textline uid="person2Name">
+            <p>Gaylen</p>
+        </textline>
+        <textline uid="person2Description">
+            <p>3367 Jahre alt, in einer Partnerbeziehung, ein Nachkomme</p>
+        </textline>
+        <textline uid="person2Education">
+            <p>Bildung: Level 3 Berufsausbildung, Erfahrung in vielen Bereichen</p>
+        </textline>
+        <textline uid="person2Hobbies">
+            <p>Hobbys: Klettern, Hexenspiele, Kristall Brechungsshows</p>
+        </textline>
+        <textline uid="person3Name">
+            <p>Olafin</p>
+        </textline>
+        <textline uid="person3Description">
+            <p>4134 Jahre alt, ungebunden, keine Nachkommen.</p>
+        </textline>
+        <textline uid="person3Education">
+            <p>Bildung: Level 2 Berufsausbildung, teilweise 3</p>
+        </textline>
+        <textline uid="person3Hobbies">
+            <p>Hobbys: Quarz Vaping, Vibrachord spielen</p>
+        </textline>
+        <textline uid="person4Name">
+            <p>Indiram</p>
+        </textline>
+        <textline uid="person4Description">
+            <p>2012 Jahre alt, vorläufiger Partner, keine Nachkommenschaft</p>
+        </textline>
+        <textline uid="person4Education">
+            <p>Bildung: Berufsausbildung in Level 2 Biokriologie</p>
+        </textline>
+        <textline uid="person4Hobbies">
+            <p>Hobbys: Bergsteigen, Teichbau, Gartenarbeit</p>
+        </textline>
+        <textline uid="person5Name">
+            <p>Shandral</p>
+        </textline>
+        <textline uid="person5Description">
+            <p>4398 Jahre alt, ein Lebenspartner, zwei Neo-Nachkommen.</p>
+        </textline>
+        <textline uid="person5Education">
+            <p>Bildung: Berufsausbildung Stufe 2, Bereich Kommunikation</p>
+        </textline>
+        <textline uid="person5Hobbies">
+            <p>Hobbys: Kräutersammlung, Rezepturen erstellen, Pflege von Bauernhof-Insekten</p>
+        </textline>
+        <textline uid="person6Name">
+            <p>Hanovi</p>
+        </textline>
+        <textline uid="person6Description">
+            <p>3085 Jahre alt, ungebunden, zwei junge Nachkommen</p>
+        </textline>
+        <textline uid="person6Education">
+            <p>Bildung: Level 5 Berufsausbildung, Erfahrung in molekularer Energie</p>
+        </textline>
+        <textline uid="person6Hobbies">
+            <p>Hobbys: Physio-Strahlung, Elektro-Gaming, Kristallschärfung, Kristallverschärfung</p>
+        </textline>
+        <textline uid="person7Name">
+            <p>Mika</p>
+        </textline>
+        <textline uid="person7Description">
+            <p>5355 Jahre alt, Post-Partner, drei Nachkommen</p>
+        </textline>
+        <textline uid="person7Education">
+            <p>Bildung: Level 5 Berufsausbildung in sozialem Wohlstand</p>
+        </textline>
+        <textline uid="person7Hobbies">
+            <p>Hobbys: Gedankenverschmelzung, Suche nach Weisheitshöhlen, Test von Sprachschwingungen</p>
+        </textline>
+
+        <!-- Mayor Persons -->
+        <textline uid="mayorPerson0Name">
+            <p>BürgermeisterIn</p>
+        </textline>
+        <textline uid="mayorPerson0Description">
+            <p>Schließlich sollten sie auf ihre Rolle als Bürger Ihrer Insel vorbereitet sein.</p>
+        </textline>
+        <textline uid="mayorPerson0Education">
+            <p>Herzlichen Glückwunsch, du bist der Chef dieser Show!</p>
+        </textline>
+        <textline uid="mayorPerson0Hobbies">
+            <p>In letzter Zeit haben sich ein paar neue Bürger deiner Gemeinde angeschlossen. Es wäre am besten, wenn du sie einander vorstellst und sie auf der Insel herumführst.</p>
+        </textline>
+
+        <!-- Homes -->
+        <textline uid="home0Title">
+            <p>Winziges Zuhause</p>
+        </textline>
+        <textline uid="home0Description">
+            <p>Terra Geschoss, feucht mit Schimmelpilzen.</p>
+        </textline>
+        <textline uid="home1Title">
+            <p>Winziges Zuhause</p>
+        </textline>
+        <textline uid="home1Description">
+            <p>Terra Geschoss mit Gemeinschaftsgarten, bald reparaturbedürftig.</p>
+        </textline>
+        <textline uid="home2Title">
+            <p>Winziges Zuhause</p>
+        </textline>
+        <textline uid="home2Description">
+            <p>Terra Geschoss mit Balkon Soft Star Ausrichtung, bald reparaturbedürftig.</p>
+        </textline>
+        <textline uid="home3Title">
+            <p>Winziges Zuhause</p>
+        </textline>
+        <textline uid="home3Description">
+            <p>Himmelsebene mit Zugang zum Dach, Soft Star Ausrichtung, Dach reparaturbedürftig.</p>
+        </textline>
+        <textline uid="home4Title">
+            <p>Bequemes Zuhause</p>
+        </textline>
+        <textline uid="home4Description">
+            <p>Himmelsgeschoss mit Balkon mittlere Sternenausrichtung, sauber und in gutem Zustand.</p>
+        </textline>
+        <textline uid="home5Title">
+            <p>Bequemes Zuhause</p>
+        </textline>
+        <textline uid="home5Description">
+            <p>Mitteles Geschoss mit Balkon und starker Sternenausrichtung, bald reparaturbedürftig.</p>
+        </textline>
+        <textline uid="home6Title">
+            <p>Bequemes Zuhause</p>
+        </textline>
+        <textline uid="home6Description">
+            <p>Himmelsgeschoss mit Balkon mittlere Sternenausrichtung, sauber und in gutem Zustand.</p>
+        </textline>
+        <textline uid="home7Title">
+            <p>Bequemes Zuhause</p>
+        </textline>
+        <textline uid="home7Description">
+            <p>Mitteles Geschoss mit Balkon und starker Sternenausrichtung, bald reparaturbedürftig.</p>
+        </textline>
+        <textline uid="home8Title">
+            <p>Großes Zuhause</p>
+        </textline>
+        <textline uid="home8Description">
+            <p>Terra Geschoss mit Balkon, starke Sternenorientierung, guter Zustand.</p>
+        </textline>
+        <textline uid="home9Title">
+            <p>Großes Zuhause</p>
+        </textline>
+        <textline uid="home9Description">
+            <p>Mittleres Geschoss mit Balkon, starke Sternenorientierung, bald reparaturbedürftig.</p>
+        </textline>
+
+        <!-- Mayor Homes -->
+        <textline uid="mayorHome0Title">
+            <p>Bequemes Zuhause</p>
+        </textline>
+        <textline uid="mayorHome0Description">
+            <p>Mittleres Geschoss, nahe dem Gemeindezentrum, guter Zustand, schön und sauber.</p>
+        </textline>
+
+        <!-- Unemployment -->
+        <textline uid="unemployed0Title">
+            <p>Arbeitslos</p>
+        </textline>
+        <textline uid="unemployed0Description">
+            <p>Du hast keinen Job aus keinem bestimmten Grund.</p>
+        </textline>
+
+        <!-- Jobs -->
+        <textline uid="job0Title">
+            <p>Edelsteinschützer</p>
+        </textline>
+        <textline uid="job0Description">
+            <p>Schichtarbeit im Bergbau.</p>
+        </textline>
+        <textline uid="job1Title">
+            <p>Residenz-Manager</p>
+        </textline>
+        <textline uid="job1Description">
+            <p>Hat einen Assistent und ein Büro.</p>
+        </textline>
+        <textline uid="job2Title">
+            <p>Holomovie-Projektor</p>
+        </textline>
+        <textline uid="job2Description">
+            <p>Leitet das Gemeinschaftstheater</p>
+        </textline>
+        <textline uid="job3Title">
+            <p>Kristallformer</p>
+        </textline>
+        <textline uid="job3Description">
+            <p>Hat ein eigenes Büro im Bereich Bergbau.</p>
+        </textline>
+        <textline uid="job4Title">
+            <p>Hover-Fahrer</p>
+        </textline>
+        <textline uid="job4Description">
+            <p>Bietet lokalen Transport.</p>
+        </textline>
+        <textline uid="job5Title">
+            <p>Elixier-Mischer</p>
+        </textline>
+        <textline uid="job5Description">
+            <p>Entwickelt neue Geschmacksrichtungen</p>
+        </textline>
+        <textline uid="job6Title">
+            <p>Administrator</p>
+        </textline>
+        <textline uid="job6Description">
+            <p>Bietet Dienstleistungen aus gemeinsamen Büroräumen an.</p>
+        </textline>
+        <textline uid="job7Title">
+            <p>Reiniger</p>
+        </textline>
+        <textline uid="job7Description">
+            <p>Bewahrt die Schönheit von Gebäuden und Anlagen.</p>
+        </textline>
+
+        <!-- Mayor Jobs -->
+        <textline uid="mayorJob0Title">
+            <p>BürgermeisterIn</p>
+        </textline>
+        <textline uid="mayorJob0Description">
+            <p>Du verwaltest die Projekte der Insel, das Budget und das Wohlergehen deiner Bürger.</p>
+        </textline>
+
+        <!-- Talents -->
+        <textline uid="talent0Title">
+            <p>Kristall-Tuner</p>
+        </textline>
+        <textline uid="talent0Description">
+            <p>Du bist sehr gut darin, Sachen zu reparieren.</p>
+        </textline>
+        <textline uid="talent0Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent1Title">
+            <p>Molekularer Programmierer</p>
+        </textline>
+        <textline uid="talent1Description">
+            <p>Du hast ein Talent für alles, was mit Maschinen und Computern zu tun hat.</p>
+        </textline>
+        <textline uid="talent1Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent2Title">
+            <p>Grüner Daumen</p>
+        </textline>
+        <textline uid="talent2Description">
+            <p>Du hast ein natürliches Talent für den Anbau und die Pflege von Pflanzen.</p>
+        </textline>
+        <textline uid="talent2Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent3Title">
+            <p>Heilkräuter</p>
+        </textline>
+        <textline uid="talent3Description">
+            <p>Du weißt viel über Medizin und Heilung.</p>
+        </textline>
+        <textline uid="talent3Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent4Title">
+            <p>Melodie-Macher</p>
+        </textline>
+        <textline uid="talent4Description">
+            <p>Du bist ein sehr talentierter Entertainer und Musiker.</p>
+        </textline>
+        <textline uid="talent4Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent5Title">
+            <p>Sterne-Koch</p>
+        </textline>
+        <textline uid="talent5Description">
+            <p>Sie sind ein ausgezeichneter Anbieter von Spezialnahrung und Getränken. Du kannst Essen für andere Menschen anbieten!</p>
+        </textline>
+        <textline uid="talent5Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent6Title">
+            <p>Organisator</p>
+        </textline>
+        <textline uid="talent6Description">
+            <p>Du bist sehr organisiert und in der Lage, mit allen Arten von Wesen zu arbeiten.</p>
+        </textline>
+        <textline uid="talent6Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent7Title">
+            <p>Weise</p>
+        </textline>
+        <textline uid="talent7Description">
+            <p>Du liebst Wissen und teilst es gerne mit allen und kannst bei allen möglichen kniffligen Fragen helfen.</p>
+        </textline>
+        <textline uid="talent7Type">
+            <p>Service</p>
+        </textline>
+
+        <!-- Mayor Talents -->
+        <textline uid="mayorTalent0Title">
+            <p>Bürgermeisterliche Aufgaben</p>
+        </textline>
+        <textline uid="mayorTalent0Description">
+            <p>Du musst für den Unterhalt der Gemeinschaftsräume aufkommen, Gemeinschaftsgebühren von den Bürgern erheben, Unterstützung für Bedürftige leisten, und du leitest alle in diesem Spiel.</p>
+        </textline>
+        <textline uid="mayorTalent0Type">
+            <p>Service</p>
+        </textline>
+
+        <!-- Incidents -->
+        <textline uid="incident0Title">
+            <p>Du hast deinen Reinigungsstrahl falsch ausgerichtet!</p>
+        </textline>
+        <textline uid="incident0Description">
+            <p>Zahle 300,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident1Title">
+            <p>Du hast im Gemeinschaftsspiel gewonnen!</p>
+        </textline>
+        <textline uid="incident1Description">
+            <p>Du hast den Jackpot nicht ganz genackt, aber 250.- ist immer etwas.</p>
+        </textline>
+        <textline uid="incident2Title">
+            <p>Ein Sturm fegt über die Insel!</p>
+        </textline>
+        <textline uid="incident2Description">
+            <p>Der Sturm beschädigte mehrere ältere Gebäude und zerstörte einige Fenster und Kristalle.</p>
+        </textline>
+        <textline uid="incident3Title">
+            <p>In diesem Monat fällige Steuern</p>
+        </textline>
+        <textline uid="incident3Description">
+            <p/>
+        </textline>
+        <textline uid="incident4Title">
+            <p>Ausgaben für Lebensmittel in diesem Monat</p>
+        </textline>
+        <textline uid="incident4Description">
+            <p/>
+        </textline>
+        <textline uid="incident5Title">
+            <p>Einkünfte aus deiner Arbeit</p>
+        </textline>
+        <textline uid="incident5Description">
+            <p/>
+        </textline>
+        <textline uid="incident6Title">
+            <p>Hauszahlung</p>
+        </textline>
+        <textline uid="incident6Description">
+            <p/>
+        </textline>
+        <textline uid="incident7Title">
+            <p>Es ist dein Geburtstag!</p>
+        </textline>
+        <textline uid="incident7Description">
+            <p>Deine Eltern haben dir etwas Geld gegeben, das du an diesem besonderen Tag ausgeben kannst.</p>
+        </textline>
+        <textline uid="incident8Title">
+            <p>Taschengeld.</p>
+        </textline>
+        <textline uid="incident8Description">
+            <p>Du hast etwas mehr Geld in deiner Manteltasche gefunden. Wer hat es dort hingelegt?</p>
+        </textline>
+        <textline uid="incident9Title">
+            <p>Sofaessen!</p>
+        </textline>
+        <textline uid="incident9Description">
+            <p>Du hast ein paar Reste gefunden. Du Glückspilz!</p>
+        </textline>
+        <textline uid="incident10Title">
+            <p>Freundliche Nachbarschaft</p>
+        </textline>
+        <textline uid="incident10Description">
+            <p>Dein Nachbar hat zu viel gekocht und gab dir, was übrig war.</p>
+        </textline>
+        <textline uid="incident11Title">
+            <p>Besuch von Mama</p>
+        </textline>
+        <textline uid="incident11Description">
+            <p>Deine Mutter hat etwas Essen mitgebracht. Schön!</p>
+        </textline>
+        <textline uid="incident12Title">
+            <p>Besuch von Papa</p>
+        </textline>
+        <textline uid="incident12Description">
+            <p>Dein Vater hat etwas Essen mitgebracht. Schön!</p>
+        </textline>
+        <textline uid="incident13Title">
+            <p>Dein Schwebeauto ist kaputt gegangen.</p>
+        </textline>
+        <textline uid="incident13Description">
+            <p>Zahle 400,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident14Title">
+            <p>Ihr Abfallfilter ist kaputt.</p>
+        </textline>
+        <textline uid="incident14Description">
+            <p>Zahle 200,- für die Kristalltuning oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident15Title">
+            <p>Dein Energiefahrrad ist kaputt gegangen.</p>
+        </textline>
+        <textline uid="incident15Description">
+            <p>Zahle 200,- für die Kristallabstimmung oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident16Title">
+            <p>Dein Computerkristall schaltet sich nicht mehr ein.</p>
+        </textline>
+        <textline uid="incident16Description">
+            <p>Zahle 400,- für einen Maschinenservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident17Title">
+            <p>Dein Kommunikator klingt verzerrt.</p>
+        </textline>
+        <textline uid="incident17Description">
+            <p>Zahle 300,- für einen Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident18Title">
+            <p>Ein invasiver Virus verzerrt Ihren Kristallformer.</p>
+        </textline>
+        <textline uid="incident18Description">
+            <p>Wie ist das passiert? Zahle 300,- für einen Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident19Title">
+            <p>Deine Pflanzen sind krank.</p>
+        </textline>
+        <textline uid="incident19Description">
+            <p>Zahle 200,- für neue oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident20Title">
+            <p>Dein Garten ist zugewachsen.</p>
+        </textline>
+        <textline uid="incident20Description">
+            <p>Ein Nachbar beschwerte sich darüber. Zahle 300,- für einen Gartenservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident21Title">
+            <p>Deine Pflanzen sind alle tot.</p>
+        </textline>
+        <textline uid="incident21Description">
+            <p>Kauf dir neue für 200,-, um deinen Wohnraum frisch zu halten oder bitte  einen Freund sie wiederzubeleben.</p>
+        </textline>
+        <textline uid="incident22Title">
+            <p>Du hast einen Juckreiz.</p>
+        </textline>
+        <textline uid="incident22Description">
+            <p>Könnte es ein Ausschlag sein? Zahle 200,- für einen Heiler oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident23Title">
+            <p>Du hast eine schlimme Erkältung.</p>
+        </textline>
+        <textline uid="incident23Description">
+            <p>Zum Glück gibt es dafür eine Medizin! Zahl 300,- für das Medikament oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident24Title">
+            <p>Du hast leuchtend rosa Punkte im Gesicht.</p>
+        </textline>
+        <textline uid="incident24Description">
+            <p>Zahle 200,- für ein Elixier oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident25Title">
+            <p>Du hast vergessen die Geburtstagsparty deines keinen Neffen zu organisieren.</p>
+        </textline>
+        <textline uid="incident25Description">
+            <p>Du hast einen professionellen Entertainer gefunden, aber sie will einen "Last-Minute-Bonus". Zahle 200,- oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident26Title">
+            <p>Eine Nichte bat dich, etwas Besonderes für ihre Party zu organisieren.</p>
+        </textline>
+        <textline uid="incident26Description">
+            <p>Miete eine Hüpfburg für 300,- oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>
+        <textline uid="incident27Title">
+            <p>Deine Freundin wünscht sich etwas Besonderes für ihre bevorstehende Partnerschaftszeremonie.</p>
+        </textline>
+        <textline uid="incident27Description">
+            <p>Organisiere eine Gruppe, die sich auf Partnerschaftszeremonie spezialisiert hat, Tanzkalligraphie für 400,- oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>
+        <textline uid="incident28Title">
+            <p>Du erwirbst das Talent von "Crystal Tuning"!</p>
+        </textline>
+        <textline uid="incident28Description">
+            <p>Du hast einen Workshop besucht, in dem du gelernt hast, wie man Dinge repariert. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident29Title">
+            <p>Du erwirbst das Talent von "Molecular Programming".</p>
+        </textline>
+        <textline uid="incident29Description">
+            <p>Du hast einen Workshop über den Umgang mit Technologie besucht. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident30Title">
+            <p>Du erwirbst das Talent "Grüner Daumen".</p>
+        </textline>
+        <textline uid="incident30Description">
+            <p>Du hast einen Workshop besucht, in dem du gelernt hast, wie man Dinge pflanzt und züchtet. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident31Title">
+            <p>Du erwirbst das Talent, "Heilkräuter" anzubauen.</p>
+        </textline>
+        <textline uid="incident31Description">
+            <p>Du hast einen Workshop besucht, in dem du gelernt hast, wie man andere heilen und ihnen helfen kann. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident32Title">
+            <p>Du erwirbst das Talent von Melody Maker.</p>
+        </textline>
+        <textline uid="incident32Description">
+            <p>Du hast einen Workshop in Unterhaltung besucht. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident33Title">
+            <p>Gesundheitskomplexkosten</p>
+        </textline>
+        <textline uid="incident33Description">
+            <p/>
+        </textline>
+        <textline uid="incident34Title">
+            <p>Verwaltungskosten</p>
+        </textline>
+        <textline uid="incident34Description">
+            <p/>
+        </textline>
+        <textline uid="incident35Title">
+            <p>Kosten für den Lerncampus</p>
+        </textline>
+        <textline uid="incident35Description">
+            <p/>
+        </textline>
+        <textline uid="incident36Title">
+            <p>Instandhaltungskosten des Freizeitzentrums</p>
+        </textline>
+        <textline uid="incident36Description">
+            <p/>
+        </textline>
+        <textline uid="incident37Title">
+            <p>Seepark Unterhaltskosten</p>
+        </textline>
+        <textline uid="incident37Description">
+            <p/>
+        </textline>
+        <textline uid="incident38Title">
+            <p>Wartungskosten des Kulturzentrums</p>
+        </textline>
+        <textline uid="incident38Description">
+            <p/>
+        </textline>
+        <textline uid="incident39Title">
+            <p>Kosten für die Pflege des Meetingbaums</p>
+        </textline>
+        <textline uid="incident39Description">
+            <p/>
+        </textline>
+        <textline uid="incident40Title">
+            <p>Instandhaltungskosten für die Produktionszone</p>
+        </textline>
+        <textline uid="incident40Description">
+            <p/>
+        </textline>
+        <textline uid="incident41Title">
+            <p>Gartenpflegekosten</p>
+        </textline>
+        <textline uid="incident41Description">
+            <p/>
+        </textline>
+        <textline uid="incident42Title">
+            <p>Ein pelziges Insekt hat all deine Süßigkeiten gegessen!</p>
+        </textline>
+        <textline uid="incident42Description">
+            <p>Kaufe neue Süßigkeiten für 200,- um deine Vorräte aufzufüllen oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>
+        <textline uid="incident43Title">
+            <p>Deine Mutter hat sich online einige "kostenlose" Holo-Filme angesehen.</p>
+        </textline>
+        <textline uid="incident43Description">
+            <p>Jetzt wird sie von einer zwielichtigen Firma verklagt. Wende dich an einen Berater für 400,- um dies zu lösen oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>
+        <textline uid="incident44Title">
+            <p>Dein Budget ist sehr begrenzt.</p>
+        </textline>
+        <textline uid="incident44Description">
+            <p>Suche einen Berater für 300,-, damit du deine Ressourcen maximieren kannst oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>
+        <textline uid="incident45Title">
+            <p>Der jährliche Termin für den Wechsel deiner Krankenkasse ist da.</p>
+        </textline>
+        <textline uid="incident45Description">
+            <p>Um die besten Heilungstipps zu finden, vereinbare einen Termin mit einem Berater für 200,-, oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident46Title">
+            <p>Deine Freunde und du haben Meinungsverschiedenheiten über die Branchenkommunikation.</p>
+        </textline>
+        <textline uid="incident46Description">
+            <p>Besuche einen Kurs über Kommunikation für 400.- oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident47Title">
+            <p>Dein Nachbar hat ein seltsames Geospiel gefunden.</p>
+        </textline>
+        <textline uid="incident47Description">
+            <p> Jetzt will sie wissen, was das ist. Finde einen Geologen für 200.- oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident48Title">
+            <p>Dein Neffe kämpft mit der Ausbildung auf Stufe 1.</p>
+        </textline>
+        <textline uid="incident48Description">
+            <p>Zahle 300,-, um deiner Schwester zu helfen, seine zusätzlichen Stunden zu bezahlen oder Privatunterricht zu geben.</p>
+        </textline>
+        <textline uid="incident49Title">
+            <p>Du hast gelernt, wie man ein "Sternekoch" wird!</p>
+        </textline>
+        <textline uid="incident49Description">
+            <p>Du hast einen Workshop über das Kochen und den Umgang mit Lebensmitteln besucht. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident50Title">
+            <p>Du hast das Talent von "Organizer" erworben!</p>
+        </textline>
+        <textline uid="incident50Description">
+            <p>Du hast einen Workshop besucht, in dem du gelernt hast, wie man Dinge professionell organisiert. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident51Title">
+            <p>Du hast das Talent von "Weisheit" erworben.</p>
+        </textline>
+        <textline uid="incident51Description">
+            <p>Du hast einen Workshop in "Alles, was du wissen musst - über alles" besucht. Hol dir noch diesen Monat dein Zertifikat!</p>
+        </textline>
+        <textline uid="incident52Title">
+            <p>Eine Flut überschwemmt unsere Insel.</p>
+        </textline>
+        <textline uid="incident52Description">
+            <p>Zur Reinigung der betroffenen Stadtteile,</p>
+        </textline>
+        <textline uid="incident53Title">
+            <p>Ein Erdbeben verursacht mehrere Steinschläge.</p>
+        </textline>
+        <textline uid="incident53Description">
+            <p>Um den Hang am Rande der Stadt zu sichern,</p>
+        </textline>
+        <textline uid="incident54Title">
+            <p>Du hast deinen Kommunikationskristall zerbrochen. </p>
+        </textline>
+        <textline uid="incident54Description">
+            <p>Zahle 200,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident55Title">
+            <p>Dein Laserschneider ist kaputt gegangen.</p>
+        </textline>
+        <textline uid="incident55Description">
+            <p>Zahle 400,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident56Title">
+            <p>Du hast deinen Lieblingssehkristall fallen lassen.</p>
+        </textline>
+        <textline uid="incident56Description">
+            <p>Zahle 300,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident57Title">
+            <p>Dein Rechengerät ist überhitzt.</p>
+        </textline>
+        <textline uid="incident57Description">
+            <p>Zahle 300,- für den Reparaturservice oder finde Hilfe in deiner Nähe.</p>
+        </textline>
+        <textline uid="incident58Title">
+            <p>Du hast Probleme beim Einrichten deines drahtlosen Kommunikationsgerätes.</p>
+        </textline>
+        <textline uid="incident58Description">
+            <p>Zahle 400,- für Installationshilfe oder finde Hilfe in deiner Nähe.</p>
+        </textline>      
+        <textline uid="incident59Title">
+            <p>Du brauchst einen neuen Fokus für deinen Rechenkristall.</p>
+        </textline>
+        <textline uid="incident59Description">
+            <p>Zahle 200,- für Installationshilfe oder finde Hilfe in deiner Nähe.</p>
+        </textline>       
+        <textline uid="incident60Title">
+            <p>Du willst deinem bedeutsamen Freund ein paar Blumen kaufen.</p>
+        </textline>
+        <textline uid="incident60Description">
+            <p>Zahle 200,- für Blumen oder finde Hilfe in deiner Nähe.</p>
+        </textline>      
+        <textline uid="incident61Title">
+            <p>Du findest giftigen Schimmelpilz!</p>
+        </textline>
+        <textline uid="incident61Description">
+            <p>Zahle 400,- für Hilfe bei der Wiederherstellung oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>       
+        <textline uid="incident62Title">
+            <p>Du willst einen eigenen Garten anlegen.</p>
+        </textline>
+        <textline uid="incident62Description">
+            <p>Zahle 200,- für Hilfe oder finde Hilfe in deiner Nähe.</p>
+        </textline>  
+        <textline uid="incident63Title">
+            <p>Du hast dir den Zeh ganz dumm verrenkt!</p>
+        </textline>
+        <textline uid="incident63Description">
+            <p>Zahle 200,-, um einen Arzt aufzusuchen oder finde Hilfe in deiner Nähe.</p>
+        </textline>     
+        <textline uid="incident64Title">
+            <p>Du findest einen seltsamen Knubbel, der aus deinem Arm wächst.</p>
+        </textline>
+        <textline uid="incident64Description">
+            <p>Zahle 300,-, um einen Arzt aufzusuchen oder finde Hilfe in deiner Nähe.</p>
+        </textline>     
+        <textline uid="incident65Title">
+            <p>Du hast schmerzhafte Zahnschmerzen!</p>
+        </textline>
+        <textline uid="incident65Description">
+            <p>Zahle 400,-, um einen Zahnarzt aufzusuchen oder finde in deiner Nähe Hilfe.</p>
+        </textline>                     
+        <textline uid="incident66Title">
+            <p>Du musst einen Entertainer für deine Party engagieren!</p>
+        </textline>
+        <textline uid="incident66Description">
+            <p>Zahle 300,-, um einen einzustellen oder finde Hilfe in deiner Nähe.</p>
+        </textline>   
+        <textline uid="incident67Title">
+            <p>Du musst einen SängerIn für eine Veranstaltung engagieren.</p>
+        </textline>
+        <textline uid="incident67Description">
+            <p>Zahle 400,- dafür oder finde Hilfe in deiner Nähe.</p>
+        </textline>   
+        <textline uid="incident68Title">
+            <p>Du brauchst einen Clown für eine Veranstaltung.</p>
+        </textline>
+        <textline uid="incident68Description">
+            <p>Zahle 200,-, um einen einzustellen oder finde Hilfe in deiner Nähe.</p>
+        </textline>   
+        <textline uid="incident69Title">
+            <p>Du brauchst Hilfe bei der Organisation einer Wohltätigkeitsveranstaltung.</p>
+        </textline>
+        <textline uid="incident69Description">
+            <p>Zahle 200,-, um Hilfe zu finden oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>   
+        <textline uid="incident70Title">
+            <p>Du hast die Steuer falsch eingegeben!</p>
+        </textline>
+        <textline uid="incident70Description">
+            <p>Zahle 300,-, um Hilfe zu finden oder finde Hilfe in deiner Nachbarschaft. </p>
+        </textline>   
+        <textline uid="incident71Title">
+            <p>Du brauchst Hilfe bei der Organisation eines Gemeinschafts-Events.</p>
+        </textline>
+        <textline uid="incident71Description">
+            <p>Zahle 400,-, um jemanden einzustellen oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>  
+        <textline uid="incident72Title">
+            <p>Du findest ein seltsames und geheimnisvolles altes Buch in einer fremden Sprache.</p>
+        </textline>
+        <textline uid="incident72Description">
+            <p>Zahle 200,-, um jemanden anzuheuern, der es übersetzt oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline> 
+        <textline uid="incident73Title">
+            <p>Du findest einen seltsamen Schlamm, der in deinem Haus wächst. Es scheint lebendig zu sein.</p>
+        </textline>
+        <textline uid="incident74Description">
+            <p>Zahl 300.- um jemanden einzustellen, der ihn identifiziert oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline> 
+        <textline uid="incident75Title">
+            <p>Du findest ein altes Fossil in deinem Garten.</p>
+        </textline>
+        <textline uid="incident75Description">
+            <p>Zahl 400.- um jemanden einzustellen, der ihn identifiziert oder finde Hilfe in deiner Nachbarschaft.</p>
+        </textline>  
+
+
+        <!-- Varia -->
+        <textline uid="giveFairydust">
+            <p>Fairydust</p>
+        </textline>
+        <textline uid="luminance">
+            <p>{0:P0}</p>
+        </textline>
+        <textline uid="tellMeAgain">
+            <p>Nochmals erklären</p>
+        </textline>
+        <textline uid="everyoneReady">
+            <p>Alle haben es verstanden!</p>
+        </textline>
+        <textline uid="loadingText">
+            <p>Loading</p>
+        </textline>
+        <textline uid="endMonthOverviewTitle">
+            <p>Gut gemacht!</p>
+        </textline>
+        <textline uid="endMonthOverviewDescription">
+            <p>Du hast es bis zum Monat {0} von {1} geschafft!</p>
+        </textline>
+        <textline uid="playerCriticalTitle">
+            <p>Oh nein! </p>
+        </textline>
+        <textline uid="playerCriticalDescription">
+            <p>Die folgenden Spieler hatten einen negativen Saldo. Wenn dies noch einmal passiert, wird der Spieler nicht überleben und die Dunkelheit wird sich auf euch alle auswirken.  </p>
+        </textline>
+        <textline uid="playerGoodbyeTitle">
+            <p>Leb wohl.....</p>
+        </textline>
+        <textline uid="playerGoodbyeDescription">
+            <p>Du hast es nicht geschafft, den folgenden Spielern zu helfen</p>
+        </textline>
+        <textline uid="cityCriticalTitle">
+            <p>Das ist kritisch!</p>
+        </textline>
+        <textline uid="cityCriticalDescription">
+            <p>Die Insel war nicht in der Lage für mindestens eine Einrichtung zu bezahlen! Wenn dies noch einmal passiert, verliert ihr alle das Spiel!</p>
+        </textline>
+        <textline uid="gamePaused">
+            <p>Das Spiel wurde angehalten</p>
+        </textline>
+        <textline uid="gameOver">
+            <p>Game Over!</p>
+        </textline>
+        <textline uid="gameOverSolo">
+            <p>Viel Glück beim nächsten Mal! Warte bis die anderen das Spiel beendet haben und beobachte was passiert!</p>
+        </textline>
+        <textline uid="gameOverAll">
+            <p> Viel Glück beim nächsten Mal! Ihr müsst zusammenarbeiten, um dieses Spiel zu gewinnen. Sprich über deine individuellen Bedürfnisse und Ressourcen und versuche, die Insel als Gemeinschaft am Leben zu erhalten!</p>
+        </textline>
+        <textline uid="win">
+            <p>Du hast gewonnen!</p>
+        </textline>
+        <textline uid="winAll">
+            <p>In der Gemeinschaft hast du es geschafft, deine Ressourcen und Bedürfnisse in Einklang zu bringen. Du hast gute Arbeit geleistet, um die Insel am Leben zu erhalten. Gut gemacht.</p>
+        </textline>
+        <textline uid="endGame">
+            <p>Herzlichen Glückwunsch, du hast es bis zum Ende des Spiels geschafft!</p>
+        </textline>
+        <textline uid="reconnectInfo">
+            <p>Es sieht so aus, als hättest du die Verbindung zum Spielserver verloren. Prüfe deine Netzwerkverbindung und versuche neu zu starten......</p>
+        </textline>
+        <textline uid="reconnectGame">
+            <p>Versuche neu zu starten</p>
+        </textline>
+
+        <!-- complementary introduction -->
+        <textline uid="tutoQMarketMayH">
+            <p>Hilf deinen Bürgern!</p>
+        </textline>
+        <textline uid="tutoQMarketMay">
+            <p>Ihre Bürger sehen jetzt, welche Gebäude sie betreuen wollen. Du wirst nicht mehr für den Unterhalt bezahlen müssen, wenn ein Bürger ein Gebäude betreut, also ermutige ihn, eines zu übernehmen!</p>
+        </textline>
+        <textline uid="introduceQ">
+            <p>Wir führen nun die Komplementärwährung "Water Crystals" ein.</p>
+        </textline>
+        <textline uid="introduceQTitle">
+            <p>Einführung der Komplementärwährung</p>
+        </textline>
+        <textline uid="buildingDeedDeniedContent">
+            <p>Du kannst keine Gebäude mehr bekommen.</p>
+        </textline>
+        <textline uid="removeOfferDeniedContent">
+            <p>Du kannst keine Angebote auf Inselgebäuden entfernen.</p>
+        </textline>
+        <textline uid="specialBuildingOwnerTitle">
+            <p>Behütet von {0}.</p>
+        </textline>
+        <textline uid="timeCost">
+            <p>% deiner Zeit.</p>
+        </textline>
+
+        <!-- summary screen -->
+        <textline uid="btnMoreInfo">
+            <p>Sende uns Feedback!</p>
+        </textline>
+        <textline uid="moreInfoURL">
+            <p>http://www.polymoney.org</p>
+        </textline>
+        <textline uid="summaryTitle">
+            <p>Zusammenfassung</p>
+        </textline>
+        <textline uid="summaryText">
+            <p>Diskutiere deine Erfahrungen mit deinen Mitspielern. Womit hast du gekämpft? Wie haben die Wasserkristalle die Handhabung der Dinge verändert?</p>
+        </textline>
+        <textline uid="summaryLegendCity">
+            <p>Die Finanzen der Insel</p>
+        </textline>
+        <textline uid="summaryLegendPlayerFiat">
+            <p>Spieler-Gold</p>
+        </textline>
+        <textline uid="summaryLegendPlayerQ">
+            <p>Spieler Wasserkristalle</p>
+        </textline>
+
+        <!-- analytics question -->
+        <textline uid="didEnjoyText">
+            <p>Hat dir das Spiel gefallen?</p>
+        </textline>
+        <textline uid="didEnjoyYes">
+            <p>Ja!</p>
+        </textline>
+        <textline uid="didEnjoyNo">
+            <p>Nein.</p>
+        </textline>
+
+        <textline uid="sendAnalyticsTitle">
+            <p>Möchtest du uns helfen?</p>
+        </textline>
+        <textline uid="sendAnalyticsText">
+            <p>Du kannst uns die Daten, wie du das Spiel gespielt hast, anonym mitteilen. Dies wird uns helfen, das Spiel zu verbessern und seinen Lerneffekt zu erhöhen. Frag alle Spieler, ob sie damit einverstanden sind.</p>
+        </textline>
+        <textline uid="sendAnalyticsYes">
+            <p>Ja, jeder will mithelfen.</p>
+        </textline>
+        <textline uid="sendAnalyticsNo">
+            <p>Nein.</p>
+        </textline>
+
+
+        <textline uid="noMayorDebt">
+            <p>Uh oh, es sieht so aus, als hättest du nicht genug Geld, um für dieses Gebäude zu bezahlen!</p>
+        </textline>
+
+
+
+        <!-- (Ryan) New Introductions-->
+        <textline uid="preset1">
+            <p>Voreinstellung A</p>
+        </textline>
+
+        <textline uid="preset2">
+            <p>Voreinstellung B</p>
+        </textline>
+
+        <textline uid="preset3">
+            <p>Voreinstellung C</p>
+        </textline>
+
+        <textline uid="taxOp1">
+            <p>Steuer Auswah</p>
+        </textline>
+
+        <textline uid="taxOp2">
+            <p>Pauschaltarif</p>
+        </textline>
+        
+        <textline uid="taxOp3">
+            <p>Progressive Rate</p>
+        </textline>
+
+        <textline uid="taxOp4">
+            <p>Grundsteuer</p>
+        </textline>
+
+        <textline uid="taxOp5">
+            <p>Grundsteuer Betrag</p>
+        </textline>
+
+        <textline uid="maint1">
+            <p>Unterhaltungskosten</p>
+        </textline>
+
+        <textline uid="maint2">
+            <p>Kostenbasis pro Person</p>
+        </textline>
+
+        <textline uid="dash1">
+            <p>Anzeigetafel BürgermeisterIN</p>
+        </textline>
+
+        <textline uid="dash2">
+            <p>Anzeige für alle Spieler</p>
+        </textline>
+
+        <textline uid="water1">
+            <p>Wasserkristall Auswahl</p>
+        </textline>
+
+        <textline uid="water2">
+            <p>Kristalleinkommen</p>
+        </textline>
+
+        <textline uid="water3">
+            <p>Manuelles Einführen von Kristallen</p>
+        </textline>
+
+        <textline uid="water4">
+            <p>Runde:</p>
+        </textline>
+
+        <textline uid="water5">
+            <p>Möglichkeite Steuern teilweise in Wasserkristallen zu bezahlen</p>
+        </textline>
+
+        <textline uid="build1">
+            <p>Spieler können Gebäude besitzen.</p>
+        </textline>
+
+        <textline uid="disaster1">
+            <p>Katastrophenoptionen</p>
+        </textline>
+
+        <textline uid="disaster2">
+            <p>Katastrophenschweregrad</p>
+        </textline>
+
+        <textline uid="disaster3">
+            <p>Katastrophenhäufigkeit</p>
+        </textline>
+
+        <textline uid="disaster4">
+            <p>Spieler Katastrophe Match-Chance</p>
+        </textline>
+
+        <textline uid="hud1">
+            <p>Freizeit</p>
+        </textline>
+
+        <textline uid="hud2">
+            <p>Monat</p>
+        </textline>
+
+        <textline uid="stats1">
+            <p>BürgermeisterIn des Lichtes</p>
+        </textline>
+
+        <textline uid="stats2">
+            <p>BürgermeisterIn des Gemeingutes</p>
+        </textline>
+
+        <textline uid="stats3">
+            <p>BürgermeisterIn der Barmherzigkeit</p>
+        </textline>
+        
+        <textline uid="stats4">
+            <p>BürgermeisterIn der Einsamen Herzen</p>
+        </textline>
+
+        <textline uid="stats5">
+            <p>"Herzlichen Glückwunsch! Du hast die Kristall Insel durch die dunkelsten Zeiten geführt. Du hast mit den Bürgern gearbeitet und bist gemeinsam erfolgreich gewesen."</p>
+        </textline>
+
+        <textline uid="stats6">
+            <p>"Gut gemacht! Du hast die Gemeinschaft zusammengehalten, auch in schwierigen Zeiten."</p>
+        </textline>
+
+        <textline uid="stats7">
+            <p>"Du warst ein selbstloser BürgermeisterIn. Du hast deine Bürger unterstützt, auch wenn die Mittel knapp waren. Guter Versuch!"</p>
+        </textline>
+
+        <textline uid="stats8">
+            <p>"Anstatt bedürftige Bürger zu unterstützen, hast du Gold gesammelt. Wenn einige versagen, versagen leider alle."</p>
+        </textline>
+
+        <textline uid="stats9">
+            <p>Kristall-Wächter -- Großartig! Du hast deine Talente genutzt, um zu gedeihen und anderen zu helfen.</p>
+        </textline>
+
+        <textline uid="stats10">
+            <p>Gemeinschaftsorganisator -- Fantastisch! Du hast Möglichkeiten gesehen und deine Gemeinschaft unterstützt.</p>
+        </textline>
+
+        <textline uid="stats11">
+            <p>Talent Gestalter -- Fantastisch! Du hast deine Talente wirklich eingesetzt, um Probleme zu lösen.</p>
+        </textline>
+
+        <textline uid="stats12">
+            <p>Ressourcenforscher -- Großartig! Du hast gearbeitet, um deine Nöte zu decken und anderen zu helfen.</p>
+        </textline>
+
+        <textline uid="stats13">
+            <p>Handelsmacher -- Wunderbar! Du hast mit anderen zusammengearbeitet, damit jeder gewinnt!</p>
+        </textline>  
+
+        <textline uid="stats14">
+            <p>Talent Entwickler -- Bravo! Du hast deine Talente eingesetzt und die Gemeinschaft aufgebaut, aber nicht ganz ausreichend. Das nächste Mal wirst du es tun!</p>
+        </textline>
+
+        <textline uid="stats15">
+            <p>Gemeinde Gestalter -- Genau so! Du hast dem Bürgermeister geholfen, aber nicht genug.  Das nächste Mal wirst du es tun!</p>
+        </textline>
+
+        <textline uid="stats16">
+            <p>Ressourcen-Forscher -- Cool! Du hast einige Probleme gelöst, aber nicht genug.  Das nächste Mal wirst du es tun!</p>
+        </textline>
+
+        <textline uid="stats17">
+            <p>Kristallhändler -- Nett! Du hast mit deinen Talenten gearbeitet, aber nicht genügend.  Das nächste Mal wirst du es tun!</p>
+        </textline>
+
+        <textline uid="stats18">
+            <p>Kristallwärter -- OK! Du hast ein paar Runden überlebt, aber nicht genug. Das nächste Mal wirst du es tun!</p>
+        </textline>      
+
+        <textline uid="end1">
+            <p>Ende der Runde</p>
+        </textline>
+
+    </textlines>
+</pm>

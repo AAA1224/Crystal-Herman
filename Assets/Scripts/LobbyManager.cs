@@ -6,6 +6,7 @@ using Photon.Realtime;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using KoboldTools;
 
 
 namespace Herman
@@ -299,6 +300,9 @@ namespace Herman
         #endregion
         public void OnStartGameButtonClicked()
         {
+            // Pick one mayor
+
+
             PhotonNetwork.CurrentRoom.IsOpen = false;
             PhotonNetwork.CurrentRoom.IsVisible = false;
 

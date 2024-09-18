@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\polymoney\\Crystal-Herman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|d:\\work\\polymoney\\crystal-herman\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\localisation\\localisationselectlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localisation\\localisationselectlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\localisation\\gamelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localisation\\gamelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\camera\\camerafollowplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerafollowplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\talent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\talent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\localisation\\localisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localisation\\localisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\localisation\\localisedtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localisation\\localisedtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\uiresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\uiresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\benefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\benefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\pocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\pocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\roomlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roomlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\playerlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\camera\\cameratouchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\cameratouchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\mayorpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mayorpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\alert\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\alert\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\localisation\\localisationreaderxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localisation\\localisationreaderxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|D:\\Work\\polymoney\\Crystal-Herman\\assets\\scripts\\camera\\camerapinchzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerapinchzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameLanguage.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\GameLanguage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localisation\\GameLanguage.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\GameLanguage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localisation\\GameLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:05:09.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Talent.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Talent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Talent.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Talent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Talent.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:30:30.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UiResource.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\UiResource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\UiResource.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\UiResource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\UiResource.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:29:20.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cost.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Cost.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Cost.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Cost.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Cost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:20:33.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainGameManager.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MainGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainGameManager.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MainGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainGameManager.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAUwPYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:49:57.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Incident.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Incident.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Incident.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Incident.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAswEsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:17:59.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Home.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Home.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Home.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Home.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwGcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:57:12.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Localisation.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\Localisation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localisation\\Localisation.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\Localisation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localisation\\Localisation.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowEwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:38:31.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalisationSelectLanguage.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisationSelectLanguage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localisation\\LocalisationSelectLanguage.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisationSelectLanguage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localisation\\LocalisationSelectLanguage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:37:45.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Character.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Character.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAwJsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:50:36.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwD4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:01:31.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraFollowPlayer.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraFollowPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraFollowPlayer.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraFollowPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraFollowPlayer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T21:10:45.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LobbyManager.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyManager.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAPcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:44:44.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LocalisedText.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisedText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localisation\\LocalisedText.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisedText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localisation\\LocalisedText.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:41:30.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Benefit.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Benefit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Benefit.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Benefit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Benefit.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAkwCABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:24:48.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Currency.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Currency.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Currency.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:20:44.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Job.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Job.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Job.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Job.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:23:44.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Person.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Person.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Person.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Person.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:23:40.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pocket.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Pocket.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Pocket.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Pocket.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Pocket.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA4wJUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:22:37.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CameraTouchManager.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:47:48.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MayorPanel.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MayorPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MayorPanel.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MayorPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MayorPanel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:16:17.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoomListItem.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\RoomListItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomListItem.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\RoomListItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoomListItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:51:09.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlayerListItem.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\PlayerListItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerListItem.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\PlayerListItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerListItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:50:32.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Billboard.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Billboard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Billboard.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Billboard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Billboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:44:54.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Alert\\Alert.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Alert\\Alert.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Alert\\Alert.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Alert\\Alert.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T08:05:32.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LocalisationReaderXML.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisationReaderXML.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localisation\\LocalisationReaderXML.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Localisation\\LocalisationReaderXML.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localisation\\LocalisationReaderXML.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:40:22.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CameraPinchZoom.cs",
+              "DocumentMoniker": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
+              "ToolTip": "D:\\Work\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:39:38.149Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

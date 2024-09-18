@@ -1,0 +1,2921 @@
+{
+    "Persons": [
+        {
+            "id": 0,
+            "title": "person0Name",
+            "description": "person0Description",
+            "education": "person0Education",
+            "hobbies": "person0Hobbies",
+            "talentId": 6
+        },
+        {
+            "id": 1,
+            "title": "person1Name",
+            "description": "person1Description",
+            "education": "person1Education",
+            "hobbies": "person1Hobbies",
+            "talentId": 3
+        },
+        {
+            "id": 2,
+            "title": "person2Name",
+            "description": "person2Description",
+            "education": "person2Education",
+            "hobbies": "person2Hobbies",
+            "talentId": 0
+        },
+        {
+            "id": 3,
+            "title": "person3Name",
+            "description": "person3Description",
+            "education": "person3Education",
+            "hobbies": "person3Hobbies",
+            "talentId": 4
+        },
+        {
+            "id": 4,
+            "title": "person4Name",
+            "description": "person4Description",
+            "education": "person4Education",
+            "hobbies": "person4Hobbies",
+            "talentId": 2
+        },
+        {
+            "id": 5,
+            "title": "person5Name",
+            "description": "person5Description",
+            "education": "person5Education",
+            "hobbies": "person5Hobbies",
+            "talentId": 5
+        },
+        {
+            "id": 6,
+            "title": "person6Name",
+            "description": "person6Description",
+            "education": "person6Education",
+            "hobbies": "person6Hobbies",
+            "talentId": 1
+        },
+        {
+            "id": 7,
+            "title": "person7Name",
+            "description": "person7Description",
+            "education": "person7Education",
+            "hobbies": "person7Hobbies",
+            "talentId": 7
+        }
+    ],
+    "MayorPersons": [
+        {
+            "id": 0,
+            "title": "mayorPerson0Name",
+            "description": "mayorPerson0Description",
+            "education": "mayorPerson0Education",
+            "hobbies": "mayorPerson0Hobbies",
+            "talentId": 0
+        }
+    ],
+    "Homes": [
+        {
+            "id": 0,
+            "title": "home0Title",
+            "description": "home0Description",
+            "cost": 500
+        },
+        {
+            "id": 1,
+            "title": "home1Title",
+            "description": "home1Description",
+            "cost": 500
+        },
+        {
+            "id": 2,
+            "title": "home2Title",
+            "description": "home2Description",
+            "cost": 600
+        },
+        {
+            "id": 3,
+            "title": "home3Title",
+            "description": "home3Description",
+            "cost": 600
+        },
+        {
+            "id": 4,
+            "title": "home4Title",
+            "description": "home4Description",
+            "cost": 700
+        },
+        {
+            "id": 5,
+            "title": "home5Title",
+            "description": "home5Description",
+            "cost": 700
+        },
+        {
+            "id": 6,
+            "title": "home6Title",
+            "description": "home6Description",
+            "cost": 800
+        },
+        {
+            "id": 7,
+            "title": "home7Title",
+            "description": "home7Description",
+            "cost": 800
+        },
+        {
+            "id": 8,
+            "title": "home8Title",
+            "description": "home8Description",
+            "cost": 900
+        },
+        {
+            "id": 9,
+            "title": "home9Title",
+            "description": "home9Description",
+            "cost": 1000
+        }
+    ],
+    "MayorHomes": [
+        {
+            "id": 0,
+            "title": "mayorHome0Title",
+            "description": "mayorHome0Description",
+            "cost": 0
+        }
+    ],
+    "Unemployed": [
+        {
+            "id": 0,
+            "title": "unemployed0Title",
+            "description": "unemployed0Description",
+            "timecost": 0,
+            "earnings": 0
+        }
+    ],
+    "Jobs": [
+        {
+            "id": 0,
+            "title": "job0Title",
+            "description": "job0Description",
+            "timecost": 60,
+            "earnings": 900
+        },
+        {
+            "id": 1,
+            "title": "job1Title",
+            "description": "job1Description",
+            "timecost": 90,
+            "earnings": 1300
+        },
+        {
+            "id": 2,
+            "title": "job2Title",
+            "description": "job2Description",
+            "timecost": 50,
+            "earnings": 700
+        },
+        {
+            "id": 3,
+            "title": "job3Title",
+            "description": "job3Description",
+            "timecost": 80,
+            "earnings": 1100
+        },
+        {
+            "id": 4,
+            "title": "job4Title",
+            "description": "job4Description",
+            "timecost": 50,
+            "earnings": 800
+        },
+        {
+            "id": 5,
+            "title": "job5Title",
+            "description": "job5Description",
+            "timecost": 30,
+            "earnings": 600
+        },
+        {
+            "id": 6,
+            "title": "job6Title",
+            "description": "job6Description",
+            "timecost": 60,
+            "earnings": 900
+        },
+        {
+            "id": 7,
+            "title": "job7Title",
+            "description": "job7Description",
+            "timecost": 50,
+            "earnings": 800
+        }
+    ],
+    "MayorJobs": [
+        {
+            "id": 0,
+            "title": "mayorJob0Title",
+            "description": "mayorJob0Description",
+            "timecost": 100,
+            "earnings": 0
+        }
+    ],
+    "Talents": [
+        {
+            "id": 0,
+            "title": "talent0Title",
+            "description": "talent0Description",
+            "type": "talent0Type",
+            "tags": [
+                "Fix"
+            ]
+        },
+        {
+            "id": 1,
+            "title": "talent1Title",
+            "description": "talent1Description",
+            "type": "talent1Type",
+            "tags": [
+                "IT"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "talent2Title",
+            "description": "talent2Description",
+            "type": "talent2Type",
+            "tags": [
+                "Nature"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "talent3Title",
+            "description": "talent3Description",
+            "type": "talent3Type",
+            "tags": [
+                "Medical"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "talent4Title",
+            "description": "talent4Description",
+            "type": "talent4Type",
+            "tags": [
+                "Entertain"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "talent5Title",
+            "description": "talent5Description",
+            "type": "talent5Type",
+            "tags": [
+                "Food"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "talent6Title",
+            "description": "talent6Description",
+            "type": "talent6Type",
+            "tags": [
+                "Admin"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "talent7Title",
+            "description": "talent7Description",
+            "type": "talent7Type",
+            "tags": [
+                "Know"
+            ]
+        }
+    ],
+    "MayorTalents": [
+        {
+            "id": 0,
+            "title": "mayorTalent0Title",
+            "description": "mayorTalent0Description",
+            "type": "mayorTalent0Type",
+            "tags": [
+                "Infrastructure"
+            ]
+        }
+    ],
+    "Incidents": [
+        {
+            "id": 0,
+            "title": "incident0Title",
+            "description": "incident0Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "immediate": false,
+            "influenceable": true,
+            "type": "Disaster",
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 1,
+            "title": "incident1Title",
+            "description": "incident1Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Gift"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": [
+                    {
+                        "currency": "FIAT",
+                        "value": 250
+                    }
+                ]
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 2,
+            "title": "incident2Title",
+            "description": "incident2Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 9,
+            "ignorable": false,
+            "type": "City",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Storm"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 3,
+            "title": "incident3Title",
+            "description": "incident3Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": false,
+            "type": "Recurrent",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Taxes"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 4,
+            "title": "incident4Title",
+            "description": "incident4Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": false,
+            "type": "Recurrent",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 5,
+            "title": "incident5Title",
+            "description": "incident5Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": false,
+            "type": "Recurrent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Salary"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 6,
+            "title": "incident6Title",
+            "description": "incident6Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": false,
+            "type": "Recurrent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Rent"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 7,
+            "title": "incident7Title",
+            "description": "incident7Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Gift"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ]
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 8,
+            "title": "incident8Title",
+            "description": "incident8Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Gift"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ]
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 9,
+            "title": "incident9Title",
+            "description": "incident9Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Bonus",
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [
+                    "Food"
+                ],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 10,
+            "title": "incident10Title",
+            "description": "incident10Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Bonus",
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [
+                    "Food"
+                ],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 11,
+            "title": "incident11Title",
+            "description": "incident11Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Bonus",
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [
+                    "Food"
+                ],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 12,
+            "title": "incident12Title",
+            "description": "incident12Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Luck",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Bonus",
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [
+                    "Food"
+                ],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 13,
+            "title": "incident13Title",
+            "description": "incident13Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 14,
+            "title": "incident14Title",
+            "description": "incident14Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 15,
+            "title": "incident15Title",
+            "description": "incident15Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 16,
+            "title": "incident16Title",
+            "description": "incident16Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 17,
+            "title": "incident17Title",
+            "description": "incident17Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 18,
+            "title": "incident18Title",
+            "description": "incident18Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 19,
+            "title": "incident19Title",
+            "description": "incident19Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 20,
+            "title": "incident20Title",
+            "description": "incident20Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 21,
+            "title": "incident21Title",
+            "description": "incident21Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 22,
+            "title": "incident22Title",
+            "description": "incident22Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 23,
+            "title": "incident23Title",
+            "description": "incident23Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 24,
+            "title": "incident24Title",
+            "description": "incident24Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 25,
+            "title": "incident25Title",
+            "description": "incident25Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 26,
+            "title": "incident26Title",
+            "description": "incident26Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 27,
+            "title": "incident27Title",
+            "description": "incident27Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 28,
+            "title": "incident28Title",
+            "description": "incident28Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Fix"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 29,
+            "title": "incident29Title",
+            "description": "incident29Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "IT"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 30,
+            "title": "incident30Title",
+            "description": "incident30Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Nature"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 31,
+            "title": "incident31Title",
+            "description": "incident31Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Medical"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 32,
+            "title": "incident32Title",
+            "description": "incident32Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": false,
+            "influenceable": false,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Entertain"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 33,
+            "title": "incident33Title",
+            "description": "incident33Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "A",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 34,
+            "title": "incident34Title",
+            "description": "incident34Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "B",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 35,
+            "title": "incident35Title",
+            "description": "incident35Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "C",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 36,
+            "title": "incident36Title",
+            "description": "incident36Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "D",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 37,
+            "title": "incident37Title",
+            "description": "incident37Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "E",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 38,
+            "title": "incident38Title",
+            "description": "incident38Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "F",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 39,
+            "title": "incident39Title",
+            "description": "incident39Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "G",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 40,
+            "title": "incident40Title",
+            "description": "incident40Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "H",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 41,
+            "title": "incident41Title",
+            "description": "incident41Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 0,
+            "ignorable": true,
+            "type": "RecurrentCity",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "I",
+                "Recurrent",
+                "City",
+                "Infrastructure"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 42,
+            "title": "incident42Title",
+            "description": "incident42Description",
+            "state": 0,
+            "pickPoolSize": 0.1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 43,
+            "title": "incident43Title",
+            "description": "incident43Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 44,
+            "title": "incident44Title",
+            "description": "incident44Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 45,
+            "title": "incident45Title",
+            "description": "incident45Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 46,
+            "title": "incident46Title",
+            "description": "incident46Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 47,
+            "title": "incident47Title",
+            "description": "incident47Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 48,
+            "title": "incident48Title",
+            "description": "incident48Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 49,
+            "title": "incident49Title",
+            "description": "incident49Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": true,
+            "influenceable": false,
+            "tags": [
+                "Food"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Food"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 50,
+            "title": "incident50Title",
+            "description": "incident50Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": true,
+            "influenceable": false,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Admin"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 51,
+            "title": "incident51Title",
+            "description": "incident51Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Talent",
+            "immediate": true,
+            "influenceable": false,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [
+                    "Know"
+                ],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 52,
+            "title": "incident52Title",
+            "description": "incident52Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 5,
+            "ignorable": false,
+            "type": "City",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Storm"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 100
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 53,
+            "title": "incident53Title",
+            "description": "incident53Description",
+            "state": 0,
+            "pickPoolSize": 0,
+            "month": 7,
+            "ignorable": false,
+            "type": "City",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Storm"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 54,
+            "title": "incident54Title",
+            "description": "incident54Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "immediate": false,
+            "influenceable": true,
+            "type": "Disaster",
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 55,
+            "title": "incident55Title",
+            "description": "incident55Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "immediate": false,
+            "influenceable": true,
+            "type": "Disaster",
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 56,
+            "title": "incident56Title",
+            "description": "incident56Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "immediate": false,
+            "influenceable": true,
+            "type": "Disaster",
+            "tags": [
+                "Fix"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 57,
+            "title": "incident57Title",
+            "description": "incident57Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 58,
+            "title": "incident58Title",
+            "description": "incident58Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 59,
+            "title": "incident59Title",
+            "description": "incident59Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "IT"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 60,
+            "title": "incident60Title",
+            "description": "incident60Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 61,
+            "title": "incident61Title",
+            "description": "incident61Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 62,
+            "title": "incident62Title",
+            "description": "incident62Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Nature"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },   
+        {
+            "id": 63,
+            "title": "incident63Title",
+            "description": "incident63Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 64,
+            "title": "incident64Title",
+            "description": "incident64Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 65,
+            "title": "incident65Title",
+            "description": "incident65Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Medical"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 66,
+            "title": "incident66Title",
+            "description": "incident66Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 67,
+            "title": "incident67Title",
+            "description": "incident67Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 68,
+            "title": "incident68Title",
+            "description": "incident68Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Entertain"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 69,
+            "title": "incident69Title",
+            "description": "incident69Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 70,
+            "title": "incident70Title",
+            "description": "incident70Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 71,
+            "title": "incident71Title",
+            "description": "incident71Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Admin"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 72,
+            "title": "incident72Title",
+            "description": "incident72Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 200
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 73,
+            "title": "incident73Title",
+            "description": "incident73Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 300
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        },
+        {
+            "id": 74,
+            "title": "incident74Title",
+            "description": "incident74Description",
+            "state": 0,
+            "pickPoolSize": 1,
+            "month": 0,
+            "ignorable": false,
+            "type": "Disaster",
+            "immediate": false,
+            "influenceable": true,
+            "tags": [
+                "Know"
+            ],
+            "addSerializedOffer": "",
+            "applicationCost": {
+                "expenses": [
+                    {
+                        "currency": "FIAT",
+                        "value": 400
+                    }
+                ],
+                "time": 0
+            },
+            "applicationBenefit": {
+                "removeIncident": [],
+                "addTalent": [],
+                "fairyDust": 0,
+                "income": []
+            },
+            "ignoranceCost": {
+                "expenses": [],
+                "time": 0
+            }
+        }
+    ]
+}

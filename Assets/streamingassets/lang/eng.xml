@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pm>
+    <meta>
+        <gameName>Polymoney</gameName>
+        <author>Koboldgames GmbH</author>
+        <language ISO6393="eng">English</language>
+    </meta>
+
+    <!-- Info -->
+    <!-- attribute uid: Must be an alphanumeric string that uniquely identifies a localisation item. -->
+    <!-- value: Tthe paragraph(s) of text substituted for the aforementioned uid. Curly braces (ex. {0}) are used for value substitution. -->
+    <textlines>
+        <textline uid="gameTitle">
+            <p>Crystal Island Game</p>
+        </textline>
+
+        <!-- Feedback Tool -->
+        <textline uid="feedbackDropdownLabel">
+            <p>What kind of feedback would you like to give?</p>
+        </textline>
+        <textline uid="feedbackFeatureLabel">
+            <p>Request a feature</p>
+        </textline>
+        <textline uid="feedbackBugLabel">
+            <p>Submit an error report</p>
+        </textline>
+        <textline uid="feedbackFeatureIWantLabel">
+            <p>What feature are you missing?</p>
+        </textline>
+        <textline uid="feedbackFeatureCauseLabel">
+            <p>What kind of consequence do you expect?</p>
+        </textline>
+        <textline uid="feedbackBugDescriptionLabel">
+            <p>Describe clearly what has gone wrong.</p>
+        </textline>
+        <textline uid="feedbackBugReproLabel">
+            <p>How can we reproduce it?</p>
+        </textline>
+        <textline uid="feedbackFeatureIWantPlaceholder">
+            <p>As a player, I want...</p>
+        </textline>
+        <textline uid="feedbackFeatureCausePlaceholder">
+            <p>, such that I may...</p>
+        </textline>
+        <textline uid="feedbackBugDescriptionPlaceholder">
+            <p>This does not work:</p>
+        </textline>
+        <textline uid="feedbackBugReproPlaceholder">
+            <p>And this is how you can reproduce it:</p>
+        </textline>
+        <textline uid="feedbackSubmit">
+            <p>Submit</p>
+        </textline>
+        <textline uid="feedbackCancel">
+            <p>Cancel</p>
+        </textline>
+
+        <!-- Lobby -->
+        <textline uid="languageSelection">
+            <p>Choose the game language:</p>
+        </textline>
+        <textline uid="startInfo">
+            <p>You can either host your own multiplayer game, or you can join any of the available games listed below. Note to always make sure that you and your friends are on the same local network.</p>
+        </textline>
+        <textline uid="availableGames">
+            <p>Available Games.</p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>Note, that Crystal Island is a tech supported learning game. We encourage you to look up from your screen and really engage with other players around the table. You will all be guided thorugh the game.</p>
+            <p/>
+            <p>We never collect personal data from players. However, we hope you will agree to contribute non-personal data about your game session.  It will help us to keep improving the game!</p>
+        </textline>
+        <textline uid="hostGame">
+            <p>Host a game</p>
+        </textline>
+        <textline uid="createGame">
+            <p>Create a new island for your friends to join.</p>
+        </textline>
+        <textline uid="placeholderGameName">
+            <p>Game Name...</p>
+        </textline>
+        <textline uid="reminderNetwork">
+            <p>- Make sure you and your friends are in the same local network.</p>
+            <p>- The language you select will be the one displayed for everyone.</p>
+        </textline>
+        <textline uid="lobbyInfo">
+            <p>Please indicate if you would like to run for Mayor of Crystal Island.</p>
+            <p/>
+            <p>The Mayor's task is to manage the finances of Crystal Island and to guide the other players through the game. The Mayor will be chosen randomly from those who choose to run. If nobody runs for Mayor, then one will be chosen at random.</p>
+        </textline>
+        <textline uid="waitingForPlayers">
+            <p>Currently waiting for players.</p>
+        </textline>
+        <textline uid="maxPlayerInfo">
+            <p>At most {0} players may join.</p>
+            <p>You need at least 4 people to play.</p>
+        </textline>
+        <textline uid="runMayorCheck">
+            <p>Run for Mayor</p>
+        </textline>
+        <textline uid="readyCheck">
+            <p>Ready</p>
+        </textline>
+        <textline uid="placeholderPlayerName">
+            <p>Nickname...</p>
+        </textline>
+        <textline uid="defaultPlayerName">
+            <p>Player</p>
+        </textline>
+
+        <!-- Character Sheet -->
+        <!-- This sheet displays information about the player. -->
+        <textline uid="aboutYou">
+            <p>About You</p>
+        </textline>
+        <textline uid="youAre">
+            <p>You are...</p>
+        </textline>
+        <textline uid="youLive">
+            <p>You live in...</p>
+        </textline>
+        <textline uid="homeCost">
+            <p>{0}/month incl. charges</p>
+        </textline>
+        <textline uid="youWork">
+            <p>You work as...</p>
+        </textline>
+        <textline uid="jobTime">
+            <p>{0}%/month</p>
+        </textline>
+        <textline uid="salary">
+            <p>{0}/month</p>
+        </textline>
+        <textline uid="yourTalent">
+            <p>Your talents are...</p>
+        </textline>
+        <textline uid="aboutMajor">
+            <p>Congratulations, you're the Mayor!</p>
+        </textline>
+        <textline uid="majorInfo">
+            <p>We are sure that you will carry this responsibility proudly.</p>
+            <p/>
+            <p>Your task will be to manage the Island's Community Facilities and make sure the Island stays out of debt. Of course, you should also ensure that your Citizens are doing well and that they work together to make the Island prosper.</p>
+            <p/>
+            <p>Recently, a few new Citizens have joined your community. Please ask them to introduce themselves and show them around in the Island.</p>
+        </textline>
+
+        <!-- Balance Sheet -->
+        <!-- This sheet is not currently used in-game. -->
+        <textline uid="balanceTitle">
+            <p>Balance Sheet</p>
+        </textline>
+        <textline uid="incomeHead">
+            <p>Income</p>
+        </textline>
+        <textline uid="expensesHead">
+            <p>Expenses</p>
+        </textline>
+        <textline uid="balanceHead">
+            <p>Balance</p>
+        </textline>
+        <textline uid="currentBalance">
+            <p>Your current balance</p>
+        </textline>
+        <textline uid="totalBalance">
+            <p>Total income and expenses</p>
+        </textline>
+        <textline uid="projectedBalance">
+            <p>Projected Balance</p>
+        </textline>
+
+        <!-- Incident Sheet -->
+        <!-- This sheet is shown when there are still incidents left to solve. -->
+        <textline uid="currentIncidentsTitle">
+            <p>You still need to solve the following</p>
+        </textline>
+
+        <!-- Offer Application Popup -->
+        <!-- This popup allows players to apply (eg. buy or accept) an offer. -->
+        <textline uid="offerPopUpTaxTitle">
+            <p>Taxes</p>
+        </textline>
+        <textline uid="offerPopUpTaxDescription">
+            <p>Would you like to collect taxes from this Citizen?</p>
+        </textline>
+        <textline uid="offerPopUpWelfareTitle">
+            <p>Financial Support</p>
+        </textline>
+        <textline uid="offerPopUpWelfareDescription">
+            <p>Would you like to give Financial Support to this Citizen and relieve them from paying taxes this month?</p>
+        </textline>
+        <textline uid="offerPopUpCloseButton">
+            <p>Cancel</p>
+        </textline>
+        <textline uid="offerPopUpApplyButton">
+            <p>Yes</p>
+        </textline>
+
+        <!-- Incident Application Popup -->
+        <!-- This popup allows players to apply or resolve an incident. -->
+        <textline uid="incidentPopUpCloseButton">
+            <p>Close</p>
+        </textline>
+        <textline uid="incidentPopUpReceiveButton">
+            <p>Receive</p>
+        </textline>
+        <textline uid="incidentPopUpPayButton">
+            <p>Pay</p>
+        </textline>
+        <textline uid="incidentPopUpResolveButton">
+            <p>Use Talent</p>
+        </textline>
+
+        <!-- Offer Notification -->
+        <!-- This popup appears for the player that has just sold an offer. -->
+        <textline uid="offerNotificationCloseButton">
+            <p>Close</p>
+        </textline>
+        <textline uid="offerNotificationMayorName">
+            <p>The Mayor</p>
+        </textline>
+        <textline uid="offerNotificationBuyTitle">
+            <p>{0} has bought your offer!</p>
+        </textline>
+        <textline uid="offerNotificationReceiveTitle">
+            <p>{0} has accepted your offer!</p>
+        </textline>
+        <textline uid="offerNotificationWelfareTitle">
+            <p>{0} has given you welfare benefits!</p>
+        </textline>
+
+        <!-- Marketplace -->
+        <!-- Marketplaces display available offers and allow owners (eg. sellers) to manage offers. -->
+        <textline uid="marketplaceTitle">
+            <p>Marketplace</p>
+        </textline>
+        <textline uid="marketplaceDescription">
+            <p>Description</p>
+        </textline>
+        <textline uid="createOfferWith">
+            <p>Create a new Offer:</p>
+        </textline>
+        <textline uid="ownedOffers">
+            <p>Offers others can buy from you:</p>
+        </textline>
+        <textline uid="ownedOffersTitle">
+            <p>Offers others can buy from you:</p>
+        </textline>
+        <textline uid="createTradeOffer">
+            <p>Trade / Gift</p>
+        </textline>
+        <textline uid="createTradeOfferSubtitle">
+            <p>This is a simple trade offer</p>
+        </textline>
+        <textline uid="createWelfareOffer">
+            <p>Financial Support</p>
+        </textline>
+        <textline uid="createOfferTitle">
+            <p>Create New Offer</p>
+        </textline>
+        <textline uid="createPrice">
+            <p>You get:</p>
+        </textline>
+        <textline uid="createBuyerGets">
+            <p>Buyer gets:</p>
+        </textline>
+        <textline uid="createOfferFailureMoney">
+            <p>You do not have enough money left to make this offer.</p>
+        </textline>
+        <textline uid="createOfferFailureTime">
+            <p>You do not have enough free time this month to make this offer.</p>
+        </textline>
+        <textline uid="applyOfferFailureMoney">
+            <p>You do not have enough money to pay for this offer.</p>
+        </textline>
+        <textline uid="marketplaceCityTitle">
+            <p>Island Player</p>
+        </textline>
+        <textline uid="marketplaceCitySubtitle">
+            <p>Marketplace of {0}</p>
+        </textline>
+        <textline uid="marketplaceCitizenSubtitle">
+            <p>Personal marketplace of {0}</p>
+        </textline>
+        <textline uid="benefitGet">
+            <p>You get: </p>
+        </textline>
+        <textline uid="currencyFairydust">
+            <p>Fairydust.</p>
+        </textline>
+        <textline uid="currencyMoney">
+            <p>.-</p>
+        </textline>
+        <textline uid="removeIncident">
+            <p>Help with: </p>
+        </textline>
+        <textline uid="newOffer">
+            <p>'{0}' Offer</p>
+        </textline>
+        <textline uid="talentHelps">
+            <p>Helps with </p>
+        </textline>
+        <textline uid="marketPlaceEmptyText">
+            <p>Empty.</p>
+        </textline>
+
+        <!-- Fortune Wheel -->
+        <textline uid="toughLuck">
+            <p>You already have that talent. Better luck next time!</p>
+        </textline>
+
+        <!-- Currency Visualisation -->
+        <textline uid="fiatCurrencyLetter">
+            <p>$</p>
+        </textline>
+        <textline uid="qCurrencyLetter">
+            <p>W</p>
+        </textline>
+        <textline uid="FIATName">
+            <p>Gold</p>
+        </textline>
+        <textline uid="QName">
+            <p>Water Crystals</p>
+        </textline>
+        <textline uid="forFreeText">
+            <p>For free!</p>
+        </textline>
+
+        <!-- Incident Visualisation -->
+        <textline uid="incidentType">
+            <p>{0}!</p>
+        </textline>
+        <textline uid="incidentImmediate">
+            <p>Applies immediately.</p>
+        </textline>
+        <textline uid="incidentLater">
+            <p>Applies at month's end.</p>
+        </textline>
+        <textline uid="incidentIncome">
+            <p>{0:D}</p>
+        </textline>
+        <textline uid="incidentExpenses">
+            <p>{0:D}</p>
+        </textline>
+        <textline uid="incidentBalance">
+            <p>{0:D}</p>
+        </textline>
+
+        <!-- Mayor Tutorial -->
+        <textline uid="tutoMWelcomeTitle">
+            <p>You are the Mayor!</p>
+        </textline>
+        <textline uid="tutoMWelcome">
+            <p>Congratulations, you were elected Mayor of Crystal Island! Your task as Mayor is to keep the Island in good shape and care for the well being of your Citizens.</p>
+        </textline>
+        <textline uid="tutoMSurviveTitle">
+            <p>We need to survive!</p>
+        </textline>
+        <textline uid="tutoMSurvive">
+            <p> Lead them through difficult dark times.</p>
+            <p> The better you do your job, the brighter the crystals will shine.</p>
+        </textline>
+        <textline uid="tutoMSurvive2">
+        	<p></p>
+        </textline>
+
+ 		<!-- Player Tutorial -->
+        <textline uid="tutoPWelcomeTitle">
+            <p>You are a Citizen!</p>
+        </textline>
+        <textline uid="tutoPIntro1">
+        	<p>You are a Citizen of Crystal Island! Each month you will need to pay for things to survive, but like in real life you will be confronted with lucky or unlucky events!</p>
+        </textline>
+        <textline uid="tutoPIntro2">
+        	<p></p>
+        </textline>
+        <textline uid="tutoPIntro3">
+        	<p></p>
+        </textline>
+        <textline uid="tutoPIntro4">
+        	<p>Here is your character profile where you can check your income, find out where you live, and what your talents are.</p>
+        </textline>
+
+
+
+        <textline uid="tutoMStoryIslandTitle">
+            <p>Welcome to Crystal Island!</p>
+        </textline>
+
+        <textline uid="tutoIntroQuest">
+        	<p>Before we start the game, please try to role play your character and engage with other players as much as possible. Take note of how you feel as you play the game.</p>
+        </textline>
+        <textline uid="tutoLetsPlay">
+        	<p>Now, let's play!</p>
+        </textline>
+        <textline uid="tutoCW">
+        	<p>Now, let's play!</p>
+        </textline>       
+
+        <textline uid="tutoMStoryIsland">
+            <p>Millenia ago, all the Island shone with light. No walls cast shadows. No stars flickered out. We’ve forgotten those times. The Island has fallen into darkness now.Those who thought the light shone for them alone stockpiled it for their own use. When memory forgot the former abundance, the world of contrast came into being. No one simply was, they were and were not.People forgot that energy can be shared. That talent can be used to spread goodness, not hoard it. The Island is dying. Now it’s up to you: Take up your mantle and bring the shared light back into our Island. With your help, we can together change the world.</p>
+        </textline>
+
+        <textline uid="tutoMIntroduceTitle">
+            <p>Round of Introductions!</p>
+        </textline>
+        <textline uid="tutoMIntroduce">
+            <p>Your co-players have now gotten their characters. After they are done reading, ask them to introduce themselves!</p>
+        </textline>
+        <textline uid="tutoMIntroduceConfirm">
+            <p>Did everyone introduce themselves?</p>
+        </textline>
+        <textline uid="tutoMMaintenanceTitle">
+            <p>Maintaining Community Facilities</p>
+        </textline>
+        <textline uid="tutoMMaintenance">
+            <p>As the Mayor you need to maintain Community Facilities. Try doing this by clicking on a Community Facility with a symbol on top of it!</p>
+        </textline>
+        <textline uid="tutoMDumpTitle">
+            <p>Well Done!</p>
+        </textline>
+        <textline uid="tutoMDump">
+            <p>You just paid for maintenance cost for this Community Facility! You will need to pay for maintenance every turn. If you can't pay the facility will fall into disrepair.  Citizens will suffer and your will continue to go up. Try your best to maintain every facility each month!</p>
+        </textline>
+        <textline uid="tutoMTaxesTitle">
+            <p>Collect Taxes!</p>
+        </textline>
+        <textline uid="tutoMTaxes">
+            <p>Your Citizens help you maintain Community Facilities by paying taxes. When a Citizen pays their taxes a green symbol will appear above their head. Click on the green symbol to collect their taxes!</p>
+        </textline>
+        <textline uid="tutoMWelfareTitle">
+            <p>Giving Financial Support</p>
+        </textline>
+        <textline uid="tutoMWelfare">
+            <p>If a Citizen is having trouble paying their taxes, you have the option of giving them Financial Support. If you choose to provide support, they will receive 500 gold.  They will also be excused from paying taxes that month.</p>
+        </textline>
+        <textline uid="tutoMStoryTaxesTitle">
+            <p>Mayor Dashboard</p>
+        </textline>
+        <textline uid="tutoMStoryTaxes">
+            <p>You can keep track of the well being of your Citizens by using the Mayor dashboard. Try using it by clicking the arrow on the left! The dashboard shows the talents of each Citizen as well as the problems they are dealing with. Use the dashboard to encourage Citizens to help each other!</p>
+        </textline>
+        <textline uid="tutoMInterfaceTitle">
+            <p>Good Job!</p>
+        </textline>
+        <textline uid="tutoMInterface">
+            <p>You finished all your tasks this month! It's now up to you to lead the Island and coordinate the Citizens.</p>
+            <p/>
+            <p>You can see how your Island is doing at the top left of your screen.</p>
+        </textline>
+        <textline uid="tutoMLooseConditionTitle">
+            <p>How to Win</p>
+        </textline>
+        <textline uid="tutoMLooseCondition">
+            <p>You and your Citizens need to survive for 12 months. The game ends when you do not have enough money to maintain Community Facilities and keep the Citizens happy and healthy.</p>
+            <p/>
+            <p>Good Luck!</p>
+        </textline>
+
+        <!-- Player Tutorial -->
+        <textline uid="tutoCloseAlertButton">
+            <p>OK</p>
+        </textline>
+        <textline uid="tutoMoveMajor">
+            <p>Tap on the ground to move your character.</p>
+            <p>Move your character to the fortune wheel to see what fortune has in store for your Island.</p>
+        </textline>
+        <textline uid="tutoMoveEndMajor">
+            <p>Perfect. Now let's wait for all your citizens to do the same.</p>
+        </textline>
+        <textline uid="tutoMoveCitizen">
+            <p>Tap on the ground to move your character.</p>
+            <p>Move your character to the wheel of fortune, to see what fortune has in store for you this month!</p>
+        </textline>
+        <textline uid="tutoMoveEndCitizen">
+            <p>Perfect. Now let's wait for your friends.</p>
+        </textline>
+        <textline uid="tutoWheelGood">
+            <p>That was lucky! At the beginning of each month you will get to spin the wheel of fortune 2 times!</p>
+        </textline>
+        <textline uid="tutoIncidentsBegin">
+            <p>Click the icons on top of the buildings to resolve your monthly incidents.</p>
+        </textline>
+        <textline uid="tutoIncidentsEnd">
+            <p>Good job! You have resolved all you incidents this month. Click on the End Turn button in the lower right to end your turn.</p>
+        </textline>
+        <textline uid="tutoEndTurn">
+            <p>As a Citizen of Crystal Island, there are several things you need to survive. Each month, you need to pay for food and housing, and you need to pay taxes to help the Mayor maintain Community Facilities that everyone needs.</p>
+        </textline>
+        <textline uid="tutoWheelBad">
+            <p>Uh oh! You weren't so lucky this month.</p>
+        </textline>
+        <textline uid="tutoAskHelp">
+            <p>Something unexpected happened this month. You can pay in gold to resolve this incident, or maybe a fellow Citizen can help you out?</p>
+        </textline>
+        <textline uid="tutoOpenTrade">
+            <p>Trading with other players</p>
+        </textline>
+        <textline uid="tutoCreateOffer">
+            <p>You can now trade with other Citizens! To get started, tap on your character to open the trade menu.</p>
+        </textline>
+        <textline uid="tutoOpenTrade2">
+            <p>Creating an offer</p>
+        </textline>
+        <textline uid="tutoCreateOffer2">
+            <p>Welcome to the trading menu, here you can create offers that other Citizens can buy. To create an Offer, tap on one of your talents at the bottom of the screen.</p>
+        </textline>
+        <textline uid="tutoOpenTrade3">
+            <p>Good Job!</p>
+        </textline>
+        <textline uid="tutoTradeFriend">
+            <p>You have successfully created offers that other Citizens can buy! They can see your offers above your head. Note that each offer you make uses 10% of your free time.</p>
+        </textline>
+        <textline uid="tutoOpenTrade4">
+            <p>Buying Offers from other Citizens</p>
+        </textline>
+        <textline uid="tutoBuy">
+            <p>Well done! You are now offering your talents to help out fellow Citizens! Now let's see if any  character is offering a talent that can help you resolve an incident. Who knows, you might even get a discount! Tap on an Offer above a fellow Citizen's head to get started!</p>
+        </textline>
+
+        <textline uid="tutoEndSecond">
+            <p>You can trade as much as you want each month. Your goal as a Citizen is to survive for 12 months. If you are finished, click on the End Turn button.</p>
+        </textline>
+
+        <!-- Faciliator Tutorial (Complementary Currency Introduction) -->
+        <textline uid = "tutoFTitle">
+        	<p>Stop and Listen!</p>
+        </textline>
+        <textline uid="tutoF1">
+            <p>The darkness is growing and Community Facilities are starting to close. It looks like your taxes alone are not enough to maintain them. Discuss with your fellow Citizens how you might solve this challenge!</p>
+        </textline>
+
+        <textline uid = "tutoF2">
+        	<p>Beat the darkness! The Game ends when the Island falls into darkness. You can bring back the light by supporting each other, paying your taxes, and helping the Mayor to keep Community Facilities working. You only have 12 months to bring back the light and survive! End each month by clicking on the "End Turn" button on the bottom right.</p>
+        </textline>
+
+        <textline uid = "tutoF3">
+        	<p>The Island gets lighter when Community Facilities are active and well-maintained. The Mayor needs your taxes to keep Community Facilities working for Citizens. The Mayor collects taxes by clicking on the icon above your head. If your money is low, don't pay your taxes and ask the Mayor for Financial Support!</p>
+        </textline>
+
+        <textline uid = "tutoF4">
+        	<p>Some Citizens are already struggling to survive. Your Mayor can support you with Financial Support. But be aware: the more your struggle, the darker the Island gets for everyone.</p>
+        </textline>
+
+        <!-- Mayor Tutorial (Complementary Currency Introduction) -->
+        <textline uid="tutoMQBeginTitle">
+            <p>The island treasury is dwindling!</p>
+        </textline>
+        <textline uid="tutoMQBegin">
+            <p>You may have already noticed that the taxes won't be enough to maintain the Island. That's why you are introducing a new currency: Water Crystals.</p>
+        </textline>
+        <textline uid="tutoMQWhatTitle">
+            <p>Introducing Water Crystals!</p>
+        </textline>
+        <textline uid="tutoMQWhat">
+            <p>In order to deal with financial troubles and growing darkness, the Mayor is introducing a new type of currency: Water Crystals. Water Crystals can be used like Gold to create or buy Offers. Using Water Crystals is another way to share energy and talents to empower each other!</p>
+        </textline>
+        <textline uid="tutoMQStoryTitle">
+            <p>But wait, there's more!</p>
+        </textline>
+        <textline uid="tutoMQStory">
+            <p>In addition to introducing Water Crystals, the Mayor is asking for your help to keep Community Facilities working! If you're willing to offer your talents at a Community Facility, please select one here. You can also click the Wheel of Fortune any time to select a Community Facility to help maintain.</p>
+        </textline>
+
+        <!-- Player Tutorial (Complementary Currency Introduction) -->
+        <textline uid="tutoQBeginHeader">
+            <p>An complementary currency</p>
+        </textline>
+        <textline uid="tutoQBegin">
+            <p>The Island is getting darker, so the Mayor has introduced a new currency: Water Crystals</p>
+            <p>To earn Water Crystals, you can create Offers on the Community Facility you select. This activates the Community Facility and brings light to the Island!</p>
+        </textline>
+        <textline uid="tutoQChooseHeader">
+            <p>Choose a Community Facility!</p>
+        </textline>
+        <textline uid="tutoQChoose">
+            <p>Help the Island by adding your talents to a Community Facility. Press the arrows on left and right to select a Community Facility!</p>
+        </textline>
+        <textline uid="tutoQSearchBuilding">
+            <p>Tap on your Community Facility to examine it!</p>
+        </textline>
+        <textline uid="tutoQInvestHeader">
+            <p>Invest time, get Water Crystals</p>
+        </textline>
+        <textline uid="tutoQInvest">
+            <p>Welcome to your Community Facility! The Mayor is grateful for your participation! To activate your Community Facility, simply tap on it (instead of your character) to make an Offer. For every Offer you create on your Community Facility, you will recieve 100 Water Crystals!</p>
+        </textline>
+        <textline uid="tutoQCreateOffer">
+            <p>Other Citizens may be making Offers on other Community Facilities. See if they can help you resolve monthly incidents. When you buy Offers at Community Facilities, the Island lights up!</p>
+        </textline>
+        <textline uid="tutoQNoOfferHeader">
+            <p>You did not create an Offer!</p>
+        </textline>
+        <textline uid="tutoQNoOffer">
+            <p>Are you sure you don't want to create an offer?</p>
+            <p>You won't get Water Crystals and the Mayor must pay for to maintain the Community Facility!</p>
+        </textline>
+        <textline uid="tutoQWhatHeader">
+            <p>What are Water Crystals for?</p>
+        </textline>
+        <textline uid="tutoQWhat">
+            <p>Water Crystals are a complementary currency. You can't pay yet your taxes or your housing with it, but you can buy anything else you need to live!</p>
+        </textline>
+
+        <!-- Special Buildings -->
+        <textline uid="buildingVillaTitle">
+            <p>Cultural Center</p>
+        </textline>
+        <textline uid="buildingIndustrialTitle">
+            <p>Production Zone</p>
+        </textline>
+        <textline uid="buildingParkTitle">
+            <p>Park</p>
+        </textline>
+        <textline uid="buildingGardenTitle">
+            <p>Garden</p>
+        </textline>
+        <textline uid="buildingLakeTitle">
+            <p>Lake</p>
+        </textline>
+        <textline uid="buildingTreeTitle">
+            <p>Meeting Tree</p>
+        </textline>
+        <textline uid="bGardenTitle">
+            <p>Garden Facility</p>
+        </textline>
+        <textline uid="bGarden">
+            <p>Use this Public Resource to offer your talents in the Gardens.</p>
+        </textline>
+        <textline uid="bIndustrialTitle">
+            <p>Production Facility</p>
+        </textline>
+        <textline uid="bIndustrial">
+            <p>Use this Public Resource to offer your talents in the Production Zone.</p>
+        </textline>
+        <textline uid="bLakeTitle">
+            <p>Lake Park</p>
+        </textline>
+        <textline uid="bLake">
+            <p>Use this Public Resource to offer your talents in the Lake Park.</p>
+        </textline>
+        <textline uid="bParkTitle">
+            <p>Park</p>
+        </textline>
+        <textline uid="bPark">
+            <p>Use this Public Resource to offer your talents in the park.</p>
+        </textline>
+        <textline uid="bTreeTitle">
+            <p>Meeting Tree</p>
+        </textline>
+        <textline uid="bTree">
+            <p>Use this Public Resource to offer your talents in the Meeting Tree.</p>
+        </textline>
+        <textline uid="bVillaTitle">
+            <p>Cultural Center</p>
+        </textline>
+        <textline uid="bVilla">
+            <p>Use this Public Resource to offer your talents in the Cultural Center.</p>
+        </textline>
+
+        <!-- Buttons -->
+        <textline uid="btnBack">
+            <p>Back</p>
+        </textline>
+        <textline uid="btnLeave">
+            <p>Leave</p>
+        </textline>
+        <textline uid="btnCreateGame">
+            <p>Create Game</p>
+        </textline>
+        <textline uid="btnOk">
+            <p>OK got it!</p>
+        </textline>
+        <textline uid="btnLetPlay">
+            <p>Let's Play!</p>
+        </textline>
+        <textline uid="btnStart">
+            <p>Start</p>
+        </textline>
+        <textline uid="btnClose">
+            <p>Close</p>
+        </textline>
+        <textline uid="btnRemove">
+            <p>Remove</p>
+        </textline>
+        <textline uid="btnBuy">
+            <p>Buy</p>
+        </textline>
+        <textline uid="btnQuit">
+            <p>Quit Game</p>
+        </textline>
+        <textline uid="btnCreate">
+            <p>Create</p>
+        </textline>
+        <textline uid="btnCancel">
+            <p>Cancel</p>
+        </textline>
+
+        <!-- Player turns -->
+        <textline uid="turnWait">
+            <p>Waiting...</p>
+        </textline>
+        <textline uid="turnWaitOthers">
+            <p>Waiting for other players to finish their incidents...</p>
+        </textline>
+        <textline uid="turnWaitStory">
+            <p>Wait and listen to your mayor!</p>
+        </textline>
+        <textline uid="turnOk">
+            <p>Ok</p>
+        </textline>
+        <textline uid="turnEnd">
+            <p>End turn.</p>
+        </textline>
+
+        <!-- Persons -->
+        <textline uid="person0Name">
+            <p>Kalani</p>
+        </textline>
+        <textline uid="person0Description">
+            <p>5000 years old, free radical (no partner), no progeny</p>
+        </textline>
+        <textline uid="person0Education">
+            <p>Education: Level 2 training</p>
+        </textline>
+        <textline uid="person0Hobbies">
+            <p>Hobbies: Playing with extraterrestrial pet (Levix), leading talk clusters, helping friends</p>
+        </textline>
+        <textline uid="person1Name">
+            <p>Nopala</p>
+        </textline>
+        <textline uid="person1Description">
+            <p>6230 years old, twice partnered, two grown progeny</p>
+        </textline>
+        <textline uid="person1Education">
+            <p>Education: Level 4 training, alchemy experience</p>
+        </textline>
+        <textline uid="person1Hobbies">
+            <p>Hobbies: Testing elixirs,cultivating natural remedies</p>
+        </textline>
+        <textline uid="person2Name">
+            <p>Gaylen</p>
+        </textline>
+        <textline uid="person2Description">
+            <p>3367 years old, in a partner relationship, one progeny</p>
+        </textline>
+        <textline uid="person2Education">
+            <p>Education: Level 3 training, some experience in many sectors</p>
+        </textline>
+        <textline uid="person2Hobbies">
+            <p>Hobbies: Rock climbing, hex games, refraction shows</p>
+        </textline>
+        <textline uid="person3Name">
+            <p>Olafin</p>
+        </textline>
+        <textline uid="person3Description">
+            <p>4134 years old, unpartnered, no progeny</p>
+        </textline>
+        <textline uid="person3Education">
+            <p>Education: Level 2 training, partial 3</p>
+        </textline>
+        <textline uid="person3Hobbies">
+            <p>Hobbies: Quartz Vaping, playing vibrachord</p>
+        </textline>
+        <textline uid="person4Name">
+            <p>Indiram</p>
+        </textline>
+        <textline uid="person4Description">
+            <p>2012 years old, pre-partner, no progeny</p>
+        </textline>
+        <textline uid="person4Education">
+            <p>Education: Training in Level 2 Biokriology</p>
+        </textline>
+        <textline uid="person4Hobbies">
+            <p>Hobbies: Mountain climbing, pond building, gardening</p>
+        </textline>
+        <textline uid="person5Name">
+            <p>Shandral</p>
+        </textline>
+        <textline uid="person5Description">
+            <p>4398 years old, one lifepartner, two neoprogeny</p>
+        </textline>
+        <textline uid="person5Education">
+            <p>Education: Apprenticeship Level 2, sector communication</p>
+        </textline>
+        <textline uid="person5Hobbies">
+            <p>Hobbies: Herb collecting, creating recipes, caring for farm insects</p>
+        </textline>
+        <textline uid="person6Name">
+            <p>Hanovi</p>
+        </textline>
+        <textline uid="person6Description">
+            <p>3085 years old, unpartnered, two young progeny</p>
+        </textline>
+        <textline uid="person6Education">
+            <p>Education: Level 5 training, experience in molecular energy</p>
+        </textline>
+        <textline uid="person6Hobbies">
+            <p>Hobbies: Physio-blasting, electro-gaming, crystal warping</p>
+        </textline>
+        <textline uid="person7Name">
+            <p>Mika</p>
+        </textline>
+        <textline uid="person7Description">
+            <p>5355 years old, post-partner, three progreny</p>
+        </textline>
+        <textline uid="person7Education">
+            <p>Education: Level 5 training in social abundance</p>
+        </textline>
+        <textline uid="person7Hobbies">
+            <p>Hobbies: mind-melding, foraging wisdom caves, testing speech vibrations</p>
+        </textline>
+
+        <!-- Mayor Persons -->
+        <textline uid="mayorPerson0Name">
+            <p>Mayor</p>
+        </textline>
+        <textline uid="mayorPerson0Description">
+            <p>After all, they should be prepared for their role as citizens of your island.</p>
+        </textline>
+        <textline uid="mayorPerson0Education">
+            <p>Congratulations, you run this show!</p>
+        </textline>
+        <textline uid="mayorPerson0Hobbies">
+            <p>Recently, a few new citizens have joined your community. It would be best for you to introduce them to one another and to show them around in the island.</p>
+        </textline>
+
+        <!-- Homes -->
+        <textline uid="home0Title">
+            <p>Tiny Home</p>
+        </textline>
+        <textline uid="home0Description">
+            <p>Terra level, humid with mould.</p>
+        </textline>
+        <textline uid="home1Title">
+            <p>Tiny Home</p>
+        </textline>
+        <textline uid="home1Description">
+            <p>Terra level with shared garden, soon needs repair.</p>
+        </textline>
+        <textline uid="home2Title">
+            <p>Cosy Home</p>
+        </textline>
+        <textline uid="home2Description">
+            <p>Terra level with balcony soft star orientation, soon needs repair.</p>
+        </textline>
+        <textline uid="home3Title">
+            <p>Cosy Home</p>
+        </textline>
+        <textline uid="home3Description">
+            <p>Sky level with access to roof, soft star orientation, roof needs repair.</p>
+        </textline>
+        <textline uid="home4Title">
+            <p>Comfortable Home</p>
+        </textline>
+        <textline uid="home4Description">
+            <p>Sky level with balcony medium star orientation, clean and in good condition.</p>
+        </textline>
+        <textline uid="home5Title">
+            <p>Comfortable Home</p>
+        </textline>
+        <textline uid="home5Description">
+            <p>Mid level with balcony and strong star orientation, soon needs repair.</p>
+        </textline>
+        <textline uid="home6Title">
+            <p>Comfortable Home</p>
+        </textline>
+        <textline uid="home6Description">
+            <p>Sky level with access to roof, strong star orientation, good condition.</p>
+        </textline>
+        <textline uid="home7Title">
+            <p>Comfortable Home</p>
+        </textline>
+        <textline uid="home7Description">
+            <p>Mid level with no balcony, medium star orientation, in good repair.</p>
+        </textline>
+        <textline uid="home8Title">
+            <p>Large Home</p>
+        </textline>
+        <textline uid="home8Description">
+            <p>Terra level with balcony, strong star orientation, good condition.</p>
+        </textline>
+        <textline uid="home9Title">
+            <p>Large Home</p>
+        </textline>
+        <textline uid="home9Description">
+            <p>Mid level with balcony, strong star orientation, soon needs repair.</p>
+        </textline>
+
+        <!-- Mayor Homes -->
+        <textline uid="mayorHome0Title">
+            <p>Comfortable Home</p>
+        </textline>
+        <textline uid="mayorHome0Description">
+            <p>Mid level, close to community center, good condition, nice and clean.</p>
+        </textline>
+
+        <!-- Unemployment -->
+        <textline uid="unemployed0Title">
+            <p>Unemployed</p>
+        </textline>
+        <textline uid="unemployed0Description">
+            <p>You have no job for no particular reason.</p>
+        </textline>
+
+        <!-- Jobs -->
+        <textline uid="job0Title">
+            <p>Gem Protector</p>
+        </textline>
+        <textline uid="job0Description">
+            <p>Shift work in mining sector.</p>
+        </textline>
+        <textline uid="job1Title">
+            <p>Residence Manager</p>
+        </textline>
+        <textline uid="job1Description">
+            <p>Has an assistant and an office.</p>
+        </textline>
+        <textline uid="job2Title">
+            <p>Holomovie Projector</p>
+        </textline>
+        <textline uid="job2Description">
+            <p>Manages community theater</p>
+        </textline>
+        <textline uid="job3Title">
+            <p>Crystal Shaper</p>
+        </textline>
+        <textline uid="job3Description">
+            <p>Has their own office in the mining sector.</p>
+        </textline>
+        <textline uid="job4Title">
+            <p>Hover Driver</p>
+        </textline>
+        <textline uid="job4Description">
+            <p>Provides local transportation.</p>
+        </textline>
+        <textline uid="job5Title">
+            <p>Elixer Mixer</p>
+        </textline>
+        <textline uid="job5Description">
+            <p>Develops new tastes</p>
+        </textline>
+        <textline uid="job6Title">
+            <p>Administrator</p>
+        </textline>
+        <textline uid="job6Description">
+            <p>Provides services from shared office space.</p>
+        </textline>
+        <textline uid="job7Title">
+            <p>Cleaner</p>
+        </textline>
+        <textline uid="job7Description">
+            <p>Maintains beauty in buildings and grounds.</p>
+        </textline>
+
+        <!-- Mayor Jobs -->
+        <textline uid="mayorJob0Title">
+            <p>Mayor</p>
+        </textline>
+        <textline uid="mayorJob0Description">
+            <p>You manage the island's projects, budget and the wellbeing of your citizens.</p>
+        </textline>
+
+        <!-- Talents -->
+        <textline uid="talent0Title">
+            <p>Crystal Tuner</p>
+        </textline>
+        <textline uid="talent0Description">
+            <p>You're very good at fixing stuff.</p>
+        </textline>
+        <textline uid="talent0Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent1Title">
+            <p>Molecular Programmer</p>
+        </textline>
+        <textline uid="talent1Description">
+            <p>You have a talent in everything machine and computer related.</p>
+        </textline>
+        <textline uid="talent1Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent2Title">
+            <p>Green Thumb</p>
+        </textline>
+        <textline uid="talent2Description">
+            <p>You have a natural talent for growing things and taking care for plants.</p>
+        </textline>
+        <textline uid="talent2Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent3Title">
+            <p>Medicinal Herbs</p>
+        </textline>
+        <textline uid="talent3Description">
+            <p>You know a lot about medicine and healing.</p>
+        </textline>
+        <textline uid="talent3Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent4Title">
+            <p>Melody Maker</p>
+        </textline>
+        <textline uid="talent4Description">
+            <p>You are a very talented entertainer and musician.</p>
+        </textline>
+        <textline uid="talent4Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent5Title">
+            <p>Star Cook</p>
+        </textline>
+        <textline uid="talent5Description">
+            <p>You are an excellent provider of special foods and drinks.You can provide food for other people!</p>
+        </textline>
+        <textline uid="talent5Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent6Title">
+            <p>Organizer</p>
+        </textline>
+        <textline uid="talent6Description">
+            <p>You are very organized and able to work with all types of beings.</p>
+        </textline>
+        <textline uid="talent6Type">
+            <p>Service</p>
+        </textline>
+        <textline uid="talent7Title">
+            <p>Sage</p>
+        </textline>
+        <textline uid="talent7Description">
+            <p>You love knowledge and like to share it with everyone.You can help with all kinds of tricky quetsions.</p>
+        </textline>
+        <textline uid="talent7Type">
+            <p>Service</p>
+        </textline>
+
+        <!-- Mayor Talents -->
+        <textline uid="mayorTalent0Title">
+            <p>Mayoral Duties</p>
+        </textline>
+        <textline uid="mayorTalent0Description">
+            <p>You have to pay to maintain the common areas, collect commons fees from the citizens, provide support for those in need, and overall, you guide everyone in this game.</p>
+        </textline>
+        <textline uid="mayorTalent0Type">
+            <p>Service</p>
+        </textline>
+
+        <!-- Incidents -->
+        <textline uid="incident0Title">
+            <p>You misdirected your cleaning ray!</p>
+        </textline>
+        <textline uid="incident0Description">
+            <p>Pay 300.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident1Title">
+            <p>You won in the commons game!</p>
+        </textline>
+        <textline uid="incident1Description">
+            <p>You didn't quite get the jackpot, but 250.- is still really nice.</p>
+        </textline>
+        <textline uid="incident2Title">
+            <p>A storm sweeps the island!</p>
+        </textline>
+        <textline uid="incident2Description">
+            <p>The storm damaged several older buildings, and smashed some windows and crystals.</p>
+        </textline>
+        <textline uid="incident3Title">
+            <p>Taxes due this month</p>
+        </textline>
+        <textline uid="incident3Description">
+            <p/>
+        </textline>
+        <textline uid="incident4Title">
+            <p>Expenses for food this month</p>
+        </textline>
+        <textline uid="incident4Description">
+            <p/>
+        </textline>
+        <textline uid="incident5Title">
+            <p>Earnings from your work</p>
+        </textline>
+        <textline uid="incident5Description">
+            <p/>
+        </textline>
+        <textline uid="incident6Title">
+            <p>Home payment</p>
+        </textline>
+        <textline uid="incident6Description">
+            <p/>
+        </textline>
+        <textline uid="incident7Title">
+            <p>It's your birthday!</p>
+        </textline>
+        <textline uid="incident7Description">
+            <p>Your parents gave you some money to spend on this special day.</p>
+        </textline>
+        <textline uid="incident8Title">
+            <p>Pocket Money.</p>
+        </textline>
+        <textline uid="incident8Description">
+            <p>You found some extra money in your coat pocket. Who put it there?</p>
+        </textline>
+        <textline uid="incident9Title">
+            <p>Couch food!</p>
+        </textline>
+        <textline uid="incident9Description">
+            <p>You found some leftovers. Lucky you!</p>
+        </textline>
+        <textline uid="incident10Title">
+            <p>Friendly Neighbour</p>
+        </textline>
+        <textline uid="incident10Description">
+            <p>Your neighbour cooked too much and gave you the leftovers.</p>
+        </textline>
+        <textline uid="incident11Title">
+            <p>Visit from Mom</p>
+        </textline>
+        <textline uid="incident11Description">
+            <p>Your mom brought some food over. Nice!</p>
+        </textline>
+        <textline uid="incident12Title">
+            <p>Visit from Dad</p>
+        </textline>
+        <textline uid="incident12Description">
+            <p>Your dad brought some food over. Nice!</p>
+        </textline>
+        <textline uid="incident13Title">
+            <p>Your hover car broke down.</p>
+        </textline>
+        <textline uid="incident13Description">
+            <p>Pay 400.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident14Title">
+            <p>Your waste filter is broken.</p>
+        </textline>
+        <textline uid="incident14Description">
+            <p>Pay 200.- for crystal tuning or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident15Title">
+            <p>Your energy bike broke down</p>
+        </textline>
+        <textline uid="incident15Description">
+            <p>Pay 200.- for crystal tuning or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident16Title">
+            <p>Your computing crystal won't turn on</p>
+        </textline>
+        <textline uid="incident16Description">
+            <p>Pay 400.- for a machine service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident17Title">
+            <p>Your communicator sounds distorted</p>
+        </textline>
+        <textline uid="incident17Description">
+            <p>Pay 300.- for a repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident18Title">
+            <p>An invasive virus distorts your crystal shaper</p>
+        </textline>
+        <textline uid="incident18Description">
+            <p>How did that happen? Pay 300.- for a repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident19Title">
+            <p>Your plants are sick</p>
+        </textline>
+        <textline uid="incident19Description">
+            <p>Pay 200.- for new ones or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident20Title">
+            <p>Your garden is overgrown</p>
+        </textline>
+        <textline uid="incident20Description">
+            <p>A neighbor complained about this. Pay 300.- for a garden service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident21Title">
+            <p>Your plants are all dead</p>
+        </textline>
+        <textline uid="incident21Description">
+            <p>Buy new ones for 200.- to keep your living space fresh aired or ask a friend to revive them.</p>
+        </textline>
+        <textline uid="incident22Title">
+            <p>You have an itch</p>
+        </textline>
+        <textline uid="incident22Description">
+            <p>Could it be a rash? Pay 200.- for a healer or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident23Title">
+            <p>You have a nasty cold</p>
+        </textline>
+        <textline uid="incident23Description">
+            <p>Luckily there is a medicine for that! Pay 300.- for the anti-cold or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident24Title">
+            <p>You have bright pink dots in your face</p>
+        </textline>
+        <textline uid="incident24Description">
+            <p>Pay 200.- for an elixir or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident25Title">
+            <p>You forgot to organize your small nephews birthday party</p>
+        </textline>
+        <textline uid="incident25Description">
+            <p>You found a professional entertainer, but they want a 'last minute bonus'. Pay them 200.- or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident26Title">
+            <p>A niece asked you to organize something special for her coming of age party</p>
+        </textline>
+        <textline uid="incident26Description">
+            <p>Rent a a bouncy castle for 300.- or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident27Title">
+            <p>Your friend wishes something special for her upcoming partnership ceremony.</p>
+        </textline>
+        <textline uid="incident27Description">
+            <p>Organize a group who specializes in partnership ceremony dance calligraphy for 400.-, or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident28Title">
+            <p>You acquire the talent of "Crystal Tuning"!</p>
+        </textline>
+        <textline uid="incident28Description">
+            <p>You took a workshop in how to fix things. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident29Title">
+            <p>You acquire the talent of "Molecular Programming"</p>
+        </textline>
+        <textline uid="incident29Description">
+            <p>You took a workshop in how to handle technology. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident30Title">
+            <p>You acquire the "Green Thumb" talent</p>
+        </textline>
+        <textline uid="incident30Description">
+            <p>You took a workshop in how to plant and grow stuff. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident31Title">
+            <p>You acquire the talent of growing "Medicinal Herbs"</p>
+        </textline>
+        <textline uid="incident31Description">
+            <p>You took a workshop in how to heal and help others. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident32Title">
+            <p>You acquire the talent of "Melody Maker"</p>
+        </textline>
+        <textline uid="incident32Description">
+            <p>You took a workshop in entertainment. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident33Title">
+            <p>Health Complex Expenses</p>
+        </textline>
+        <textline uid="incident33Description">
+            <p/>
+        </textline>
+        <textline uid="incident34Title">
+            <p>Administration Expenses</p>
+        </textline>
+        <textline uid="incident34Description">
+            <p/>
+        </textline>
+        <textline uid="incident35Title">
+            <p>Learning Campus Expenses</p>
+        </textline>
+        <textline uid="incident35Description">
+            <p/>
+        </textline>
+        <textline uid="incident36Title">
+            <p>Recreation Center Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident36Description">
+            <p/>
+        </textline>
+        <textline uid="incident37Title">
+            <p>Lake Park Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident37Description">
+            <p/>
+        </textline>
+        <textline uid="incident38Title">
+            <p>Cultural Center Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident38Description">
+            <p/>
+        </textline>
+        <textline uid="incident39Title">
+            <p>Meeting Tree Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident39Description">
+            <p/>
+        </textline>
+        <textline uid="incident40Title">
+            <p>Prodution Zone Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident40Description">
+            <p/>
+        </textline>
+        <textline uid="incident41Title">
+            <p>Garden Maintenance Expenses</p>
+        </textline>
+        <textline uid="incident41Description">
+            <p/>
+        </textline>
+        <textline uid="incident42Title">
+            <p>A furry insect ate all your sweets!</p>
+        </textline>
+        <textline uid="incident42Description">
+            <p>You have to buy new sweets for 200.- to restock or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident43Title">
+            <p>Your Mum watched some 'free' holo movies online</p>
+        </textline>
+        <textline uid="incident43Description">
+            <p>Now she gets sued by a shady company. Get a counselor for 400.- to solve this or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident44Title">
+            <p>Your ressource plan is very limited.</p>
+        </textline>
+        <textline uid="incident44Description">
+            <p>Pay a counselor 300.- to help you maximize your ressources, or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident45Title">
+            <p>The annual window for changing your health insurance is open.</p>
+        </textline>
+        <textline uid="incident45Description">
+            <p>To find the the best healing advice, make an appointment with consultant for 200.-, or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident46Title">
+            <p>Your friends and you have an argument about sector communication.</p>
+        </textline>
+        <textline uid="incident46Description">
+            <p>Visit a course about communication for 400.- or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident47Title">
+            <p>Your neighbour found a strange geospecimen.</p>
+        </textline>
+        <textline uid="incident47Description">
+            <p> Now she wants to know what this is. Find a geologist for 200.- or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident48Title">
+            <p>Your nephew struggles with level 1 training.</p>
+        </textline>
+        <textline uid="incident48Description">
+            <p>Pay 300.- to help your sister pay his extra lessons or provide private tutoring.</p>
+        </textline>
+        <textline uid="incident49Title">
+            <p>You learned how to be a "Star Cook"!</p>
+        </textline>
+        <textline uid="incident49Description">
+            <p>You took a workshop in how to cook and handle food. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident50Title">
+            <p>You aquired the talent of "Organizer"!</p>
+        </textline>
+        <textline uid="incident50Description">
+            <p>You took a workshop in how to organize stuff profesionnally. Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident51Title">
+            <p>You aquired the talent of "Sage"</p>
+        </textline>
+        <textline uid="incident51Description">
+            <p>You took a workshop in "everything-you-need-to-know-about-everything". Collect your certificate this month!</p>
+        </textline>
+        <textline uid="incident52Title">
+            <p>A flood hit the coast</p>
+        </textline>
+        <textline uid="incident52Description">
+            <p>To clean the affected areas of town,</p>
+        </textline>
+        <textline uid="incident53Title">
+            <p>An earthquake caused multiple rockslides</p>
+        </textline>
+        <textline uid="incident53Description">
+            <p>To secure the hillside at the edge of town,</p>
+        </textline>
+        <textline uid="incident54Title">
+            <p>You broke your communication crystal</p>
+        </textline>
+        <textline uid="incident54Description">
+            <p>Pay 200.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident55Title">
+            <p>Your laser cutter broke down.</p>
+        </textline>
+        <textline uid="incident55Description">
+            <p>Pay 400.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident56Title">
+            <p>You dropped your favorite viewing crystal</p>
+        </textline>
+        <textline uid="incident56Description">
+            <p>Pay 300.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident57Title">
+            <p>Your computation device overheated.</p>
+        </textline>
+        <textline uid="incident57Description">
+            <p>Pay 300.- for repair service or find help in your neighborhood.</p>
+        </textline>
+        <textline uid="incident58Title">
+            <p>You are having trouble setting up your wireless communication device.</p>
+        </textline>
+        <textline uid="incident58Description">
+            <p>Pay 400.- for installation help or find help in your neighborhood.</p>
+        </textline>      
+        <textline uid="incident59Title">
+            <p>You need a new focus for your computation crystal.</p>
+        </textline>
+        <textline uid="incident59Description">
+            <p>Pay 200.- for installation help or find help in your neighborhood.</p>
+        </textline>       
+        <textline uid="incident60Title">
+            <p>You want to buy your significant other some flowers.</p>
+        </textline>
+        <textline uid="incident60Description">
+            <p>Pay 200.- for flowers or find help in your neighborhood.</p>
+        </textline>      
+        <textline uid="incident61Title">
+            <p>You find some toxic mold growing!</p>
+        </textline>
+        <textline uid="incident61Description">
+            <p>Pay 400.- for help remiving it or find help in your neighborhood.</p>
+        </textline>       
+        <textline uid="incident62Title">
+            <p>You want to start your own garden.</p>
+        </textline>
+        <textline uid="incident62Description">
+            <p>Pay 200.- for help or find help in your neighborhood.</p>
+        </textline>  
+        <textline uid="incident63Title">
+            <p>You stubbed your toe really bad!</p>
+        </textline>
+        <textline uid="incident63Description">
+            <p>Pay 200.- to see a doctor or find help in your neighborhood.</p>
+        </textline>     
+        <textline uid="incident64Title">
+            <p>You find a strange lump growing from your arm.</p>
+        </textline>
+        <textline uid="incident64Description">
+            <p>Pay 300.- to see a doctor or find help in your neighborhood.</p>
+        </textline>     
+        <textline uid="incident65Title">
+            <p>You experience painful teeth pain!</p>
+        </textline>
+        <textline uid="incident65Description">
+            <p>Pay 400.- to see a dentist or find help in your neighborhood.</p>
+        </textline>                     
+        <textline uid="incident66Title">
+            <p>You need to hire an entertainer for your party!</p>
+        </textline>
+        <textline uid="incident66Description">
+            <p>Pay 300.- to hire one or find help in your neighborhood.</p>
+        </textline>   
+        <textline uid="incident67Title">
+            <p>You need to hire a singer for an event.</p>
+        </textline>
+        <textline uid="incident67Description">
+            <p>Pay 400.- to hire one or find help in your neighborhood.</p>
+        </textline>   
+        <textline uid="incident68Title">
+            <p>You need a clown for an event.</p>
+        </textline>
+        <textline uid="incident68Description">
+            <p>Pay 200.- to hire one or find help in your neighborhood.</p>
+        </textline>   
+        <textline uid="incident69Title">
+            <p>You need help organizing a charity event.</p>
+        </textline>
+        <textline uid="incident69Description">
+            <p>Pay 200.- to find help or find help in your neighborhood.</p>
+        </textline>   
+        <textline uid="incident70Title">
+            <p>You misfiled your taxes!</p>
+        </textline>
+        <textline uid="incident70Description">
+            <p>Pay 300.- to find help or find help in your neighborhood.</p>
+        </textline>   
+        <textline uid="incident71Title">
+            <p>You need help organizing a community event</p>
+        </textline>
+        <textline uid="incident71Description">
+            <p>Pay 400.- to hire one or find help in your neighborhood.</p>
+        </textline>  
+        <textline uid="incident72Title">
+            <p>You find a strange and mysterious old book in a strange language.</p>
+        </textline>
+        <textline uid="incident72Description">
+            <p>Pay 200.- to hire someone to translate it or find help in your neighborhood.</p>
+        </textline> 
+        <textline uid="incident73Title">
+            <p>You find a strange ooze growing in your house. It seems alive.</p>
+        </textline>
+        <textline uid="incident74Description">
+            <p>Pay 300.- to hire someone to identify it or find help in your neighborhood.</p>
+        </textline> 
+        <textline uid="incident75Title">
+            <p>You find a ancient fossil in your garden.</p>
+        </textline>
+        <textline uid="incident75Description">
+            <p>Pay 400.- to hire someone to identify it or find help in your neighborhood.</p>
+        </textline>  
+
+
+        <!-- Varia -->
+        <textline uid="giveFairydust">
+            <p>Fairydust</p>
+        </textline>
+        <textline uid="luminance">
+            <p>{0:P0}</p>
+        </textline>
+        <textline uid="tellMeAgain">
+            <p>Explain again</p>
+        </textline>
+        <textline uid="everyoneReady">
+            <p>Everyone got it!</p>
+        </textline>
+        <textline uid="loadingText">
+            <p>Loading</p>
+        </textline>
+        <textline uid="endMonthOverviewTitle">
+            <p>Well Done!</p>
+        </textline>
+        <textline uid="endMonthOverviewDescription">
+            <p>You made it to month {0} of {1}!</p>
+        </textline>
+        <textline uid="playerCriticalTitle">
+            <p>Oh no!</p>
+        </textline>
+        <textline uid="playerCriticalDescription">
+            <p>The following Citizens ended up with negative balance. If this happens again, the Citizen will not survive and the darkness will encroach upon all of you.</p>
+        </textline>
+        <textline uid="playerGoodbyeTitle">
+            <p>Goodbye...</p>
+        </textline>
+        <textline uid="playerGoodbyeDescription">
+            <p>You didn't manage to help the following players</p>
+        </textline>
+        <textline uid="cityCriticalTitle">
+            <p>This is critical!</p>
+        </textline>
+        <textline uid="cityCriticalDescription">
+            <p>The island was not able to pay for at least one facility! If this happens again you will lose the game!</p>
+        </textline>
+        <textline uid="gamePaused">
+            <p>Game Paused</p>
+        </textline>
+        <textline uid="gameOver">
+            <p>Game Over!</p>
+        </textline>
+        <textline uid="gameOverSolo">
+            <p>Better luck next time! You will have to wait until the others complete the game and watch what happens!</p>
+        </textline>
+        <textline uid="gameOverAll">
+            <p>Better luck next time! You will need to work together to win this game. Talk about your individual needs and resources and try to keep the Island alive as a community!</p>
+        </textline>
+        <textline uid="win">
+            <p>You win!</p>
+        </textline>
+        <textline uid="winAll">
+            <p>As a community you managed to balance your resources and needs. You did a great job at keeping the Island alive. Well done.</p>
+        </textline>
+        <textline uid="endGame">
+            <p>Congratulations, you made it to the end of the game!</p>
+        </textline>
+        <textline uid="reconnectInfo">
+            <p>It looks like you lost connection to the game server. Check your network connection and try to restart...</p>
+        </textline>
+        <textline uid="reconnectGame">
+            <p>Try to Restart</p>
+        </textline>
+
+        <!-- complementary introduction -->
+        <textline uid="tutoQMarketMayH">
+            <p>Help from your citizens!</p>
+        </textline>
+        <textline uid="tutoQMarketMay">
+            <p>Citizens are now seeing which Community Facilities they want to adopt. You will no longer need to pay  maintenance on a Community Facility selected by a Citizen. So encourage them to participate!</p>
+        </textline>
+        <textline uid="introduceQ">
+            <p>We will now introduce the complementary currency "Water Crystals".</p>
+        </textline>
+        <textline uid="introduceQTitle">
+            <p>Introduction of the complementary currency</p>
+        </textline>
+        <textline uid="buildingDeedDeniedContent">
+            <p>You can't select another Community Facility.</p>
+        </textline>
+        <textline uid="removeOfferDeniedContent">
+            <p>You can't remove offers from Community Facilities.</p>
+        </textline>
+        <textline uid="specialBuildingOwnerTitle">
+            <p>Programmed by {0}.</p>
+        </textline>
+        <textline uid="timeCost">
+            <p>% of your time.</p>
+        </textline>
+
+        <!-- summary screen -->
+        <textline uid="btnMoreInfo">
+            <p>More Information: www.polymoney.org</p>
+        </textline>
+        <textline uid="moreInfoURL">
+            <p>http://www.polymoney.org</p>
+        </textline>
+        <textline uid="summaryTitle">
+            <p>Summary</p>
+        </textline>
+        <textline uid="summaryText">
+            <p>You are invited to discuss your experience with your fellow players. With what did you struggle? How did Water Crystals change the Island?</p>
+        </textline>
+        <textline uid="summaryLegendCity">
+            <p>Island Finances</p>
+        </textline>
+        <textline uid="summaryLegendPlayerFiat">
+            <p>Player Gold</p>
+        </textline>
+        <textline uid="summaryLegendPlayerQ">
+            <p>Player Water Crystals</p>
+        </textline>
+
+        <!-- analytics question -->
+        <textline uid="didEnjoyText">
+            <p>Did you enjoy the Game?</p>
+        </textline>
+        <textline uid="didEnjoyYes">
+            <p>Yes!</p>
+        </textline>
+        <textline uid="didEnjoyNo">
+            <p>No.</p>
+        </textline>
+
+        <textline uid="sendAnalyticsTitle">
+            <p>Do you want to help us?</p>
+        </textline>
+        <textline uid="sendAnalyticsText">
+            <p>You can send us the data of how you played the game anonymously. This will help us improve the game and increase it's learning effect. Ask all the players if they will agree.</p>
+        </textline>
+        <textline uid="sendAnalyticsYes">
+            <p>Yes, everyone wants to help.</p>
+        </textline>
+        <textline uid="sendAnalyticsNo">
+            <p>No.</p>
+        </textline>
+
+
+        <textline uid="noMayorDebt">
+            <p>Uh oh, it looks like you don't have enough money to pay for this building!</p>
+        </textline>
+
+        <!-- (Ryan) New Introductions-->
+        <textline uid="preset1">
+        	<p>Preset A</p>
+        </textline>
+
+        <textline uid="preset2">
+            <p>Preset B</p>
+        </textline>
+
+        <textline uid="preset3">
+            <p>Preset C</p>
+        </textline>
+
+        <textline uid="taxOp1">
+            <p>Tax Options</p>
+        </textline>
+
+        <textline uid="taxOp2">
+            <p>Flat Rate</p>
+        </textline>
+
+        <textline uid="taxOp3">
+            <p>Progressive Rate</p>
+        </textline>
+
+        <textline uid="taxOp4">
+            <p>Base Tax Rate</p>
+        </textline>
+
+        <textline uid="taxOp5">
+            <p>Base Tax Amount</p>
+        </textline>
+
+        <textline uid="maint1">
+            <p>Maintenance Cost</p>
+        </textline>
+
+        <textline uid="maint2">
+            <p>Base cost per person</p>
+        </textline>
+
+        <textline uid="dash1">
+            <p>Mayor Dashboard</p>
+        </textline>
+
+        <textline uid="dash2">
+            <p>Show for all players</p>
+        </textline>
+
+        <textline uid="water1">
+            <p>Water Crystal options</p>
+        </textline>
+
+        <textline uid="water2">
+            <p>Crystal Income</p>
+        </textline>
+
+        <textline uid="water3">
+            <p>Manually Introduce Crystals</p>
+        </textline>
+
+        <textline uid="water4">
+            <p>Turn:</p>
+        </textline>
+
+        <textline uid="water5">
+            <p>Allow water crystals to partially pay for taxes</p>
+        </textline>
+
+        <textline uid="build1">
+            <p>Players are able to own buildings</p>
+        </textline>
+
+        <textline uid="disaster1">
+            <p>Disaster Options</p>
+        </textline>
+
+        <textline uid="disaster2">
+            <p>Disaster Severity</p>
+        </textline>
+
+        <textline uid="disaster3">
+            <p>Disaster Frequency</p>
+        </textline>
+
+        <textline uid="disaster4">
+            <p>Player disaster match chance</p>
+        </textline>
+
+        <textline uid="hud1">
+            <p>Free Time</p>
+        </textline>
+
+        <textline uid="hud2">
+            <p>Month</p>
+        </textline>
+
+        <textline uid="stats1">
+            <p>Mayor of Light</p>
+        </textline>
+
+        <textline uid="stats2">
+            <p>Mayor of the Commons Badge</p>
+        </textline>
+
+        <textline uid="stats3">
+            <p>Mayor of Compassion Badge</p>
+        </textline>
+
+        <textline uid="stats4">
+            <p>Mayor Lonely Heart</p>
+        </textline>
+
+        <textline uid="stats5">
+            <p>“Congratulations! You guided Crystal Island through the darkest of times. You worked with citizens and prospered together.”</p>
+        </textline>
+
+        <textline uid="stats6">
+            <p>“Well done! You kept the community working, even in challenging times.”</p>
+        </textline>
+
+        <textline uid="stats7">
+            <p>“You were a selfless mayor. You supported your citizens even when funds were low. Good try!”</p>
+        </textline>
+
+        <textline uid="stats8">
+            <p>“Instead of supporting citizens in need, you accumulated Gold. Unfortunately, when some fail, everyone fails.”</p>
+        </textline>
+
+        <textline uid="stats9">
+            <p>Crystal Guardian -- Magnificent! You used your talents to prosper and help others.</p>
+        </textline>
+
+        <textline uid="stats10">
+            <p>Community Builder -- Fantastic! You saw opportunities and supported your community.</p>
+        </textline>
+
+        <textline uid="stats11">
+            <p>Talent Shaper -- Awesome! You really applied your talents to solve problems.</p>
+        </textline>
+
+        <textline uid="stats12">
+            <p>Resource Explorer -- Terrific! You worked to meet your needs and help others.</p>
+        </textline>
+
+        <textline uid="stats13">
+            <p>Trade Maker -- Wonderful! You collaborated with others so everyone wins!</p>
+        </textline>
+
+
+        <textline uid="stats14">
+            <p>Talent Builder -- Bravo! You applied your talents and built the community, but not quite enough. Next time you'll do it!</p>
+        </textline>
+
+        <textline uid="stats15">
+            <p>Community Shaper -- Right on! You helped out the Mayor, but not quite enough.  Next time you'll do it!</p>
+        </textline>
+
+        <textline uid="stats16">
+            <p>Resource Explorer -- Cool! You solved some problems, but not quite enough.  Next time you'll do it!</p>
+        </textline>
+
+        <textline uid="stats17">
+            <p>Crystal Trader -- Nice! You worked with your talents, but not quite enough.  Next time you'll do it!</p>
+        </textline>
+
+        <textline uid="stats18">
+            <p>Crystal Keeper -- OK! You survived a few rounds, but not quite enough. Next time you'll do it!</p>
+        </textline>
+
+
+        <textline uid="end1">
+            <p>End Turn</p>
+        </textline>
+
+
+    </textlines>
+</pm>

@@ -14,6 +14,7 @@ namespace Herman
         public Button HideButton;
         public Animator PanelAnimator;
         public GameObject MayorPanelObject;
+        public bool Visible = false;
      
         public List<GameObject> panelList = new List<GameObject>();
 
@@ -36,30 +37,34 @@ namespace Herman
         IEnumerator ShowMenu()
         {
             //Update the Panel
+            Debug.Log("Show Menu");
             UpdatePanel();
             PanelAnimator.enabled = true;
             PanelAnimator.Play("Open_Menu");
             yield return new WaitForSeconds(1f);
             HideButton.interactable = true;
+            Visible = true;
         }
 
         IEnumerator HideMenu()
         {
+            Debug.Log("Hide Menu");
             PanelAnimator.Play("Close_Menu");
             yield return new WaitForSeconds(1f);
             HideButton.interactable = true;
+            Visible = false;
         }
         #endregion
         public void InteractMenu()
         {
-            if (MayorPanelObject.activeInHierarchy)
+            if (Visible)
             {
-                HideButton.interactable = false;
+                //HideButton.interactable = false;
                 StartCoroutine(HideMenu());
             }
             else
             {
-                HideButton.interactable = false;
+                //HideButton.interactable = false;
                 StartCoroutine(ShowMenu());
             }
         }
@@ -73,14 +78,27 @@ namespace Herman
                 panelList[i].SetActive(false);
             }
 
+            int j = 0;
             //Turn on a panel for each player that is not the mayor
-            //for (int i = 0; i < Level.instance.allPlayers.Count; i++)
-            //{
-            //    if (!Level.instance.allPlayers[i].Mayor)
-            //    {
-            //        panelList[i].SetActive(true);
-            //    }
-            //}
+            for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+            {
+                if (PhotonNetwork.PlayerList[i].CustomProperties.TryGetValue("IsMayor", out object isMayorObj))
+                {
+                    bool isMayor = (bool)isMayorObj;
+                    if (!isMayor)
+                    {
+                        panelList[j].SetActive(true);
+                        panelList[j].transform.Find("Player_Name_Text").GetComponent<Text>().text = PhotonNetwork.PlayerList[i].NickName;
+                        j++;
+                    }
+                }
+                else
+                {
+                    panelList[j].SetActive(true);
+                    panelList[j].transform.Find("Player_Name_Text").GetComponent<Text>().text = PhotonNetwork.PlayerList[i].NickName;
+                    j++;
+                }
+            }
         }
     }
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <meta>
+    <gameName>Polymoney</gameName>
+    <author>Koboldgames GmbH</author>
+  </meta>
+  <language uid="eng"/>
+  <language uid="deu"/>
+</manifest>
