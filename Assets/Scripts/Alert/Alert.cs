@@ -32,7 +32,15 @@ public class Alert : MonoBehaviour
         Alert alert = instance;
         if (useLocalization)
         {
-            alert.title.text = Localisation.instance.getLocalisedText(alertTitle);
+            if (alertTitle == null)
+            {
+                alert.title.gameObject.SetActive(false);
+            }
+            else
+            {
+                alert.title.gameObject.SetActive(true);
+                alert.title.text = Localisation.instance.getLocalisedText(alertTitle);
+            }
             alert.text.text = Localisation.instance.getLocalisedText(content);
             if (icon == null)
             {
@@ -45,6 +53,7 @@ public class Alert : MonoBehaviour
             }
             else
             {
+                alert.close.gameObject.SetActive(true);
                 alert.close.gameObject.GetComponentInChildren<TMP_Text>().text = Localisation.instance.getLocalisedText(button2);
             }
         }
@@ -63,6 +72,7 @@ public class Alert : MonoBehaviour
             }
             else
             {
+                alert.close.gameObject.SetActive(true);
                 alert.close.gameObject.GetComponentInChildren<TMP_Text>().text = button2;
             }
         }

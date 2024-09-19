@@ -9,6 +9,8 @@ using System;
 using KoboldTools;
 using System.Linq;
 using UnityEngine.Playables;
+using static Cinemachine.DocumentationSortingAttribute;
+using Cinemachine;
 
 
 namespace Herman
@@ -137,6 +139,9 @@ namespace Herman
         public PlayableDirector intoIntroductionTimeline;
         public PlayableDirector intoGameTimeline;
         public CameraFollowPlayer cameraFollowPlayer;
+        public CinemachineVirtualCamera spinWheelCamera;
+        public GameObject walkArea;
+        public double areaRadius = 20;
 
         #region UNITY
         public void Awake()
@@ -206,21 +211,25 @@ namespace Herman
             Alert.show(true, "tutoMStoryIslandTitle", "tutoMStoryIsland", null, "btnOk");
             while (Alert.open)
                 yield return null;
+            GameObject playerCharacter = null;
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
                 if (PhotonNetwork.PlayerList[i] == PhotonNetwork.LocalPlayer)
                 {
+                    playerCharacter = characters[i];
                     cameraFollowPlayer._player = characters[i];
                     cameraFollowPlayer.characterChanged();
                     break;
                 }
             }
             intoIntroductionTimeline.Play();
+            bool isPlayerMayor = false;
             if (PhotonNetwork.LocalPlayer.CustomProperties.TryGetValue("IsMayor", out object isMayorGetObj))
             {
                 bool isMayor = (bool)isMayorGetObj;
                 if (isMayor)
                 {
+                    isPlayerMayor = true;
                     Alert.show(true, "tutoMWelcomeTitle", "tutoMWelcome", null, "btnOk");
                 }
                 else
@@ -236,6 +245,55 @@ namespace Herman
                 yield return null;
             cameraFollowPlayer.unfocus();
             intoGameTimeline.Play();
+
+            if (isPlayerMayor)
+            {
+                walkArea.SetActive(true);
+                Alert.show(true, null, "tutoMoveMajor", null, "tutoCloseAlertButton");
+                while (Alert.open)
+                    yield return null;
+
+                bool completedMovement = false;
+                while (!completedMovement)
+                {
+                    //check for tutorial completed
+                    if (playerCharacter != null && Vector3.Distance(playerCharacter.transform.position, walkArea.transform.position) < areaRadius)
+                    {
+                        completedMovement = true;
+                    }
+                    yield return null;
+                }
+                Alert.show(true, null, "tutoMoveEndMajor", null, "tutoCloseAlertButton");
+                while (Alert.open)
+                    yield return null;
+            }
+            else
+            {
+
+                walkArea.SetActive(true);
+                Alert.show(true, null, "tutoMoveCitizen", null, "tutoCloseAlertButton");
+                while (Alert.open)
+                    yield return null;
+
+                bool completedMovement = false;
+                while (!completedMovement)
+                {
+                    //check for tutorial completed
+                    if (playerCharacter != null && Vector3.Distance(playerCharacter.transform.position, walkArea.transform.position) < areaRadius)
+                    {
+                        completedMovement = true;
+                    }
+                    yield return null;
+                }
+                Alert.show(true, null, "tutoMoveEndCitizen", null, "tutoCloseAlertButton");
+                while (Alert.open)
+                    yield return null;
+                spinWheelCamera.Priority = 1000;
+                PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
+                playerGetIncidents.minTargetAngle = 1185f;
+                playerGetIncidents.maxTargetAngle = 1185f;
+                playerGetIncidents.startWheelSpinning();
+            }
         }
 
         public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)
@@ -327,6 +385,27 @@ namespace Herman
                 }
                 character.transform.Rotate(0, 180 - 20 * (3 - i), 0);
                 characters.Add(character);
+            }
+
+            PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
+            foreach (Incident incident in loadedLevelData.Incidents)
+            {
+                if (incident.Type == "Luck")
+                {
+                    playerGetIncidents.luckRoulette.addPocket(incident, incident.PickPoolSize);
+                }
+                else if (incident.Type == "Disaster")
+                {
+                    playerGetIncidents.disasterRoulette.addPocket(incident, incident.PickPoolSize);
+                }
+                else if (incident.Type == "Talent")
+                {
+                    playerGetIncidents.talentRoulette.addPocket(incident, incident.PickPoolSize);
+                }
+                else if (incident.Type == "City")
+                {
+                    playerGetIncidents.cityIncidents.Add(incident);
+                }
             }
         }
 
