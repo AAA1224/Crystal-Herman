@@ -226,6 +226,7 @@ public class PlayerGetIncidents : MonoBehaviour
         //this.model.ClientAddIncident(incident);
 
         Alert.show(false, incident.LocalisedTitle, incident.LocalisedDescription, null, Localisation.instance.getLocalisedText("btnOk"));
+        MainGameManager.Instance.spinWheelCamera.Priority = 10;
     }
 
     private void displayToughLuck(Incident incident)

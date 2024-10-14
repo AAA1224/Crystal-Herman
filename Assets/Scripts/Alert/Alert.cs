@@ -27,7 +27,7 @@ public class Alert : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    public static void show(bool useLocalization, string alertTitle, string content, string icon, string button1, string button2 = null)
+    public static void show(bool useLocalization, string alertTitle, string content, Sprite icon, string button1, string button2 = null)
     {
         Alert alert = instance;
         if (useLocalization)
@@ -46,6 +46,11 @@ public class Alert : MonoBehaviour
             {
                 alert.alertImage.gameObject.SetActive(false);
             }
+            else
+            {
+                alert.alertImage.sprite = icon;
+                alert.alertImage.gameObject.SetActive(true);
+            }
             alert.button.gameObject.GetComponentInChildren<TMP_Text>().text = Localisation.instance.getLocalisedText(button1);
             if (button2 == null)
             {
@@ -59,11 +64,24 @@ public class Alert : MonoBehaviour
         }
         else
         {
-            alert.title.text = alertTitle;
+            if (alertTitle == null)
+            {
+                alert.title.gameObject.SetActive(false);
+            }
+            else
+            {
+                alert.title.gameObject.SetActive(true);
+                alert.title.text = alertTitle;
+            }
             alert.text.text = content;
             if (icon == null)
             {
                 alert.alertImage.gameObject.SetActive(false);
+            }
+            else
+            {
+                alert.alertImage.sprite = icon;
+                alert.alertImage.gameObject.SetActive(true);
             }
             alert.button.gameObject.GetComponentInChildren<TMP_Text>().text = button1;
             if (button2 == null)

@@ -187,6 +187,30 @@ namespace Herman
                     if (changedProps.ContainsKey("IsMayor"))
                     {
                         bool isMayor = (bool)changedProps["IsMayor"];
+                        if (!isMayor)
+                        {
+                            foreach (GameObject entry in playerListItems.Values)
+                            {
+                                PlayerListItem subItem = entry.GetComponent<PlayerListItem>();
+                                subItem.RunAsMayorToggle.interactable = true;
+                            }
+                        }
+                        else
+                        {
+                            foreach (GameObject entry in playerListItems.Values)
+                            {
+                                PlayerListItem subItem = entry.GetComponent<PlayerListItem>();
+                                subItem.RunAsMayorToggle.interactable = false;
+                            }
+                        }
+                        if (targetPlayer == PhotonNetwork.LocalPlayer)
+                        {
+                            playerItemScript.RunAsMayorToggle.interactable = true;
+                        }
+                        else
+                        {
+                            playerItemScript.RunAsMayorToggle.interactable = false;
+                        }
                         playerItemScript.UpdateMayorStatus(isMayor);
                     }
 

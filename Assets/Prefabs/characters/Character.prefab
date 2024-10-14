@@ -229,7 +229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &224178702460432486
 RectTransform:
   m_ObjectHideFlags: 0
@@ -247,9 +247,9 @@ RectTransform:
   - {fileID: 224352524594109054}
   m_Father: {fileID: 224741554122262120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -650}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1122352745195918
@@ -450,7 +450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &224409159464240984
 RectTransform:
   m_ObjectHideFlags: 0
@@ -468,9 +468,9 @@ RectTransform:
   - {fileID: 224279466300321560}
   m_Father: {fileID: 224741554122262120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -500}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &114728078280449606
@@ -851,6 +851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224332023666673290}
+  - component: {fileID: 7151939462754579729}
   m_Layer: 5
   m_Name: Symbols
   m_TagString: Untagged
@@ -878,6 +879,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 201}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7151939462754579729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338192537377624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87c2f24862b51d4c8df7c79827c4144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TaxCollectionButton: {fileID: 114728078280449606}
+  TaxTitleTextId: offerPopUpTaxTitle
+  TaxDescriptionTextId: offerPopUpTaxDescription
+  WelfareButton: {fileID: 114961750358172630}
+  WelfareTitleTextId: offerPopUpWelfareTitle
+  WelfareDescriptionTextId: offerPopUpWelfareDescription
+  Resource: {fileID: 11400000, guid: 24a3a11280e4229449ef9334bb8fac21, type: 2}
+  turnComplete: {fileID: 1121006653603966}
+  CloseButtonTextId: offerPopUpCloseButton
+  ApplyButtonTextId: offerPopUpApplyButton
 --- !u!1 &1362173337438088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +2049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &224800724331432580
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2044,9 +2067,9 @@ RectTransform:
   - {fileID: 224867617789547520}
   m_Father: {fileID: 224741554122262120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -800}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &114525577383345050
@@ -2953,7 +2976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &224157032866334012
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2971,9 +2994,9 @@ RectTransform:
   - {fileID: 224740495951095784}
   m_Father: {fileID: 224741554122262120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -500}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &114961750358172630

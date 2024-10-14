@@ -1,9 +1,12 @@
+using Herman;
+using KoboldTools;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public interface ICharacter
 {
@@ -33,6 +36,31 @@ public class Character : MonoBehaviour, ICharacter
     private UnityEvent _onLuminanceChanged = new UnityEvent();
     private UnityEvent _onLuminanceHalf = new UnityEvent();
     private UnityEvent _onLuminanceFull = new UnityEvent();
+    private PolyPlayer _model;
+
+    public PolyPlayer model
+    {
+        get { return _model; }
+        set
+        {
+            this._model = value;
+            this.onModelChanged();
+        }
+    }
+
+    public void onModelChanged()
+    {
+        this._model.PlayerStateChanged.AddListener(onPlayerStateChanged);
+        onPlayerStateChanged();
+    }
+
+    public void onPlayerStateChanged()
+    {
+        if (this._model.Person != null)
+        {
+            this.gameObject.transform.Find("Canvas").Find("Name Tag").GetComponent<Text>().text = Localisation.instance.getLocalisedText(this._model.Person.Title);
+        }
+    }
 
     public float Luminance
     {
