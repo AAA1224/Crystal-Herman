@@ -895,6 +895,7 @@ MonoBehaviour:
   TaxTitleTextId: offerPopUpTaxTitle
   TaxDescriptionTextId: offerPopUpTaxDescription
   WelfareButton: {fileID: 114961750358172630}
+  WelfareOffer: {fileID: 11400000, guid: df17d550d33d13941b72fd14784eda23, type: 2}
   WelfareTitleTextId: offerPopUpWelfareTitle
   WelfareDescriptionTextId: offerPopUpWelfareDescription
   Resource: {fileID: 11400000, guid: 24a3a11280e4229449ef9334bb8fac21, type: 2}

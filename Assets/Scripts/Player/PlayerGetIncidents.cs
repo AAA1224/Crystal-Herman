@@ -7,6 +7,7 @@ using UnityEngine;
 using static Cinemachine.DocumentationSortingAttribute;
 using UnityEngine.UIElements.Experimental;
 using System;
+using Photon.Pun;
 
 
 public class Roulette<T> where T : IEquatable<T>
@@ -227,6 +228,9 @@ public class PlayerGetIncidents : MonoBehaviour
 
         Alert.show(false, incident.LocalisedTitle, incident.LocalisedDescription, null, Localisation.instance.getLocalisedText("btnOk"));
         MainGameManager.Instance.spinWheelCamera.Priority = 10;
+        List<Incident> list = MainGameManager.Instance.localPlayer.Incidents;
+        list.Add(incident);
+        MainGameManager.Instance.AddIncidentToPlayer(PhotonNetwork.LocalPlayer, list);
     }
 
     private void displayToughLuck(Incident incident)
@@ -267,14 +271,14 @@ public class PlayerGetIncidents : MonoBehaviour
         else if (this.selectedSegmentType == "Talent")
         {
             Incident incident = this.talentRoulette.spinRoulette().Clone();
-            //if (incident.ApplicationBenefit.WouldAddTalent(this.model))
-            //{
+            if (incident.ApplicationBenefit.WouldAddTalent(MainGameManager.Instance.localPlayer))
+            {
                 this.commitIncident(incident);
-            //}
-            //else
-            //{
-            //    this.commitIncident(this.luckRoulette.spinRoulette().Clone());
-            //}
+            }
+            else
+            {
+                this.commitIncident(this.luckRoulette.spinRoulette().Clone());
+            }
         }
     }
 

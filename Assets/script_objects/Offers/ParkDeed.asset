@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba42569b8ae8e72468bf869554e63d6a, type: 3}
+  m_Name: ParkDeed
+  m_EditorClassIdentifier: 
+  _guid:
+    Value: 1c82b2b2-b5d2-4710-b97c-79f2b03b6bf2
+  _persistent: 0
+  _essential: 1
+  _visibleToMayor: 0
+  _tags:
+  - Infrastructure
+  _creationCost:
+    expenses: []
+    breakBuilding: 4294967295
+    time: 0
+  _creationBenefit:
+    removeIncident: []
+    addTalent: []
+    fairyDust: 0
+    income: []
+    repairBuilding: 4294967295
+  _sellingCost:
+    expenses: []
+    breakBuilding: 4294967295
+    time: 0
+  _buyingCost:
+    expenses: []
+    breakBuilding: 4294967295
+    time: 0
+  _buyingBenefit:
+    removeIncident: []
+    addTalent: []
+    fairyDust: 0
+    income: []
+    repairBuilding: 4294967295
+  _sellingBenefit:
+    removeIncident: []
+    addTalent: []
+    fairyDust: 0
+    income: []
+    repairBuilding: 4294967295
+  _itemTitle: bParkTitle
+  _itemDescription: bPark

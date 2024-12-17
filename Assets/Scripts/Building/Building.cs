@@ -1,16 +1,19 @@
 using Herman;
+using KoboldTools.Logging;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using KoboldTools;
 using static Cinemachine.DocumentationSortingAttribute;
 
-public class Building : MonoBehaviour
+public class Building : MonoBehaviour, IInteractive
 {
 
     public float State = 1.0f;
     public float Luminance = 0.0f;
     public float BaseLuminance = 0.1f;
+    public Marketplace Marketplace;
     public UnityEvent OnBuildingStateChanged = new UnityEvent();
     public UnityEvent OnBuildingRepaired = new UnityEvent();
     public UnityEvent OnBuildingRepair = new UnityEvent();
@@ -18,6 +21,7 @@ public class Building : MonoBehaviour
     public UnityEvent OnLuminanceChanged = new UnityEvent();
     public UnityEvent OnLuminanceHalf = new UnityEvent();
     public UnityEvent OnLuminanceFull = new UnityEvent();
+    private UnityEvent _interacted = new UnityEvent();
     public uint netId;
 
     private BuildingDisplayState _buildingStateDisplay;
@@ -63,6 +67,22 @@ public class Building : MonoBehaviour
         }
     }
 
+    public bool IncursInfrastructureCosts
+    {
+        get
+        {
+            return !(this.Marketplace != null && this.Marketplace.offers.Count > 0);
+        }
+    }
+
+    public UnityEvent interacted
+    {
+        get
+        {
+            return _interacted;
+        }
+    }
+
 
     // Start is called before the first frame update
     public IEnumerator Start()
@@ -79,6 +99,27 @@ public class Building : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    public void onPointerDown()
+    {
+        //do nothing
+    }
+
+    public void onPointerUp()
+    {
+        Debug.Log("interacted");
+        //raise interacted event
+        if (Marketplace.seller != null)
+        {
+            if (Marketplace.offers.Count > 0 || Marketplace.seller == MainGameManager.Instance.localPlayer)
+            {
+                MainGameManager.Instance.localPlayer.WatchedMarket = Marketplace;
+            }
+        }
+        else
+        {
+            RootLogger.Warning(this, "Cannot open the marketplace, because no seller is set");
+        }
     }
 }

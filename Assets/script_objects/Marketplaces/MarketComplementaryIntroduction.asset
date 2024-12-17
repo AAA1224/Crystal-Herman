@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be9e48af95cac745a49d78b1685f9b4, type: 3}
+  m_Name: MarketComplementaryIntroduction
+  m_EditorClassIdentifier: 
+  _offers:
+  - {fileID: 11400000, guid: d7fba83567adb824c9f3bba22e2dd989, type: 2}
+  - {fileID: 11400000, guid: 64baf8d8ccd307d47b2782febb097973, type: 2}
+  - {fileID: 11400000, guid: 48fd3e89700498e428192b5c2977126a, type: 2}
+  - {fileID: 11400000, guid: 0cb6a33e94735194ab14c537c2701078, type: 2}
+  - {fileID: 11400000, guid: 8e9d40e7e3f809e4f981973e6fcebccb, type: 2}
+  - {fileID: 11400000, guid: 047aec7447c967c489ebe1f99398e27d, type: 2}
+  _title: Introduction of Special Marketplaces
+  _description: With the introduction of the complementary currency, special marketplaces
+    become available to players.

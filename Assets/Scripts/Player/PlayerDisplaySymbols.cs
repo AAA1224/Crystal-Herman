@@ -17,7 +17,7 @@ public class PlayerDisplaySymbols : MonoBehaviour
 
     [Header("Welfare")]
     public Button WelfareButton;
-    //public Offer WelfareOffer;
+    public Offer WelfareOffer;
     public string WelfareTitleTextId = "offerPopUpWelfareTitle";
     public string WelfareDescriptionTextId = "offerPopUpWelfareDescription";
 
@@ -27,10 +27,10 @@ public class PlayerDisplaySymbols : MonoBehaviour
     public string CloseButtonTextId = "offerPopUpCloseButton";
     public string ApplyButtonTextId = "offerPopUpApplyButton";
 
-    //private Marketplace OwnMarketplace;
+    private Marketplace OwnMarketplace = null;
     private PolyPlayer LocalPlayer = new PolyPlayer();
     private PolyPlayer _model = new PolyPlayer();
-    //private Offer CurrentTaxOffer;
+    private Offer CurrentTaxOffer;
 
     public PolyPlayer model
     {
@@ -61,12 +61,12 @@ public class PlayerDisplaySymbols : MonoBehaviour
         if (this.model != null)
         {
             this.model.PlayerStateChanged.AddListener(this.onPlayerStateChanged);
-            //this.OwnMarketplace = this.model.OwnMarketplace;
-            //if (this.OwnMarketplace != null)
-            //{
-            //    this.OwnMarketplace.onOfferAdd.AddListener(this.onOffersChanged);
-            //    this.OwnMarketplace.onOfferRemove.AddListener(this.onOffersChanged);
-            //}
+            this.OwnMarketplace = this.model.OwnMarketplace;
+            if (this.OwnMarketplace != null)
+            {
+                this.OwnMarketplace.onOfferAdd.AddListener(this.onOffersChanged);
+                this.OwnMarketplace.onOfferRemove.AddListener(this.onOffersChanged);
+            }
             this.updateSymbols();
 
             // Register to events for the turn completion symbol.
@@ -100,11 +100,11 @@ public class PlayerDisplaySymbols : MonoBehaviour
         if (this.model != null)
         {
             this.model.PlayerStateChanged.RemoveListener(this.onPlayerStateChanged);
-            //if (this.OwnMarketplace != null)
-            //{
-            //    this.OwnMarketplace.onOfferAdd.RemoveListener(this.onOffersChanged);
-            //    this.OwnMarketplace.onOfferRemove.RemoveListener(this.onOffersChanged);
-            //}
+            if (this.OwnMarketplace != null)
+            {
+                this.OwnMarketplace.onOfferAdd.RemoveListener(this.onOffersChanged);
+                this.OwnMarketplace.onOfferRemove.RemoveListener(this.onOffersChanged);
+            }
             if (this.turnComplete != null)
             {
                 this.model.OnTurnCompleted.RemoveListener(this.onTurnCompleted);
@@ -142,10 +142,10 @@ public class PlayerDisplaySymbols : MonoBehaviour
         }
     }
 
-    //private void onOffersChanged(Offer offer)
-    //{
-    //    this.updateSymbols();
-    //}
+    private void onOffersChanged(Offer offer)
+    {
+        this.updateSymbols();
+    }
 
     private void onPlayerStateChanged()
     {
@@ -167,16 +167,16 @@ public class PlayerDisplaySymbols : MonoBehaviour
         {
             if (LocalPlayer.Mayor)
             {
-                //Offer taxOffer = this.OwnMarketplace.offers.Find(e => e.EquivalentTags(Level.instance.taxTags));
-                //if (taxOffer != null)
-                //{
+                Offer taxOffer = this.OwnMarketplace.offers.Find(e => e.EquivalentTags(MainGameManager.Instance.taxTags));
+                if (taxOffer != null)
+                {
                     this.TaxCollectionButton.gameObject.SetActive(true);
-                //    this.CurrentTaxOffer = taxOffer;
-                //}
-                //else
-                //{
-                    //this.TaxCollectionButton.gameObject.SetActive(false);
-                //}
+                    this.CurrentTaxOffer = taxOffer;
+                }
+                else
+                {
+                    this.TaxCollectionButton.gameObject.SetActive(false);
+                }
             }
             else
             {
@@ -212,26 +212,23 @@ public class PlayerDisplaySymbols : MonoBehaviour
         string closeText = Localisation.instance.getLocalisedText(this.CloseButtonTextId);
         string applyText = Localisation.instance.getLocalisedText(this.ApplyButtonTextId);
 
-        Alert.show(false, title, content, null, closeText, applyText);
-
-        //Alert.info(content, new Alert.AlertParams
-        //{
-        //    title = title,
-        //    closeText = closeText,
-        //    sprite = this.Resource.GetSpriteByTags(this.CurrentTaxOffer.tags),
-        //    callbacks = new Alert.AlertCallback[] {
-        //            new Alert.AlertCallback {
-        //                buttonText = applyText,
-        //                callback = () => {
-        //                    RootLogger.Info(this, "Applying the tax offer ({0}) to buyer {1} and seller {2}", this.CurrentTaxOffer, this.LocalPlayer, this.model);
-        //                    this.LocalPlayer.ClientApplyOffer(this.CurrentTaxOffer, this.LocalPlayer, this.model);
-        //                    this.CurrentTaxOffer = null;
-        //                    Alert.close();
-        //                },
-        //                mainButton = true,
-        //            },
-        //        },
-        //});
+        KoboldTools.Alert.info(content, new KoboldTools.Alert.AlertParams
+        {
+            title = title,
+            closeText = closeText,
+            sprite = this.Resource.GetSpriteByTags(this.CurrentTaxOffer.tags),
+            callbacks = new KoboldTools.Alert.AlertCallback[] {
+                    new KoboldTools.Alert.AlertCallback {
+                        buttonText = applyText,
+                        callback = () => {
+                            MainGameManager.Instance.applyOffer(this.LocalPlayer, this.model, this.CurrentTaxOffer);
+                            this.CurrentTaxOffer = null;
+                            KoboldTools.Alert.close();
+                        },
+                        mainButton = true,
+                    },
+                },
+        });
     }
 
     private void onClickWelfareSymbol()
@@ -241,24 +238,23 @@ public class PlayerDisplaySymbols : MonoBehaviour
         string closeText = Localisation.instance.getLocalisedText(this.CloseButtonTextId);
         string applyText = Localisation.instance.getLocalisedText(this.ApplyButtonTextId);
 
-        Alert.show(false, title, content, null, closeText, applyText);
-
-        //Alert.info(content, new Alert.AlertParams
-        //{
-        //    title = title,
-        //    closeText = closeText,
-        //    sprite = this.Resource.GetSpriteByTags(this.WelfareOffer.tags),
-        //    callbacks = new Alert.AlertCallback[] {
-        //            new Alert.AlertCallback {
-        //                buttonText = applyText,
-        //                callback = () => {
-        //                    RootLogger.Info(this, "Applying the welfare offer ({0}) to buyer {1} and seller {2}", this.WelfareOffer, this.LocalPlayer, this.model);
-        //                    this.LocalPlayer.ClientApplyOffer(this.WelfareOffer, this.LocalPlayer, this.model);
-        //                    Alert.close();
-        //                },
-        //                mainButton = true,
-        //            },
-        //        },
-        //});
+        KoboldTools.Alert.info(content, new KoboldTools.Alert.AlertParams
+        {
+            title = title,
+            closeText = closeText,
+            sprite = this.Resource.GetSpriteByTags(this.WelfareOffer.tags),
+            callbacks = new KoboldTools.Alert.AlertCallback[] {
+                    new KoboldTools.Alert.AlertCallback {
+                        buttonText = applyText,
+                        callback = () => {
+                            //RootLogger.Info(this, "Applying the welfare offer ({0}) to buyer {1} and seller {2}", this.WelfareOffer, this.LocalPlayer, this.model);
+                            //this.LocalPlayer.ClientApplyOffer(this.WelfareOffer, this.LocalPlayer, this.model);
+                            MainGameManager.Instance.applyOffer(this.LocalPlayer, this.model, this.WelfareOffer);
+                            KoboldTools.Alert.close();
+                        },
+                        mainButton = true,
+                    },
+                },
+        });
     }
 }

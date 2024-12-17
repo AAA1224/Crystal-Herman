@@ -14,6 +14,7 @@ using Cinemachine;
 using UnityEngine.Events;
 using static UnityEngine.Rendering.VolumeComponent;
 using KoboldTools.Logging;
+using ExitGames.Client.Photon.StructWrapping;
 
 
 namespace Herman
@@ -125,8 +126,20 @@ namespace Herman
 
     public class MainGameManager : MonoBehaviourPunCallbacks
     {
+        public Sprite spriteMovement;
         public static MainGameManager Instance = null;
+        public MarketplaceSet _marketplaceDb = null;
+        public Marketplace ComplementaryIntroMarket;
+        public Sprite spriteQBuilding;
+        public Sprite spriteQMay;
+        public GameObject highlightCamera;
+        public int highlightPriority = 2000;
+        public GameObject buildingIcon;
+        public UiResource Resource;
 
+        public Offer taxOffer = null;
+
+        public GameObject playerMarketplaceObj = null;
         public int RegularStartingMoney = 3000;
         public int MayorBaseStartingMoney = 1500;
         public float MayorStartingMoneyFactor = 1.0f;
@@ -166,12 +179,29 @@ namespace Herman
         private UnityEvent _onAuthoritativePlayerChanged = new UnityEvent();
         private List<GameObject> characters;
         private List<Building> _buildings = new List<Building>();
-        private List<PolyPlayer> polyPlayers = new List<PolyPlayer>();
+        public List<PolyPlayer> polyPlayers = new List<PolyPlayer>();
         public PolyPlayer _localPlayer = null;
 
         public Panel endMonthOverview = null;
         public Panel cityOverview = null;
 
+        public bool _polyMoneyIntroduced = false;
+
+        public bool PolymoneyIntroduced
+        {
+            get
+            {
+                return this._polyMoneyIntroduced;
+            }
+            set
+            {
+                if (this._polyMoneyIntroduced != value)
+                {
+                    this._polyMoneyIntroduced = value;
+                    this.onLevelStateChanged.Invoke();
+                }
+            }
+        }
         public PolyPlayer localPlayer
         {
             get
@@ -388,13 +418,16 @@ namespace Herman
 
         public IEnumerator introRoutine()
         {
+            Vector2 alertBigSize = new Vector2(800, 600);
+            Vector2 alertBigSize1 = new Vector2(1200, 900);
             while (characters.Count < PhotonNetwork.PlayerList.Length)
                 yield return null;
-            Alert.show(true, "tutoMStoryIslandTitle", "tutoIntroQuest", null, "btnLetPlay");
-            while (Alert.open)
+
+            KoboldTools.Alert.info("tutoIntroQuest", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoMStoryIslandTitle", closeText = "btnLetPlay" });
+            while (KoboldTools.Alert.open)
                 yield return null;
-            Alert.show(true, "tutoMStoryIslandTitle", "tutoMStoryIsland", null, "btnOk");
-            while (Alert.open)
+            KoboldTools.Alert.info("tutoMStoryIsland", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoMStoryIslandTitle", closeText = "btnOk", size = alertBigSize1 });
+            while (KoboldTools.Alert.open)
                 yield return null;
             GameObject playerCharacter = null;
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
@@ -415,18 +448,18 @@ namespace Herman
                 if (isMayor)
                 {
                     isPlayerMayor = true;
-                    Alert.show(true, "tutoMWelcomeTitle", "tutoMWelcome", null, "btnOk");
+                    KoboldTools.Alert.info("tutoMWelcome", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoMWelcomeTitle", closeText = "btnOk", size = alertBigSize });
                 }
                 else
                 {
-                    Alert.show(true, "tutoPWelcomeTitle", "tutoPIntro1", null, "btnOk");
+                    KoboldTools.Alert.info("tutoPIntro1", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoPWelcomeTitle", closeText = "btnOk", size = alertBigSize });
                 }
             }
             else
             {
-                Alert.show(true, "tutoPWelcomeTitle", "tutoPIntro1", null, "btnOk");
+                KoboldTools.Alert.info("tutoPIntro1", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoPWelcomeTitle", closeText = "btnOk", size = alertBigSize });
             }
-            while (Alert.open)
+            while (KoboldTools.Alert.open)
                 yield return null;
             cameraFollowPlayer.unfocus();
             intoGameTimeline.Play();
@@ -444,7 +477,7 @@ namespace Herman
             {
                 walkArea.SetActive(true);
                 Alert.show(true, null, "tutoMoveMajor", null, "tutoCloseAlertButton");
-                while (Alert.open)
+                while (KoboldTools.Alert.open)
                     yield return null;
 
                 bool completedMovement = false;
@@ -457,16 +490,16 @@ namespace Herman
                     }
                     yield return null;
                 }
-                Alert.show(true, null, "tutoMoveEndMajor", null, "tutoCloseAlertButton");
-                while (Alert.open)
+                KoboldTools.Alert.tutorial("tutoMoveEndMajor", new KoboldTools.Alert.AlertParams { useLocalization = true, closeText = "tutoCloseAlertButton" });
+                while (KoboldTools.Alert.open)
                     yield return null;
             }
             else
             {
 
                 walkArea.SetActive(true);
-                Alert.show(true, null, "tutoMoveCitizen", null, "tutoCloseAlertButton");
-                while (Alert.open)
+                KoboldTools.Alert.tutorial("tutoMoveCitizen", new KoboldTools.Alert.AlertParams { useLocalization = true, closeText = "tutoCloseAlertButton", sprite = spriteMovement });
+                while (KoboldTools.Alert.open)
                     yield return null;
 
                 bool completedMovement = false;
@@ -479,8 +512,8 @@ namespace Herman
                     }
                     yield return null;
                 }
-                Alert.show(true, null, "tutoMoveEndCitizen", null, "tutoCloseAlertButton");
-                while (Alert.open)
+                KoboldTools.Alert.tutorial("tutoMoveEndCitizen", new KoboldTools.Alert.AlertParams { useLocalization = true, closeText = "tutoCloseAlertButton" });
+                while (KoboldTools.Alert.open)
                     yield return null;
                 spinWheelCamera.Priority = 1000;
                 PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
@@ -782,7 +815,7 @@ namespace Herman
                             ExitGames.Client.Photon.Hashtable roomProperties = new ExitGames.Client.Photon.Hashtable
                             {
                                 { "flowstatus", "END_MONTH" },
-                                { "month", _months + 1 },
+                                { "months", _months + 1 },
                             };
                             PhotonNetwork.CurrentRoom.SetCustomProperties(roomProperties);
                         }
@@ -813,6 +846,25 @@ namespace Herman
                         }
                     }
                 }
+
+                if (changedProps.ContainsKey("OwnMarketplace"))
+                {
+                    if (targetPlayer.CustomProperties.TryGetValue("OwnMarketplace", out object ownMpObj))
+                    {
+                        string id = (string)ownMpObj;
+                        for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
+                        {
+                            if (PhotonNetwork.PlayerList[i] == targetPlayer)
+                            {
+                                polyPlayers[i]._ownMarketplace = new Guid(id);
+                                if (targetPlayer == PhotonNetwork.LocalPlayer)
+                                {
+                                    localPlayer._ownMarketplace = new Guid(id);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -829,6 +881,7 @@ namespace Herman
             {
                 bool isMayor = false;
                 Player player = PhotonNetwork.PlayerList[i];
+                PolyPlayer polyPlayer = polyPlayers[i];
 
                 if (player.CustomProperties.TryGetValue("IsMayor", out object isMayorObj))
                 {
@@ -843,15 +896,18 @@ namespace Herman
                             Person person = loadedLevelData.MayorPersons[0];
                             List<Talent> talents = new List<Talent>();
                             talents.Add(loadedLevelData.MayorTalents[person.TalentId]);
+                            string ownMarketplaceId = CreateMarketplace(polyPlayer, person.Title, Localisation.instance.getLocalisedFormat("marketplaceCitizenSubtitle", person.Title));
                             ExitGames.Client.Photon.Hashtable playerProperties = new ExitGames.Client.Photon.Hashtable
                             {
                                 { "Person", JsonUtility.ToJson(person) },
                                 { "Home", JsonUtility.ToJson(loadedLevelData.MayorHomes.SelectRandom(1)[0]) },
                                 { "Job", JsonUtility.ToJson(loadedLevelData.MayorJobs.SelectRandom(1)[0]) },
                                 { "Talents", JsonUtility.ToJson(new Wrapper<Talent> { items = talents.ToArray() }) },
-                                { "Pocket", JsonUtility.ToJson(pocket) }
+                                { "Pocket", JsonUtility.ToJson(pocket) },
+                                { "OwnMarketplace", ownMarketplaceId }
                             };
                             player.SetCustomProperties(playerProperties);
+                            this._marketplaceDb.syncProvider.SetMarketSeller(ComplementaryIntroMarket.guid.ToString(), polyPlayer.uniqueId);
                         }
                     }
                 }
@@ -864,18 +920,35 @@ namespace Herman
                         Person person = loadedLevelData.Persons.SelectRandom(1)[0];
                         List<Talent> talents = new List<Talent>();
                         talents.Add(loadedLevelData.Talents[person.TalentId]);
+                        string ownMarketplaceId = CreateMarketplace(polyPlayer, person.Title, Localisation.instance.getLocalisedFormat("marketplaceCitizenSubtitle", person.Title));
                         ExitGames.Client.Photon.Hashtable playerProperties = new ExitGames.Client.Photon.Hashtable
                         {
-                            { "Person", JsonUtility.ToJson(loadedLevelData.Persons.SelectRandom(1)[0]) },
+                            { "Person", JsonUtility.ToJson(person) },
                             { "Home", JsonUtility.ToJson(loadedLevelData.Homes.SelectRandom(1)[0]) },
                             { "Job", JsonUtility.ToJson(loadedLevelData.Jobs.SelectRandom(1)[0]) },
                             { "Talents", JsonUtility.ToJson(new Wrapper<Talent> { items = talents.ToArray() }) },
-                            { "Pocket", JsonUtility.ToJson(pocket) }
+                            { "Pocket", JsonUtility.ToJson(pocket) },
+                            { "OwnMarketplace", ownMarketplaceId }
                         };
                         player.SetCustomProperties(playerProperties);
                     }
                 }
             }
+        }
+
+        private string CreateMarketplace(PolyPlayer player, string title, string description)
+        {
+            Debug.Log("create market place");
+            // setup marketplace and use syncprovider of the marketplace set to rpc creation over the network
+            Marketplace newMarketplace = ScriptableObject.CreateInstance<Marketplace>();
+            newMarketplace.init(title, description);
+
+            string marketplaceGuid = Guid.NewGuid().ToString();
+            this._marketplaceDb.syncProvider.AddMarketplace(JsonUtility.ToJson(newMarketplace), marketplaceGuid);
+            this._marketplaceDb.syncProvider.SetMarketSeller(marketplaceGuid, player.uniqueId);
+            //player.ServerSetOwnMarketplace(marketplaceGuid);
+            Destroy(newMarketplace);
+            return marketplaceGuid;
         }
 
         void SpawnPlayer()
@@ -886,6 +959,10 @@ namespace Herman
                 // check Mayor
                 Player player = PhotonNetwork.PlayerList[i];
                 PolyPlayer polyPlayer = new PolyPlayer();
+                if (player.CustomProperties.TryGetValue("uniqueId", out object uniqueId))
+                {
+                    polyPlayer.uniqueId = (string) uniqueId;
+                }
                 polyPlayer.Mayor = false;
                 GameObject character = null;
                 bool isMayor = false;
@@ -906,9 +983,13 @@ namespace Herman
                 polyPlayer.Mayor = isMayor;
                 character.transform.Rotate(0, 180 - 20 * (3 - i), 0);
                 polyPlayer.LoadedCharacter = character.GetComponent<Character>();
+                polyPlayer._marketplaceDb = _marketplaceDb;
                 character.transform.Find("Canvas").Find("Symbols").gameObject.GetComponent<PlayerDisplaySymbols>().model = polyPlayer;
                 polyPlayer.LoadedCharacter.model = polyPlayer;
                 characters.Add(character);
+                polyPlayer.player = player;
+                polyPlayer.Resource = Resource;
+                polyPlayer.registerOfferApplyEvent();
                 polyPlayers.Add(polyPlayer);
                 if (player == PhotonNetwork.LocalPlayer)
                 {
@@ -942,6 +1023,11 @@ namespace Herman
                     playerGetIncidents.cityIncidents.Add(incident);
                 }
             }
+        }
+
+        public static float Remap(float value, float from1, float to1, float from2, float to2)
+        {
+            return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
         }
 
         public void onBeginMonth()
@@ -1013,59 +1099,64 @@ namespace Herman
                     {
                         incident.ApplicationBenefit.SetIncome(Currency.FIAT, polyPlayer.Job.Salary);
                     }
-                    //else if (incident.EquivalentTags(taxTags))
-                    //{
-                    //    Offer tmp = ScriptableObject.CreateInstance<Offer>();
-                    //    JsonUtility.FromJsonOverwrite(JsonUtility.ToJson(this.taxOffer), tmp);
-                    //    tmp.guid = Guid.NewGuid();
-                    //    tmp.buyingCost = new Cost(incident.ApplicationBenefit);
-                    //    tmp.buyingBenefit = new Benefit(incident.ApplicationCost);
+                    else if (incident.EquivalentTags(taxTags))
+                    {
+                        Offer tmp = ScriptableObject.CreateInstance<Offer>();
+                        JsonUtility.FromJsonOverwrite(JsonUtility.ToJson(this.taxOffer), tmp);
+                        tmp.guid = Guid.NewGuid();
+                        tmp.buyingCost = new Cost(incident.ApplicationBenefit);
+                        tmp.buyingBenefit = new Benefit(incident.ApplicationCost);
 
-                    //    //Is it a flat tax?
-                    //    if (Options_Controller.flatTax)
-                    //    {
-                    //        //Set the value to the base tax amount
-                    //        tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
-                    //        int modValue = (int)(player.Job.Salary * (Options_Controller.baseTaxRate / 100f));
-                    //        print("Added value due to flat tax: " + modValue + " at a " + Options_Controller.baseTaxRate);
-                    //        tmp.buyingBenefit.Income[0].value += modValue;
-                    //        print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
-                    //    }
-                    //    //Is it a progressive tax?
-                    //    else if (Options_Controller.progTax)
-                    //    {
-                    //        int modValue = 0;
-                    //        if (player.Job.Salary > 0)
-                    //        {
-                    //            tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
-                    //            modValue = (int)((Remap(player.Job.Salary, 0, 1300, Options_Controller.baseTaxRate, Options_Controller.progressiveTaxUpper) / 100) * player.Job.Salary);
-                    //            print("Remapped: " + (Remap(player.Job.Salary, 0, 1300, Options_Controller.baseTaxRate, Options_Controller.progressiveTaxUpper)));
-                    //            print("Added value due to progressive tax: " + modValue);
-                    //            tmp.buyingBenefit.Income[0].value += modValue;
-                    //            print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
-                    //        }
-                    //        else
-                    //        {
-                    //            tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
-                    //            print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
-                    //        }
-                    //    }
+                        //Is it a flat tax?
+                        if (Options_Controller.flatTax)
+                        {
+                            //Set the value to the base tax amount
+                            tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
+                            int modValue = (int)(polyPlayer.Job.Salary * (Options_Controller.baseTaxRate / 100f));
+                            print("Added value due to flat tax: " + modValue + " at a " + Options_Controller.baseTaxRate);
+                            tmp.buyingBenefit.Income[0].value += modValue;
+                            print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
+                        }
+                        //Is it a progressive tax?
+                        else if (Options_Controller.progTax)
+                        {
+                            int modValue = 0;
+                            if (polyPlayer.Job.Salary > 0)
+                            {
+                                tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
+                                modValue = (int)((Remap(polyPlayer.Job.Salary, 0, 1300, Options_Controller.baseTaxRate, Options_Controller.progressiveTaxUpper) / 100) * polyPlayer.Job.Salary);
+                                print("Remapped: " + (Remap(polyPlayer.Job.Salary, 0, 1300, Options_Controller.baseTaxRate, Options_Controller.progressiveTaxUpper)));
+                                print("Added value due to progressive tax: " + modValue);
+                                tmp.buyingBenefit.Income[0].value += modValue;
+                                print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
+                            }
+                            else
+                            {
+                                tmp.buyingBenefit.Income[0].value = Options_Controller.baseTaxAmount;
+                                print("The new tax value is : " + tmp.buyingBenefit.Income[0].value);
+                            }
+                        }
 
-                    //    /*
-                    //    //Add the tax modifications
-                    //    for(int i = 0; i < tmp.buyingBenefit.Income.Count; i++)
-                    //    {
+                        /*
+                        //Add the tax modifications
+                        for(int i = 0; i < tmp.buyingBenefit.Income.Count; i++)
+                        {
 
 
-                    //    }
-                    //    */
+                        }
+                        */
 
-                    //    incident.AddSerializedOffer = JsonUtility.ToJson(tmp);
-                    //}
+                        incident.AddSerializedOffer = JsonUtility.ToJson(tmp);
+                    }
                     //player.ServerAddIncident(incident);
                     incidentsForPlayer.Add(incident);
                 }
                 AddIncidentToPlayer(player, incidentsForPlayer);
+            }
+            if (months == 2)
+            {
+                VC<PolyPlayer>.addModelToAllControllers(this.localPlayer, playerMarketplaceObj);
+                StartCoroutine(marketRoutine());
             }
         }
 
@@ -1095,7 +1186,7 @@ namespace Herman
             PhotonNetwork.LocalPlayer.SetCustomProperties(playerProperties);
         }
 
-        private void AddIncidentToPlayer(Player player, List<Incident> new_incidents)
+        public void AddIncidentToPlayer(Player player, List<Incident> new_incidents)
         {
             Debug.Log("AddIncidentToPlayer");
             // Get Incidents of player
@@ -1201,7 +1292,7 @@ namespace Herman
                     if (currentIncidents[idx].EquivalentTags(foodTags))
                     {
                         //this.ServerAddBadFood();
-                        localPlayer._badFoodNumber--;
+                        localPlayer._badFoodNumber--;  
                     }
 
                     // Remove the incident if it should be.
@@ -1229,6 +1320,265 @@ namespace Herman
             else
             {
                 RootLogger.Warning(this, "Rpc: The incident {0} was already applied or resolved.", incident);
+            }
+        }
+
+        private IEnumerator marketRoutine()
+        {
+            if (localPlayer.Mayor)
+            {
+                KoboldTools.Alert.info("tutoMQStory", new KoboldTools.Alert.AlertParams { title = "tutoMQStoryTitle", useLocalization = true, hideCloseButton = false, closeText = "btnOk" });
+            }
+            else
+            {
+                KoboldTools.Alert.tutorial("tutoMQStory", new KoboldTools.Alert.AlertParams { title = "tutoMQStoryTitle", useLocalization = true, hideCloseButton = false, closeText = "btnOk" });
+                while (KoboldTools.Alert.open)
+                    yield return null;
+
+                localPlayer.WatchedMarket = this.ComplementaryIntroMarket;
+                while (localPlayer.WatchedMarket != null)
+                {
+                    //player did not close his special building yet
+                    if (localPlayer.OwnedMarketplaces.Count() > 0)
+                    {
+                        //player has bought a marketplace, close the market
+                        localPlayer.WatchedMarket = null;
+                    }
+                    yield return null;
+                }
+
+                if (localPlayer.OwnedMarketplaces.Count > 0)
+                {
+                    // tell players to click on their building
+                    Debug.Log(localPlayer.OwnedMarketplaces[0]);
+                    Building building = Buildings.FirstOrDefault(b => localPlayer.OwnedMarketplaces[0] == b.Marketplace);
+                    Debug.Log(building);
+                    CinemachineVirtualCamera cam = this.highlightCamera.GetComponentInChildren<CinemachineVirtualCamera>();
+                    if (building != null)
+                    {
+                        this.highlightCamera.transform.position = building.transform.position;
+                        if (cam != null)
+                        {
+                            cam.Priority = highlightPriority;
+                        }
+                    }
+
+                    yield return new WaitForSeconds(0.5f);
+
+                    if (building != null && building.Marketplace.seller.Equals(localPlayer))
+                    {
+                        KoboldTools.Alert.tutorial("tutoQSearchBuilding", new KoboldTools.Alert.AlertParams { useLocalization = true, closeText = "btnOk", sprite = spriteQBuilding });
+                        while (Alert.open)
+                            yield return null;
+                    }
+
+                    while (
+                        building != null
+                        && building.Marketplace.seller.Equals(localPlayer)
+                        && (localPlayer.WatchedMarket == null
+                            || (localPlayer.WatchedMarket == localPlayer.OwnMarketplace
+                                || !localPlayer.WatchedMarket.seller.Equals(localPlayer))))
+                    {
+                        //player did not open his special building yet
+                        yield return null;
+                    }
+
+                    if (localPlayer.WatchedMarket != null)
+                    {
+                        KoboldTools.Alert.tutorial("tutoQInvest", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoQInvestHeader", closeText = "tutoCloseAlertButton" });
+
+                        while (localPlayer.WatchedMarket != null)
+                        {
+                            yield return null;
+                        }
+
+                        if (localPlayer.OwnedMarketplaces.All(m => m.offers.Count == 0))
+                        {
+                            KoboldTools.Alert.tutorial("tutoQNoOffer", new KoboldTools.Alert.AlertParams { useLocalization = true, title = "tutoQNoOfferHeader", closeText = "tutoCloseAlertButton" });
+                            while (KoboldTools.Alert.open)
+                            {
+                                yield return null;
+                            }
+                        }
+                    }
+
+                    yield return new WaitForSeconds(0.5f);
+                    if (cam != null)
+                    {
+                        cam.Priority = 0;
+                    }
+
+                }
+                //KoboldTools.Alert.info("turnWaitOthers", new KoboldTools.Alert.AlertParams { useLocalization = true, hideCloseButton = true });
+
+                //buildingIcon.SetActive(true);
+
+            }
+        }
+    
+        public PolyPlayer getPlayerById(string guid)
+        {
+            for (int i = 0; i < polyPlayers.Count; i++)
+            {
+                if (polyPlayers[i].uniqueId == guid)
+                    return polyPlayers[i];
+            }
+            return null;
+        }
+
+        public void applyOffer(PolyPlayer buyer, PolyPlayer seller, Offer offer)
+        {
+            photonView.RPC("RpcApplyOffer", RpcTarget.AllBuffered, buyer.uniqueId, seller.uniqueId, JsonUtility.ToJson(offer));
+        }
+
+        [PunRPC]
+        public void RpcApplyOffer(string buyerId, string sellerId, string offerData)
+        {
+            PolyPlayer buyer = getPlayerById(buyerId);
+            PolyPlayer seller = getPlayerById(sellerId);
+            Offer offer = new Offer();
+            JsonUtility.FromJsonOverwrite(offerData, offer);
+            Guid oGuid = offer.guid;
+            bool found = false;
+            foreach (Marketplace market in this._marketplaceDb.marketplaces)
+            {
+                foreach (Offer offer1 in market.offers)
+                {
+                    if (offer1.guid == oGuid)
+                    {
+                        offer = offer1;
+                        found = true;
+                        break;
+                    }
+                }
+                if (found)
+                {
+                    break;
+                }
+            }
+            if (buyerId == null || sellerId == null)
+            {
+                RootLogger.Exception(this, "Buyer or seller is null (buyer: {0}, seller: {1})", buyer, seller);
+            }
+            if (object.ReferenceEquals(buyer, seller))
+            {
+                RootLogger.Exception(this, "Players should not buy their own offers (buyer: {0}, seller: {1})", buyer, seller);
+            }
+
+            RootLogger.Info(this, "Server: Applying the offer {0}, buyer: {1}, seller: {2}", offer, buyer, seller);
+
+            // Determine, whether the offer that's being applied trades in complementary currency (anything not FIAT).
+            ExitGames.Client.Photon.Hashtable buyerProperties = new ExitGames.Client.Photon.Hashtable { };
+            ExitGames.Client.Photon.Hashtable sellerProperties = new ExitGames.Client.Photon.Hashtable { };
+            int revenue = buyer.CalculateRevenue(offer, Currency.Q);
+
+            // Apply the player points based on revenue.
+            if (revenue > 0)
+            {
+                //buyer.ServerSetPoints(buyer.Points + revenue);
+                buyerProperties.Add("Points", buyer.Points + revenue);
+                // Increase every building's luminance by the amount determined in the threshold list.
+                Building building = Buildings.FirstOrDefault(e => e.DisplaysLuminance && e.Marketplace != null && e.Marketplace.offers.Contains(offer));
+                if (building != null)
+                {
+                    building.Luminance += LuminancePerPoint * revenue;
+                }
+            }
+
+            // Apply the buyer portion
+            offer.buyingCost.applyCost(buyer.Pocket);
+            offer.buyingBenefit.applyBenefit(buyer.Talents, buyer.Incidents, buyer.Pocket);
+
+            if (seller != null)
+            {
+                // Apply the seller points based on revenue.
+                if (revenue > 0)
+                {
+                    //seller.ServerSetPoints(seller.Points + revenue);
+                    sellerProperties.Add("Points", seller.Points + revenue);
+                }
+
+                // Apply the seller portion.
+                offer.sellingCost.applyCost(seller.Pocket);
+                offer.sellingBenefit.applyBenefit(seller.Talents, seller.Incidents, seller.Pocket);
+
+                sellerProperties.Add("Talents", JsonUtility.ToJson(new Wrapper<Talent> { items = seller.Talents.ToArray() }));
+                sellerProperties.Add("Pocket", JsonUtility.ToJson(seller.Pocket));
+                AddIncidentToPlayer(seller.player, seller.Incidents);
+            }
+            else
+            {
+                RootLogger.Warning(this, "Server: The seller is not known");
+            }
+
+            buyerProperties.Add("Talents", JsonUtility.ToJson(new Wrapper<Talent> { items = buyer.Talents.ToArray() }));
+            buyerProperties.Add("Pocket", JsonUtility.ToJson(buyer.Pocket));
+            AddIncidentToPlayer(buyer.player, buyer.Incidents);
+
+            // Invoke the offer applied event and remove the offer unless it is persistent.
+            offer.offerApplied.Invoke(offer, buyer);
+            if (seller.uniqueId.Equals(localPlayer.uniqueId))
+            {
+                seller.OnOfferApplied.Invoke(offer, buyer);
+            }
+
+            // Remove the offer if it exists somewhere on the market.
+            if (!offer.persistent)
+            {
+                foreach (Marketplace market in this._marketplaceDb.marketplaces)
+                {
+                    foreach (Offer tmpOffer in market.offers)
+                    {
+                        if (tmpOffer.guid.Equals(offer.guid))
+                        {
+                            this._marketplaceDb.syncProvider.RemoveOffer(market.guid.ToString(), offer.guid.ToString());
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+
+        public void createOffer(string playerId, string marketId, Offer offer)
+        {
+            photonView.RPC("RPCCreateOffer", RpcTarget.AllBuffered, playerId, marketId, JsonUtility.ToJson(offer));
+        }
+
+        [PunRPC]
+
+        public void RPCCreateOffer(string playerId, string marketId, string offerData)
+        {
+            PolyPlayer player = getPlayerById(playerId);
+            Guid offerGuid = Guid.NewGuid();
+            Offer deserializedOffer = ScriptableObject.CreateInstance<Offer>();
+            JsonUtility.FromJsonOverwrite(offerData, deserializedOffer);
+
+            deserializedOffer.creationCost.applyCost(player.Pocket);
+            deserializedOffer.creationBenefit.applyBenefit(player.Talents, player.Incidents, player.Pocket);
+
+            if (PhotonNetwork.IsMasterClient)
+            {
+                this._marketplaceDb.syncProvider.AddOffer(marketId, offerData, offerGuid.ToString());
+            }
+            ExitGames.Client.Photon.Hashtable playerProperties = new ExitGames.Client.Photon.Hashtable {
+                { "Pocket", JsonUtility.ToJson(player.Pocket) },
+            };
+            Destroy(deserializedOffer);
+        }
+
+        public void removeOffer(Player player, Offer offer)
+        {
+            Guid oGuid = offer.guid;
+            foreach (Marketplace market in this._marketplaceDb.marketplaces)
+            {
+                foreach (Offer offer1 in market.offers)
+                {
+                    if (offer1.guid == oGuid)
+                    {
+                        this._marketplaceDb.syncProvider.RemoveOffer(market.guid.ToString(), oGuid.ToString());
+                        return;
+                    }
+                }
             }
         }
     }

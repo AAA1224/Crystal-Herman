@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Photon.Realtime;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -61,6 +62,8 @@ namespace Herman
         /// </summary>
         /// <param name="player">Player.</param>
         List<int> getRemovableIncidents(List<Incident> incidents);
+        bool WouldAddTalent(PolyPlayer player);
+        bool WouldRemoveIncidents(PolyPlayer player);
         bool IsNeutral { get; }
     }
 
@@ -288,6 +291,27 @@ namespace Herman
         public override string ToString()
         {
             return String.Format("Benefit(ri={0}, at={1}, f={2}, i={3}, rb={4})", this.removeIncident.ToString(), this.addTalent.ToString(), this.fairyDust, this.income.ToString(), this.RepairBuilding);
+        }
+        public bool WouldAddTalent(PolyPlayer player)
+        {
+            if (this.addTalent.Count > 0)
+            {
+                foreach (Talent talent in MainGameManager.Instance.loadedLevelData.Talents)
+                {
+                    if (talent.EquivalentTags(this.addTalent))
+                    {
+                        if (player.Talents.Count(e => e.EquivalentTags(this.addTalent)) == 0)
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+        public bool WouldRemoveIncidents(PolyPlayer player)
+        {
+            return this.getRemovableIncidents(player.Incidents).Count > 0;
         }
     }
 }
