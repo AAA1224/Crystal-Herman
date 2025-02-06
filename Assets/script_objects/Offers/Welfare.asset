@@ -34,7 +34,9 @@ MonoBehaviour:
     breakBuilding: 4294967295
     time: 0
   _buyingCost:
-    expenses: []
+    expenses:
+    - currency: FIAT
+      value: 500
     breakBuilding: 4294967295
     time: 0
   _buyingBenefit:
@@ -44,7 +46,8 @@ MonoBehaviour:
     income: []
     repairBuilding: 4294967295
   _sellingBenefit:
-    removeIncident: []
+    removeIncident:
+    - Taxes
     addTalent: []
     fairyDust: 0
     income: []

@@ -476,7 +476,7 @@ namespace Herman
             if (isPlayerMayor)
             {
                 walkArea.SetActive(true);
-                Alert.show(true, null, "tutoMoveMajor", null, "tutoCloseAlertButton");
+                KoboldTools.Alert.tutorial("tutoMoveMajor", new KoboldTools.Alert.AlertParams { useLocalization = true, closeText = "tutoCloseAlertButton", sprite = spriteMovement });
                 while (KoboldTools.Alert.open)
                     yield return null;
 
@@ -1438,24 +1438,24 @@ namespace Herman
             PolyPlayer seller = getPlayerById(sellerId);
             Offer offer = new Offer();
             JsonUtility.FromJsonOverwrite(offerData, offer);
-            Guid oGuid = offer.guid;
-            bool found = false;
-            foreach (Marketplace market in this._marketplaceDb.marketplaces)
-            {
-                foreach (Offer offer1 in market.offers)
-                {
-                    if (offer1.guid == oGuid)
-                    {
-                        offer = offer1;
-                        found = true;
-                        break;
-                    }
-                }
-                if (found)
-                {
-                    break;
-                }
-            }
+            //Guid oGuid = offer.guid;
+            //bool found = false;
+            //foreach (Marketplace market in this._marketplaceDb.marketplaces)
+            //{
+            //    foreach (Offer offer1 in market.offers)
+            //    {
+            //        if (offer1.guid == oGuid)
+            //        {
+            //            offer = offer1;
+            //            found = true;
+            //            break;
+            //        }
+            //    }
+            //    if (found)
+            //    {
+            //        break;
+            //    }
+            //}
             if (buyerId == null || sellerId == null)
             {
                 RootLogger.Exception(this, "Buyer or seller is null (buyer: {0}, seller: {1})", buyer, seller);
@@ -1566,7 +1566,7 @@ namespace Herman
             Destroy(deserializedOffer);
         }
 
-        public void removeOffer(Player player, Offer offer)
+        public void removeOffer(PolyPlayer player, Offer offer)
         {
             Guid oGuid = offer.guid;
             foreach (Marketplace market in this._marketplaceDb.marketplaces)

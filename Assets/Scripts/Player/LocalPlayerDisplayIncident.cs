@@ -93,6 +93,7 @@ public class LocalPlayerDisplayIncident : MonoBehaviour
         string buttonSound = balance.value >= 0 ? "receive_stuff" : "buy_stuff";
         string resolveText = Localisation.instance.getLocalisedText(this.ResolveButtonTextId);
         string resolveButtonSound = "resolve_things";
+        Debug.Log("Incident Click");
 
         // Always provide a button that applies the incident.
         List<KoboldTools.Alert.AlertCallback> callbacks = new List<KoboldTools.Alert.AlertCallback> {

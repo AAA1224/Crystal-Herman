@@ -3,40 +3,104 @@
   "WorkspaceRootPath": "G:\\polymoney\\Crystal-Herman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\building\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\marketplace\\marketplacedisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\marketplacedisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\marketplace\\offerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\offerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\marketplacesetsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\marketplacesetsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\localplayerdisplayincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\localplayerdisplayincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playerdisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playergetincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playergetincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playerdisplayincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdisplayincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\items\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\alert\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\alert\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playercreateoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercreateoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\marketplacedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\marketplacedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\camera\\cameratouchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\cameratouchmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\interactive\\interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactive\\interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\interactive\\interactiveeventchangegamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactive\\interactiveeventchangegamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\interactive\\interactiveevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactive\\interactiveevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\interactive\\iinteractiveblocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactive\\iinteractiveblocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\building\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\building\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\interactive\\iinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactive\\iinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playerwatchmarketplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwatchmarketplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\building\\buildingopenwatchmarkplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\building\\buildingopenwatchmarkplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\building\\buildingopenwatchmarkplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\building\\buildingdisplayluminance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\building\\buildingdisplayluminance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\building\\buildingdisplayluminance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\building\\buildinglinkwithincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\building\\buildinglinkwithincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\building\\buildinglinkwithincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\offersetmarketseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\offersetmarketseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\offerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\offerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\marketplacedisplaycarousel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\polyplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\polyplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\marketplacesetsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\marketplacesetsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\marketplace\\offersetmarketpairset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketplace\\offersetmarketpairset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playerdisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdisplaysymbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\player\\playergetincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playergetincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\camera\\camerapinchzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,72 +154,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameInput.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:58:30.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BuildingDisplayLuminance.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:50:05.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BuildingLinkWithIncident.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:49:59.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Building.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\Building.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\Building.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\Building.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Building\\Building.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Title": "MarketplaceDisplaySymbols.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceDisplaySymbols.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\MarketplaceDisplaySymbols.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceDisplaySymbols.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\MarketplaceDisplaySymbols.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:49:51.934Z",
+              "WhenOpened": "2025-02-01T15:02:28.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BuildingOpenWatchMarkplace.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LocalPlayerDisplayIncident.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\LocalPlayerDisplayIncident.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\LocalPlayerDisplayIncident.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\LocalPlayerDisplayIncident.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\LocalPlayerDisplayIncident.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwJQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:48:28.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T18:21:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Incident.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Incident.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Items\\Incident.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items\\Incident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:13:44.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Alert\\Alert.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Alert\\Alert.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Alert\\Alert.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Alert\\Alert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:08:14.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MarketplaceDisplay.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\MarketplaceDisplay.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\MarketplaceDisplay.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:43:29.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerCreateOffer.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerCreateOffer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCreateOffer.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerCreateOffer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCreateOffer.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAcwK0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:40:10.964Z"
             },
             {
               "$type": "Document",
@@ -177,14 +237,206 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainGameManager.cs",
               "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MainGameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainGameManager.cs",
-              "ViewState": "AgIAAFAFAAAAAAAAAAAUwGIFAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAANUBAAAAAAAAAAAgwPgBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T20:23:16.847Z",
+              "WhenOpened": "2024-11-27T20:23:16.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerDisplaySymbols.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAArwOcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:35:05.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OfferDisplay.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:23:42.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarketplaceSetSync.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:13:02.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerDisplayIncidents.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplayIncidents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerDisplayIncidents.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplayIncidents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerDisplayIncidents.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAkwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:20:32.14Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CameraTouchManager.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraTouchManager.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:24:19.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Interactions.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\Interactions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactive\\Interactions.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\Interactions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactive\\Interactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:15:58.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerGetIncidents.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAcwA0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:13:44.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InteractiveEventChangeGamestate.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\InteractiveEventChangeGamestate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactive\\InteractiveEventChangeGamestate.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\InteractiveEventChangeGamestate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactive\\InteractiveEventChangeGamestate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:16:05.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InteractiveEvent.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\InteractiveEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactive\\InteractiveEvent.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\InteractiveEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactive\\InteractiveEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:16:03.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IInteractiveBlocker.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\IInteractiveBlocker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactive\\IInteractiveBlocker.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\IInteractiveBlocker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactive\\IInteractiveBlocker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:15:56.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Building.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\Building.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\Building.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\Building.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Building\\Building.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:49:51.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IInteractive.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\IInteractive.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactive\\IInteractive.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Interactive\\IInteractive.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactive\\IInteractive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:15:52.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BuildingDisplayLuminance.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingDisplayLuminance.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:50:05.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\GameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:58:30.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BuildingLinkWithIncident.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingLinkWithIncident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:49:59.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BuildingOpenWatchMarkplace.cs",
+              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
+              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Building\\BuildingOpenWatchMarkplace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:48:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Offer.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\Offer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\Offer.cs",
@@ -196,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "OfferSetMarketSeller.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferSetMarketSeller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\OfferSetMarketSeller.cs",
@@ -208,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 19,
               "Title": "PlayerWatchMarketplace.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerWatchMarketplace.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWatchMarketplace.cs",
@@ -216,12 +468,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWatchMarketplace.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:13:43.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:13:43.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "LobbyManager.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\LobbyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
@@ -233,19 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OfferDisplay.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\OfferDisplay.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAgwJcAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:23:42.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "MarketplaceDisplayCarousel.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceDisplayCarousel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\MarketplaceDisplayCarousel.cs",
@@ -257,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "PolyPlayer.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PolyPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PolyPlayer.cs",
@@ -269,31 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MarketplaceSetSync.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Marketplace\\MarketplaceSetSync.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAADwvz0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:13:02.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PlayerDisplaySymbols.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerDisplaySymbols.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAArwD4AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:35:05.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "CameraPinchZoom.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraPinchZoom.cs",
@@ -305,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "Billboard.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Billboard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Billboard.cs",
@@ -317,19 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlayerGetIncidents.cs",
-              "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
-              "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAcwBkBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:13:44.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "OfferSetMarketPairSet.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferSetMarketPairSet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\OfferSetMarketPairSet.cs",
@@ -341,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "OfferEditorDisplay.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Marketplace\\OfferEditorDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Marketplace\\OfferEditorDisplay.cs",
@@ -353,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "SerializableGuid.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\Helpers\\SerializableGuid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Helpers\\SerializableGuid.cs",
@@ -365,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "StateManager.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\State\\StateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\State\\StateManager.cs",
@@ -377,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "StateChangeEvent.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\State\\StateChangeEvent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\State\\StateChangeEvent.cs",

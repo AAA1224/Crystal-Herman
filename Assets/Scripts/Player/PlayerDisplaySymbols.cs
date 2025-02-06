@@ -221,6 +221,7 @@ public class PlayerDisplaySymbols : MonoBehaviour
                     new KoboldTools.Alert.AlertCallback {
                         buttonText = applyText,
                         callback = () => {
+                            Debug.Log("Current Tax Offer", this.CurrentTaxOffer);
                             MainGameManager.Instance.applyOffer(this.LocalPlayer, this.model, this.CurrentTaxOffer);
                             this.CurrentTaxOffer = null;
                             KoboldTools.Alert.close();
@@ -249,6 +250,8 @@ public class PlayerDisplaySymbols : MonoBehaviour
                         callback = () => {
                             //RootLogger.Info(this, "Applying the welfare offer ({0}) to buyer {1} and seller {2}", this.WelfareOffer, this.LocalPlayer, this.model);
                             //this.LocalPlayer.ClientApplyOffer(this.WelfareOffer, this.LocalPlayer, this.model);
+                            Debug.Log("Current Welfar Offer");
+                            Debug.Log(this.WelfareOffer);
                             MainGameManager.Instance.applyOffer(this.LocalPlayer, this.model, this.WelfareOffer);
                             KoboldTools.Alert.close();
                         },
