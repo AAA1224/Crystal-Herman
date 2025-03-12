@@ -115,7 +115,7 @@ public class PlayerGetIncidents : MonoBehaviour
     [Range(0f, 1f)]
     public float matchProbability = 0.8f;
     public GameObject waitingNotification;
-    //public UiResource Resource;
+    public UiResource Resource;
 
     /// <summary>
     /// Counts the number of times, the wheel was spun.
@@ -147,7 +147,7 @@ public class PlayerGetIncidents : MonoBehaviour
     private string selectedSegmentType = null;
 
     //The Chance a city disaster will occur modified by the options menu
-    private int disaterChance;
+    public int disaterChance = 10;
 
     /// <summary>
     /// Waits for the <see cref="Level"/> instance to appear, then calls
@@ -225,12 +225,41 @@ public class PlayerGetIncidents : MonoBehaviour
     {
         // Add the selected incident to the player.
         //this.model.ClientAddIncident(incident);
-
-        Alert.show(false, incident.LocalisedTitle, incident.LocalisedDescription, null, Localisation.instance.getLocalisedText("btnOk"));
         MainGameManager.Instance.spinWheelCamera.Priority = 10;
-        List<Incident> list = MainGameManager.Instance.localPlayer.Incidents;
-        list.Add(incident);
-        MainGameManager.Instance.AddIncidentToPlayer(PhotonNetwork.LocalPlayer, list);
+        if (incident.Immediate)
+        {
+            MainGameManager.Instance.applyIncident(incident, false);
+        }
+        else
+        {
+            List<Incident> list = MainGameManager.Instance.localPlayer.Incidents;
+            list.Add(incident);
+            MainGameManager.Instance.AddIncidentToPlayer(PhotonNetwork.LocalPlayer, list);
+        }
+
+        KoboldTools.Alert.info(incident.LocalisedDescription, new KoboldTools.Alert.AlertParams
+        {
+            title = incident.LocalisedTitle,
+            hideCloseButton = true,
+            sprite = this.Resource.GetSpriteByTags(incident.Tags),
+            callbacks = new KoboldTools.Alert.AlertCallback[] {
+                    new KoboldTools.Alert.AlertCallback {
+                        buttonText = Localisation.instance.getLocalisedText("btnOk"),
+                            mainButton = true,
+                            callback = () => {
+                                KoboldTools.Alert.close();
+
+                                // Either turn the wheel again, or finish the turn.
+                                if (!MainGameManager.Instance.localPlayer.Mayor && (this.numWheelDraws < this.maxWheelDraws)) {
+                                    this.startWheelSpinning();
+                                } else {
+                                    KoboldTools.Logging.RootLogger.Info(this, "The player has seen all wheel incidents and thus completes their turn.");
+                                    this.numWheelDraws = 0;
+                                }
+                            }
+                    }
+                }
+        });
     }
 
     private void displayToughLuck(Incident incident)
@@ -282,17 +311,10 @@ public class PlayerGetIncidents : MonoBehaviour
         }
     }
 
-    private void addCityEvent()
+    public void addCityEvent()
     {
 
-        Incident currentIncident = this.cityIncidents.FirstOrDefault(e => e.Month == 1);
-
-        ////Check to see if the frequency option is modified
-        //if (Options_Controller.frequencyFactor > 0)
-        //{
-        //    //If changed, select a random incident
-        //    currentIncident = cityIncidents[UnityEngine.Random.Range(0, cityIncidents.Count)];
-        //}
+        Incident currentIncident = this.cityIncidents[UnityEngine.Random.Range(0, cityIncidents.Count)];
 
         //Modify the cost of the incident based on severity option
         if (currentIncident != null)

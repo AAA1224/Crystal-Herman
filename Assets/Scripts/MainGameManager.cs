@@ -15,6 +15,7 @@ using UnityEngine.Events;
 using static UnityEngine.Rendering.VolumeComponent;
 using KoboldTools.Logging;
 using ExitGames.Client.Photon.StructWrapping;
+using Photon.Pun.Demo.PunBasics;
 
 
 namespace Herman
@@ -186,6 +187,9 @@ namespace Herman
         public Panel cityOverview = null;
 
         public bool _polyMoneyIntroduced = false;
+
+        private float cacheAngleLower = 0;
+        private float cacheAngleUpper = 0;
 
         public bool PolymoneyIntroduced
         {
@@ -517,6 +521,8 @@ namespace Herman
                     yield return null;
                 spinWheelCamera.Priority = 1000;
                 PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
+                cacheAngleLower = playerGetIncidents.minTargetAngle;
+                cacheAngleUpper = playerGetIncidents.maxTargetAngle;
                 playerGetIncidents.minTargetAngle = 1185f;
                 playerGetIncidents.maxTargetAngle = 1185f;
                 playerGetIncidents.startWheelSpinning();
@@ -1158,6 +1164,25 @@ namespace Herman
                 VC<PolyPlayer>.addModelToAllControllers(this.localPlayer, playerMarketplaceObj);
                 StartCoroutine(marketRoutine());
             }
+            else if (months > 2)
+            {
+                PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
+                if (localPlayer.Mayor)
+                {
+                    if (playerGetIncidents.disaterChance > 0)
+                    {
+                        int chance = UnityEngine.Random.Range(0, 100);
+                        if (chance < playerGetIncidents.disaterChance)
+                        {
+                            playerGetIncidents.addCityEvent();
+                        }
+                    }
+                }
+                else
+                {
+                    playerGetIncidents.startWheelSpinning();
+                }
+            }
         }
 
         public void onEndMonth()
@@ -1325,12 +1350,27 @@ namespace Herman
 
         private IEnumerator marketRoutine()
         {
+            PlayerGetIncidents playerGetIncidents = GetComponent<PlayerGetIncidents>();
             if (localPlayer.Mayor)
             {
+                if (playerGetIncidents.disaterChance > 0)
+                {
+                    int chance = UnityEngine.Random.Range(0, 100);
+                    if (chance < playerGetIncidents.disaterChance)
+                    {
+                        playerGetIncidents.addCityEvent();
+                    }
+                }
                 KoboldTools.Alert.info("tutoMQStory", new KoboldTools.Alert.AlertParams { title = "tutoMQStoryTitle", useLocalization = true, hideCloseButton = false, closeText = "btnOk" });
             }
             else
             {
+                playerGetIncidents.minTargetAngle = 1215f;
+                playerGetIncidents.maxTargetAngle = 1215f;
+                playerGetIncidents.startWheelSpinning();
+                playerGetIncidents.minTargetAngle = cacheAngleLower;
+                playerGetIncidents.maxTargetAngle = cacheAngleUpper;
+
                 KoboldTools.Alert.tutorial("tutoMQStory", new KoboldTools.Alert.AlertParams { title = "tutoMQStoryTitle", useLocalization = true, hideCloseButton = false, closeText = "btnOk" });
                 while (KoboldTools.Alert.open)
                     yield return null;
@@ -1542,6 +1582,39 @@ namespace Herman
         public void createOffer(string playerId, string marketId, Offer offer)
         {
             photonView.RPC("RPCCreateOffer", RpcTarget.AllBuffered, playerId, marketId, JsonUtility.ToJson(offer));
+        }
+
+        public void ClientUpdateIncident(PolyPlayer player, Incident incident)
+        {
+            photonView.RPC("RPCClientUpdateIncident", RpcTarget.AllBuffered, player.uniqueId, JsonUtility.ToJson(incident));
+        }
+
+        [PunRPC]
+        public void RPCClientUpdateIncident(string playerId, string jsonData)
+        {
+            PolyPlayer player = getPlayerById(playerId);
+            Incident incident = JsonUtility.FromJson<Incident>(jsonData);
+            if (incident != null)
+            {
+                int idx = player.Incidents.FindIndex(e => e.Equals(incident));
+                if (idx >= 0)
+                {
+                    if (!player.Incidents[idx].Identical(incident))
+                    {
+                        RootLogger.Debug(this, "Rpc: Updating an incident: {0} (json: {1})", incident, jsonData);
+                        player.Incidents[idx] = incident;
+                        player.PlayerStateChanged.Invoke();
+                    }
+                }
+                else
+                {
+                    RootLogger.Exception(this, "The incident {0} was not found on the player {1}.", incident, this.name);
+                }
+            }
+            else
+            {
+                RootLogger.Exception(this, "Unable to deserialize the following data into an Incident: '{0}'", jsonData);
+            }
         }
 
         [PunRPC]

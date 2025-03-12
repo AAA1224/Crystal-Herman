@@ -1,4 +1,5 @@
-﻿using Photon.Realtime;
+﻿using KoboldTools.Logging;
+using Photon.Realtime;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -242,6 +243,28 @@ namespace Herman
                 }
             }
 
+            // Apply the building resurrection
+            uint netId = this.repairBuilding;
+            if (netId != 0)
+            {
+                GameObject obj = MainGameManager.Instance.Buildings.Find(b => b.netId == netId).gameObject;
+                if (obj != null)
+                {
+                    Building bldg = obj.GetComponent<Building>();
+                    if (bldg != null)
+                    {
+                        bldg.OnBuildingRepair.Invoke();
+                    }
+                    else
+                    {
+                        RootLogger.Exception(this, "The network Id {0}, specified in Benefit.RepairBuilding, has no Building component", netId);
+                    }
+                }
+                else
+                {
+                    RootLogger.Exception(this, "The network Id {0} (orig: {1}), specified in Benefit.RepairBuilding, was not found", netId, this.repairBuilding);
+                }
+            }
 
             // Mark the requested incidents as resolved.
             List<int> resolveIndices = this.getRemovableIncidents(incidents);

@@ -2343,7 +2343,9 @@ MonoBehaviour:
   - Luck
   matchProbability: 0.8
   waitingNotification: {fileID: 0}
+  Resource: {fileID: 11400000, guid: 24a3a11280e4229449ef9334bb8fac21, type: 2}
   cityIncidents: []
+  disaterChance: 10
 --- !u!114 &487522107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5955,6 +5957,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224829637665828080, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33.000977
+      objectReference: {fileID: 0}
     - target: {fileID: 224855269551464970, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5973,23 +5979,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224869182005238272, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224869182005238272, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224869182005238272, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 468.5
       objectReference: {fileID: 0}
     - target: {fileID: 224869182005238272, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 195
       objectReference: {fileID: 0}
     - target: {fileID: 224869182005238272, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -234.25
       objectReference: {fileID: 0}
     - target: {fileID: 224903941254937104, guid: c556cc35a70a1dd47908e6836fc1d4e6, type: 3}
       propertyPath: m_Pivot.x
@@ -13785,7 +13791,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198765167639934613}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -14744,7 +14762,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198951536862196054}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -16854,7 +16884,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198148466275588277}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -17060,7 +17102,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198983105656572019}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -17212,7 +17266,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198906009552150543}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -17370,7 +17436,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198822496267680270}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -17468,7 +17546,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198199817947601232}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -17619,7 +17709,19 @@ MonoBehaviour:
       m_Calls: []
   OnBuildingRepair:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198072860350529184}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBuildingBroken:
     m_PersistentCalls:
       m_Calls: []
@@ -19668,7 +19770,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &114360802364361460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151893,7 +151995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6cee18528b6de4782a4cb70870408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resources: {fileID: 0}
+  resources: {fileID: 11400000, guid: 24a3a11280e4229449ef9334bb8fac21, type: 2}
   ignoredStatus: {fileID: 0}
   resolvedStatus: {fileID: 0}
   appliedStatus: {fileID: 0}
