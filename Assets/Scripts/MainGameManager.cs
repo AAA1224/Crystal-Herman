@@ -127,6 +127,9 @@ namespace Herman
 
     public class MainGameManager : MonoBehaviourPunCallbacks
     {
+        public Material[] lizardBodyMaterials;
+        public Material[] lizardCrystalMaterials;
+
         public Sprite spriteMovement;
         public static MainGameManager Instance = null;
         public MarketplaceSet _marketplaceDb = null;
@@ -960,6 +963,7 @@ namespace Herman
         void SpawnPlayer()
         {
             characters = new List<GameObject> ();
+            int playerId = 0;
             for (int i = 0; i < PhotonNetwork.PlayerList.Length; i++)
             {
                 // check Mayor
@@ -985,12 +989,21 @@ namespace Herman
                 if (!isMayor)
                 {
                     character = Instantiate(characterPrefab, SpawnPoints[i].position, Quaternion.identity);
+                    playerId++;
                 }
                 polyPlayer.Mayor = isMayor;
                 character.transform.Rotate(0, 180 - 20 * (3 - i), 0);
                 polyPlayer.LoadedCharacter = character.GetComponent<Character>();
                 polyPlayer._marketplaceDb = _marketplaceDb;
                 character.transform.Find("Canvas").Find("Symbols").gameObject.GetComponent<PlayerDisplaySymbols>().model = polyPlayer;
+                
+                SkinnedMeshRenderer renderer = character.GetComponentInChildren<SkinnedMeshRenderer>();
+
+                int matIdx = Array.FindIndex(renderer.materials, e => e.name.Contains("lizard_crystals"));
+                renderer.materials[matIdx].CopyPropertiesFromMaterial(this.lizardCrystalMaterials[playerId]);
+                matIdx = Array.FindIndex(renderer.materials, e => e.name.Contains("lizard_body"));
+                renderer.materials[matIdx].CopyPropertiesFromMaterial(this.lizardBodyMaterials[playerId]);
+
                 polyPlayer.LoadedCharacter.model = polyPlayer;
                 characters.Add(character);
                 polyPlayer.player = player;

@@ -7,6 +7,8 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 using KoboldTools;
+using Photon.Pun.Demo.Cockpit;
+using Unity.Mathematics;
 
 
 namespace Herman
@@ -325,6 +327,46 @@ namespace Herman
         public void OnStartGameButtonClicked()
         {
             // Pick one mayor
+            int i = 0, j =0;
+            
+            foreach (Player p in PhotonNetwork.PlayerList)
+            {
+                try
+                {
+                    bool isMayor = (bool)p.CustomProperties["IsMayor"];
+                    if (isMayor)
+                    {
+                        i++;
+                    }
+                }
+                catch { 
+
+                }
+            }
+            System.Random rand = new System.Random();
+            int selected = rand.Next(0, i);
+
+            ExitGames.Client.Photon.Hashtable playerProperties = new ExitGames.Client.Photon.Hashtable
+            {
+                { "IsMayor", false }
+            };
+            i = 0;
+            foreach (Player p in PhotonNetwork.PlayerList)
+            {
+                try
+                {
+                    bool isMayor = (bool)p.CustomProperties["IsMayor"];
+                    if (isMayor)
+                    {
+                        if (selected != i)
+                        {
+                            p.SetCustomProperties(playerProperties);
+                        }
+                        i++;
+                    }
+                }
+                catch { }
+            }
 
 
             PhotonNetwork.CurrentRoom.IsOpen = false;
