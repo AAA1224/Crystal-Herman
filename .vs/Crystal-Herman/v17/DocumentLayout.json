@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "G:\\polymoney\\Crystal-Herman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|g:\\polymoney\\crystal-herman\\assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B4E33D-8926-1FC6-421C-FC4E92BDD3DC}|Assembly-CSharp.csproj|G:\\polymoney\\Crystal-Herman\\assets\\scripts\\mayorpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -202,8 +202,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.mathematics@1.2.6\\Unity.Mathematics\\random.cs",
               "ViewState": "AgIAAKUCAAAAAAAAAAAewL4CAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:18:01.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T17:18:01.36Z"
             },
             {
               "$type": "Document",
@@ -219,13 +218,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LobbyManager.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\LobbyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
               "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\LobbyManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\LobbyManager.cs",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAEwG8BAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGwBAAAAAAAAAABRwG8BAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T19:19:51.853Z",
               "EditorCaption": ""
@@ -264,18 +263,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PolyPlayer.cs",
               "ViewState": "AgIAALoAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:10:59.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:10:59.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainGameManager.cs",
               "DocumentMoniker": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MainGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainGameManager.cs",
               "ToolTip": "G:\\polymoney\\Crystal-Herman\\Assets\\Scripts\\MainGameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainGameManager.cs",
-              "ViewState": "AgIAAMUDAAAAAAAAAAAAwOUDAACCAAAAAAAAAA==",
+              "ViewState": "AgIAAMQDAAAAAAAAAAAYwOwDAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T20:23:16.847Z",
               "EditorCaption": ""
@@ -290,8 +288,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MayorPanel.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwEQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:56:50.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T17:56:50.322Z"
             },
             {
               "$type": "Document",
@@ -303,8 +300,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerGetIncidents.cs",
               "ViewState": "AgIAAOMAAAAAAAAAAAAewAwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:13:44.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:13:44.152Z"
             },
             {
               "$type": "Document",
@@ -316,8 +312,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Items\\Benefit.cs",
               "ViewState": "AgIAAC0BAAAAAAAAAAAQwDcBAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:57:24.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T18:57:24.313Z"
             },
             {
               "$type": "Document",
